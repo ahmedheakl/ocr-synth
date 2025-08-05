@@ -1,0 +1,16 @@
+{
+    "test-split-size": 0.2,
+    "storage-dir-path": "/path/to/store/generated/hf-data/to",
+    "datasets": [
+        {
+            "name": "name-of-first-dataset",
+            "path": "/path/to/synthetic-hf-basis-data/of/first-dataset",
+            "num-pages-to-load": 1
+        },
+        {
+            "name": "name-of-second-dataset",
+            "path": "/path/to/synthetic-hf-basis-data/of/second/dataset",
+            "num-pages-to-load": 1
+        }
+    ]
+}

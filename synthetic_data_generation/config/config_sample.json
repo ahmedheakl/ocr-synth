@@ -1,0 +1,41 @@
+{
+  "dataset-path": "",
+  "generated-dataset-path": "",
+  "stored-files": {
+    "aux": true,
+    "log": true,
+    "pdf": true,
+    "pos": true,
+    "tex": true
+  },
+  "document-selection": {
+    "custom": {
+      "document-file-names": [
+      ]
+    },
+    "random": {
+      "num-to-select": 1
+    }
+  },
+  "template-selection": {
+    "official": {
+    },
+    "internal": {
+      "all": {
+        "num-instances": 1
+      }  ,
+      "custom": [
+        {
+          "template-name": "...template-name...",
+          "num-instances": 1
+        }
+      ],
+      "random": {
+        "num-to-select": 1,
+        "num-instances": 1
+      }
+    },
+    "personal": {
+    }
+  }
+}

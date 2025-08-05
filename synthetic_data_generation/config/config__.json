@@ -1,0 +1,39 @@
+{
+  "dataset-path": "./synthetic_data_generation/dataset/demo/doclingdocs/",
+  "document-start-index": 0,
+  "stored-files": {
+    "pdf": true,
+    "tex": true,
+    "aux": false,
+    "log": false,
+    "pos": true,
+    "vis": true
+  },
+  "document-selection": {
+    "all" : {}
+  },
+  "template-selection": {
+    "official": {
+    },
+    "internal": {
+      "all": {
+        "num-instances":  2,
+        "num-to-shuffle": 2
+      }
+    },
+    "personal": {
+    }
+  },
+  "export-data": {
+    "domain": "business",
+    "dataset": "synthetic docs",
+    "url": null,
+    "title": null,
+    "extra.category": null,
+    "extra.dpi": 140,
+    "extra.hap_confidence": null,
+    "extra.language": "EN"
+  },
+  "only_documents_with_tables": false,
+  "cutoff_date": ""
+}

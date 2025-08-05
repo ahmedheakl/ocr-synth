@@ -1,0 +1,259 @@
+from random import randint
+
+from synthetic_data_generation.templates.util.font_style import FontStyle
+from synthetic_data_generation.templates.util.template_values import TemplateValues
+
+class AvailableFontStyles:
+
+    _pkg_key = "p"
+    _code_key = "c"
+    _default_font_style = "amiri"
+    
+    _language_font_map = {
+        "arabic": [
+            "amiri",
+            "scheherazade",
+            "lateef",
+            "noto naskh arabic",
+            "noto nastaliq arabic",
+            "noto sans arabic",
+            "reem kufi",
+            "cairo",
+            "harmattan",
+            "ibm plex sans arabic"
+        ],
+        "english": [
+            "tex-gyre-termes",
+            "times",
+            "utopia",
+            "palatino",
+            "charter",
+            "helvetica",
+            "tex-gyre pagella",
+            "tex-gyre-bonum",
+            "tex-gyre-schola",
+            "times",
+            "bookman",
+            "computer-modern-roman",
+            "computer-modern-sans-serif",
+            "tex-gyre-adventor",
+            "tex-gyre-heros",
+            "computer-modern-typewriter",
+            "tex-gyre-cursor"
+        ],
+        "chinese": [
+            "noto sans sc",
+            "noto serif sc",
+            "noto sans tc",
+            "noto serif tc",
+            "ibm plex sans jp",
+            "wdxllubrifontsc",
+            "wdxllubrifontjpn",
+            "lxgw marker gothic",
+            "chiron hei hk",
+            "chiron sung hk",
+            "huninn",
+            "uoqmunthenkhung"
+        ]
+    }
+
+
+    _table = {
+        "computer-modern-roman": {
+            _pkg_key: "",
+            _code_key: "cmr"
+        },
+        "tex-gyre-termes": {
+            _pkg_key: "tgtermes",
+            _code_key: "qtm"
+        },
+        "tex-gyre pagella": {
+            _pkg_key: "tgpagella",
+            _code_key: "qpl"
+        },
+        "tex-gyre-bonum": {
+            _pkg_key: "tgbonum",
+            _code_key: "qbk"
+        },
+        "tex-gyre-schola": {
+            _pkg_key: "tgschola",
+            _code_key: "qcs"
+        },
+        "times": {
+            _pkg_key: "mathptmx",
+            _code_key: "ptm"
+        },
+        "utopia": {
+            _pkg_key: "utopia",
+            _code_key: "put"
+        },
+        "palatino": {
+            _pkg_key: "palatino",
+            _code_key: "ppl"
+        },
+        "bookman": {
+            _pkg_key: "bookman",
+            _code_key: "pbk"
+        },
+        "charter": {
+            _pkg_key: "charter",
+            _code_key: "bch"
+        },
+        "computer-modern-sans-serif": {
+            _pkg_key: "",
+            _code_key: "cmss"
+        },
+        "tex-gyre-adventor": {
+            _pkg_key: "tgadventor",
+            _code_key: "qag"
+        },
+        "tex-gyre-heros": {
+            _pkg_key: "tgheros",
+            _code_key: "qhv"
+        },
+        "helvetica": {
+            _pkg_key: "helvet",
+            _code_key: "phv"
+        },
+        "computer-modern-typewriter": {
+            _pkg_key: "",
+            _code_key: "cmtt"
+        },
+        "tex-gyre-cursor": {
+            _pkg_key: "tgcursor",
+            _code_key: "qcr"
+        },
+
+        # Arabic fonts (for XeLaTeX via fontspec)
+        "amiri": {
+            _pkg_key: "",
+            _code_key: "amiri"
+        },
+        "scheherazade": {
+            _pkg_key: "",
+            _code_key: "scheherazade"
+        },
+        "lateef": {
+            _pkg_key: "",
+            _code_key: "lateef"
+        },
+        "noto naskh arabic": {
+            _pkg_key: "",
+            _code_key: "noto naskh arabic"
+        },
+        "noto nastaliq arabic": {
+            _pkg_key: "",
+            _code_key: "noto nastaliq arabic"
+        },
+        "noto sans arabic": {
+            _pkg_key: "",
+            _code_key: "noto sans arabic"
+        },
+        "reem kufi": {
+            _pkg_key: "",
+            _code_key: "reem kufi"
+        },
+        "cairo": {
+            _pkg_key: "",
+            _code_key: "cairo"
+        },
+        "harmattan": {
+            _pkg_key: "",
+            _code_key: "harmattan"
+        },
+        "ibm plex sans arabic": {
+            _pkg_key: "",
+            _code_key: "ibm plex sans arabic"
+        },
+
+        # Chinese fonts (for XeLaTeX via fontspec)
+        "noto sans sc": {
+            _pkg_key: "",
+            _code_key: "noto sans sc"
+        },
+        "noto serif sc": {
+            _pkg_key: "",
+            _code_key: "noto serif sc"
+        },
+        "noto sans tc": {
+            _pkg_key: "",
+            _code_key: "noto sans tc"
+        },
+        "noto serif tc": {
+            _pkg_key: "",
+            _code_key: "noto serif tc"
+        },
+        "ibm plex sans jp": {
+            _pkg_key: "",
+            _code_key: "ibm plex sans jp"
+        },
+        "wdxllubrifontsc": {
+            _pkg_key: "",
+            _code_key: "wdxllubrifontsc"
+        },
+        "wdxllubrifontjpn": {
+            _pkg_key: "",
+            _code_key: "wdxllubrifontjpn"
+        },
+        "lxgw marker gothic": {
+            _pkg_key: "",
+            _code_key: "lxgw marker gothic"
+        },
+        "chiron hei hk": {
+            _pkg_key: "",
+            _code_key: "chiron hei hk"
+        },
+        "chiron sung hk": {
+            _pkg_key: "",
+            _code_key: "chiron sung hk"
+        },
+        "huninn": {
+            _pkg_key: "",
+            _code_key: "huninn"
+        },
+        "uoqmunthenkhung": {
+            _pkg_key: "",
+            _code_key: "uoqmunthenkhung"
+        }
+    }
+
+    def font_style_to_instance(style: str) -> FontStyle:
+        style = AvailableFontStyles.get_this_or_default_font_style(style)
+        return FontStyle(
+            style,
+            AvailableFontStyles._table[style][AvailableFontStyles._code_key],
+            AvailableFontStyles._table[style][AvailableFontStyles._pkg_key]
+        )
+
+    def get_this_or_default_font_style(style: str) -> str:
+        if (TemplateValues.is_random_identifier_str(style)):
+            return AvailableFontStyles.get_random_font_style()
+        if (style in AvailableFontStyles._table):
+            return style
+        return AvailableFontStyles.get_default_font_style()
+
+    def get_default_font_style() -> str:
+        return AvailableFontStyles._default_font_style
+
+    def get_random_font_style() -> str:
+        random_index = randint(0, len(AvailableFontStyles._table)-1)
+        return list(AvailableFontStyles._table)[random_index]
+
+    @staticmethod
+    def get_fonts_for_language(language: str) -> list:
+        lang = language.lower()
+        return AvailableFontStyles._language_font_map.get(lang, [])
+
+    @staticmethod
+    def get_default_font_for_language(language: str) -> str:
+        fonts = AvailableFontStyles.get_fonts_for_language(language)
+        if fonts:
+            return fonts[0]
+        return AvailableFontStyles.get_default_font_style()
+
+    @staticmethod
+    def get_random_font_for_language(language: str) -> str:
+        fonts = AvailableFontStyles.get_fonts_for_language(language)
+        if fonts:
+            return fonts[randint(0, len(fonts)-1)]
+        return AvailableFontStyles.get_random_font_style()

@@ -1,0 +1,57 @@
+{
+    "template-name": "portrait_rd_num_cols_rd_figure_style_rd_table_style_list",
+    "inactive-items": [
+      "title"
+    ],
+    "excluded-reading-order-items": [
+      "page-header",
+      "page-footer"
+    ],
+    "layout-style": {
+      "num-columns": 1,
+      "font-color": "random",
+      "font-size": 0,
+      "font-style": "random"
+    },
+    "item-position": {
+      "figure-item": {
+        "random": true
+      },
+      "table-item": {
+        "random": true
+      },
+      "list-item": {
+        "random": true
+      }
+    },
+    "item-style": {
+      "figure-item": {
+        "spans-one-column": {
+          "font-color": "random",
+          "font-size": 0,
+          "font-style": "random",
+          "position": "random",
+          "size": 0
+        },
+        "spans-all-column": {
+          "font-color": "random",
+          "font-size": 0,
+          "font-style": "random",
+          "position": "random",
+          "size": 0
+        }
+      },
+      "table-item": {
+        "spans-one-column": {
+          "font-color": "random",
+          "font-size": 0,
+          "font-style": "random"
+        },
+        "spans-all-column": {
+          "font-color": "random",
+          "font-size": 0,
+          "font-style": "random"
+        }
+      }
+    }
+  }

@@ -1,0 +1,41 @@
+{
+  "dataset-path": "D:\\youssef\\synthdocgen\\synthdocgen\\synthetic_data_generation\\datasets\\json",
+  "document-start-index": 0,
+  "stored-files": {
+    "pdf": true,
+    "tex": true,
+    "aux": true,
+    "log": true,
+    "pos": true,
+    "vis": true
+  },
+  "document-selection": {
+    "custom" : {
+       "document-file-names": ["section_029.json"]
+    }
+  },
+ "template-selection": {
+    "official": {},
+    "internal": {
+      "all": {
+        "num-instances": 1,
+        "num-to-shuffle": 1
+      }
+    },
+    "personal": {}
+  },
+  "export-data": {
+    "domain": "arabic-literature",
+    "dataset": "html-converted-docs",
+    "url": null,
+    "title": null,
+    "extra.category": null,
+    "extra.dpi": 150,
+    "extra.hap_confidence": null,
+    "extra.language": "AR"
+  },
+  "only_documents_with_tables": false,
+  "cutoff_date": "",
+  "template-name": "portrait_one_col_arabic_template_edit"
+
+}

@@ -1,0 +1,67 @@
+{
+  "template-name": "portrait_rd_num_cols_rd_font_style_table_figure",
+  "inactive-items": [
+    "title"
+  ],
+  "excluded-reading-order-items": [
+    "page-header",
+    "page-footer"
+  ],
+  "layout-style": {
+    "num-columns": 1,
+    "font-color": "random",
+    "font-size": 0,
+    "font-style": "random"
+  },
+  "item-position": {
+    "figure-item": {
+      "random": true
+    },
+    "table-item": {
+      "random": true
+    }
+  },
+  "item-style": {
+    "table-item": {
+      "spans-one-column": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random"
+      },
+      "spans-all-column": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random"
+      },
+      "wrap": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random"
+      }
+    },
+    "figure-item": {
+      "spans-one-column": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random",
+        "position": "random",
+        "size": 0
+      },
+      "spans-all-column": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random",
+        "position": "random",
+        "size": 0
+      },
+      "wrap": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random",
+        "position": "",
+        "size": 0
+      }
+    }
+  }
+
+}

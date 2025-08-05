@@ -1,0 +1,63 @@
+{
+  "template-name": "portrait_rd_num_cols",
+  "inactive-items": [],
+  "language": "arabic",
+  "excluded-reading-order-items": [
+    "page-header",
+    "page-footer"
+  ],
+  "layout-style": {
+    "num-columns": 1
+  },
+  "line-numbers": {
+    "are-displayed": false,
+    "are-included-in-reading-order": false
+  },
+  "item-position": {
+    "figure-item": {
+      "random": true
+    }
+  },
+  "item-style": {
+    "table-item": {
+      "spans-one-column": {
+        "font-color": "black",
+        "font-size": 11,
+        "font-style": "normal"
+      },
+      "spans-all-column": {
+        "font-color": "black",
+        "font-size": 11,
+        "font-style": "normal"
+      },
+      "wrap": {
+        "font-color": "black",
+        "font-size": 11,
+        "font-style": "normal"
+      }
+    },
+    "figure-item": {
+      "spans-one-column": {
+        "font-color": "black",
+        "font-size": 11,
+        "font-style": "normal",
+        "position": "center",
+        "size": 11
+      },
+      "spans-all-column": {
+        "font-color": "black",
+        "font-size": 11,
+        "font-style": "normal",
+        "position": "center",
+        "size": 11
+      },
+      "wrap": {
+        "font-color": "black",
+        "font-size": 11,
+        "font-style": "normal",
+        "position": "center",
+        "size": 11
+      }
+    }
+  }
+}

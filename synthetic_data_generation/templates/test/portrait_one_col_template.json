@@ -1,0 +1,83 @@
+{
+  "template-name": "portrait_one_col_template",
+  "inactive-items": [],
+  "excluded-reading-order-items": [
+    "page-header",
+    "page-footer"
+  ],
+  "layout-style": {
+    "page-format": "portrait",
+    "num-columns": 1,
+    "has-line-numbers": false,
+    "font-color": "black",
+    "font-size": 5,
+    "font-style": "courier"
+  },
+  "line-numbers": {
+    "are-displayed": true,
+    "are-included-in-reading-order": true
+  },
+  "watermarks-style": {
+    "text": "confidential",
+    "font-color": "green",
+    "color-intensity": 1,
+    "angle-degrees": "",
+    "size": 1
+  },
+  "item-position": {
+    "figure-item": {
+      "spans-one-column": true,
+      "spans-all-column": false,
+      "wrap": false,
+      "random": false
+    },
+    "table-item": {
+      "spans-one-column": true,
+      "spans-all-column": false,
+      "wrap": false,
+      "random": false
+    }
+  },
+  "item-style": {
+    "figure-item": {
+      "spans-one-column": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random",
+        "position": "random",
+        "size": 0
+      },
+      "spans-all-column": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random",
+        "position": "random",
+        "size": 0
+      },
+      "wrap": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random",
+        "position": "",
+        "size": 0
+      }
+    },
+    "table-item": {
+      "spans-one-column": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random"
+      },
+      "spans-all-column": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random"
+      },
+      "wrap": {
+        "font-color": "olive",
+        "font-size": 0,
+        "font-style": "random"
+      }
+    }
+  }
+}

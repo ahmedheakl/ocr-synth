@@ -1,0 +1,5 @@
+{
+  "annotated-data-path": "reading_order_visualization/generated_annotations/",
+  "data-path": "synthetic_data_generation/generated_latex/",
+  "is-generated-latex-dataset": true
+}

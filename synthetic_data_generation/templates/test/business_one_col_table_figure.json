@@ -1,0 +1,45 @@
+{
+  "template-name": "portrait_rd_num_cols_watermarks_rd_font_style_table_figure",
+  "inactive-items": [
+    "title"
+  ],
+  "excluded-reading-order-items": [
+    "page-header",
+    "page-footer"
+  ],
+  "layout-style": {
+<<<<<<<< HEAD:synthetic_data_generation/templates/templates/test/business_one_col_table_figure.json
+    "packages": [
+      "geometry",
+      "plex-mono",
+      "plex-serif",
+      "plex-sans",
+      "mathpazo",
+      "fontenc",
+      "inputenc",
+      "titletoc"
+    ],
+    "num-columns": 1,
+    "font-color": "random",
+    "font-size": 12.0,
+    "font-style": "plex-sans"
+========
+    "num-columns": 2
+>>>>>>>> a1809dbb0afb5643fb274998867ebf38a7448abd:synthetic_data_generation/templates/templates/internal/portrait_rd_num_cols_line_numbers_watermarks.json
+  },
+  "watermarks-style": {
+    "text": "random",
+    "font-color": "random",
+    "color-intensity": 1.0,
+    "angle-degrees": 0,
+    "size": 10
+  },
+  "item-position": {
+    "figure-item": {
+      "random": true
+    },
+    "table-item": {
+      "random": true
+    }
+  }
+}

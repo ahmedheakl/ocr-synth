@@ -1,0 +1,15 @@
+class ExportDataKeys:
+
+    DOC_HASH = "hash"
+    ORIGIN_DOC_NAME = "origin-document"
+    SYNTH_DOC_NAME = "synthetic-document"
+    PAGE_HASH = "page-hash"
+    IMAGE = "image"
+    IMAGE_BYTES = "image.bytes"
+    IMAGE_HEIGHT = "image.height"
+    IMAGE_WIDTH = "image.width"
+    CELLS = "cells"
+    SEGMENTS = "segments"
+    EXTRA_WIDTH_PT = "extra.width_in_points"
+    EXTRA_HEIGHT_PT = "extra.height_in_points"
+    EXTRA_PAGE_NUM = "extra.page-num"

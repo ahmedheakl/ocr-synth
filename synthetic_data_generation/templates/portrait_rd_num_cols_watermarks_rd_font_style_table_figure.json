@@ -1,0 +1,70 @@
+{
+  "template-name": "portrait_rd_num_cols_watermarks_rd_font_style_table_figure",
+  "inactive-items": [
+    "title"
+  ],
+  "excluded-reading-order-items": [
+    "page-header",
+    "page-footer"
+  ],
+  "layout-style": {
+    "num-columns": 2,
+    "font-color": "random",
+    "font-size": 0,
+    "font-style": "random"
+  },
+  "watermarks-style": {
+    "text": "random",
+    "font-color": "random",
+    "color-intensity": 1.0,
+    "angle-degrees": 0,
+    "size": 10
+  },
+  "item-position": {
+    "figure-item": {
+      "random": true
+    }
+  },
+  "item-style": {
+    "table-item": {
+      "spans-one-column": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random"
+      },
+      "spans-all-column": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random"
+      },
+      "wrap": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random"
+      }
+    },
+    "figure-item": {
+      "spans-one-column": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random",
+        "position": "random",
+        "size": 0
+      },
+      "spans-all-column": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random",
+        "position": "random",
+        "size": 0
+      },
+      "wrap": {
+        "font-color": "random",
+        "font-size": 0,
+        "font-style": "random",
+        "position": "",
+        "size": 0
+      }
+    }
+  }
+}

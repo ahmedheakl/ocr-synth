@@ -1,0 +1,77 @@
+{
+  "template-name": "portrait_one_col_arabic_template",
+  "inactive-items": [],
+  "language": "arabic",
+  "excluded-reading-order-items": [
+    "page-header",
+    "page-footer"
+  ],
+  "layout-style": {
+    "page-format": "portrait",
+    "num-columns": 4,
+    "has-line-numbers": false,
+    "font-color": "random",
+    "font-size": "random",
+    "font-style": "random"
+  },
+  "line-numbers": {
+    "are-displayed": false,
+    "are-included-in-reading-order": false
+  },
+  "item-position": {
+    "figure-item": {
+      "spans-one-column": true,
+      "spans-all-column": false,
+      "wrap": false,
+      "random": false
+    },
+    "table-item": {
+      "spans-one-column": true,
+      "spans-all-column": false,
+      "wrap": false,
+      "random": false
+    }
+  },
+  "item-style": {
+    "figure-item": {
+      "spans-one-column": {
+        "font-color": "random",
+        "font-size": 11,
+        "font-style": "random",
+        "position": "right",
+        "size": 100
+      },
+      "spans-all-column": {
+        "font-color": "random",
+        "font-size": 11,
+        "font-style": "random",
+        "position": "center",
+        "size": 100
+      },
+      "wrap": {
+        "font-color": "random",
+        "font-size": 11,
+        "font-style": "random",
+        "position": "left",
+        "size": 100
+      }
+    },
+    "table-item": {
+      "spans-one-column": {
+        "font-color": "random",
+        "font-size": 11,
+        "font-style": "random"
+      },
+      "spans-all-column": {
+        "font-color": "random",
+        "font-size": 11,
+        "font-style": "random"
+      },
+      "wrap": {
+        "font-color": "random",
+        "font-size": 11,
+        "font-style": "random"
+      }
+    }
+  }
+}
