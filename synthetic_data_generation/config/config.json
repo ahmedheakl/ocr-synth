@@ -1,5 +1,5 @@
 {
-  "dataset-path": "D:\\youssef\\synthdocgen\\synthdocgen\\synthetic_data_generation\\datasets\\json",
+  "dataset-path": "/share/users/ahmed_heakl/ymk/OCR/OCR/synthetic_data_generation/datasets/html_doc_3",
   "document-start-index": 0,
   "stored-files": {
     "pdf": true,
@@ -11,7 +11,7 @@
   },
   "document-selection": {
     "custom" : {
-       "document-file-names": ["section_029.json"]
+       "document-file-names": ["13052715_section_024.json"]
     }
   },
  "template-selection": {
@@ -36,6 +36,6 @@
   },
   "only_documents_with_tables": false,
   "cutoff_date": "",
-  "template-name": "portrait_one_col_arabic_template_edit"
+  "template-name": "portrait_one_col_arabic_template_edit.json"
 
 }

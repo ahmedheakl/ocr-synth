@@ -1,6 +1,14 @@
 /myenv/
 __pycache__/
-
+.locks
+datasets--youssefkhalil320--epub-documents-dataset-v3
+misc
+pdf_layout
+doc_dataset
+synthetic_data_generation/generated_latex
+synthetic_data_generation/generated_hf_dataset
+synthetic_data_generation/datasets
+logs
 
 /synthetic_data_generation/dataset/*
 !/synthetic_data_generation/dataset/.gitkeep

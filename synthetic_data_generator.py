@@ -140,6 +140,7 @@ class SyntheticDataGenerator:
         # print(f'starting compilation')
         self._compile_files(doc)
         self._compile_files(doc)
+        self._compile_files(doc)
         # print('ending compilation')
 
     def _gen_export_data_from_files(self) -> DocumentExportData:

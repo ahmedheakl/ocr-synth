@@ -145,9 +145,9 @@ class PackageExtender:
         """))
         # Use \providecommand to avoid redefinition errors
         eng_macro = r"\providecommand{\eng}[1]{{\myotherfont\textdir TLT #1}}"
-        eng_macro2 = r"\providecommand{\eng2}[1]{\LR{\myotherfont #1}}"
+        # eng_macro2 = r"\providecommand{\eng2}[1]{\LR{\myotherfont #1}}"
         doc.preamble.append(NoEscape(eng_macro))
-        doc.preamble.append(NoEscape(eng_macro2))
+        # doc.preamble.append(NoEscape(eng_macro2))
 
     def add_line_nums_package(self, doc: Document):
         doc.packages.append(Package("lineno"))

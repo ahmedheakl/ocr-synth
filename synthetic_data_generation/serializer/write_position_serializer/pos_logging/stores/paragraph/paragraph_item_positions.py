@@ -45,6 +45,23 @@ class ParagraphItemPositions:
         substring_item = self._data[page_num][page_col_index]
         return substring_item.has_text_break()
 
+    # def has_text_break(self, page_num: int, page_col_index: int) -> bool:
+    #     # OLD: substring_item = self._data[page_num][page_col_index]
+        
+    #     # NEW: Safe access with fallback
+    #     if page_num in self._data and page_col_index in self._data[page_num]:
+    #         substring_item = self._data[page_num][page_col_index]
+    #     else:
+    #         # Use first available column as fallback
+    #         available_cols = list(self._data[page_num].keys()) if page_num in self._data else []
+    #         if available_cols:
+    #             substring_item = self._data[page_num][available_cols[0]]
+    #         else:
+    #             print("i did not work")
+    #             return False
+        
+    #     return substring_item.has_text_break()
+
     def has_page_break(self, page_num: int, page_col_index: int) -> bool:
         substring_item = self._data[page_num][page_col_index]
         return substring_item.has_page_break()

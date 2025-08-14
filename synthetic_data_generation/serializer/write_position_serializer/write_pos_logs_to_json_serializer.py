@@ -12,6 +12,7 @@ from .pos_logging.items_position_stores_manager import ItemsPositionStoresManage
 class WritePosLogsToJsonSerializer:
 
     def log_file_to_export_data(self, log_file_path: str, doc_file_path: str) -> DocumentExportData:
+        print("hnksh")
         DocPagesColBboxesStore().clear()
         gt_data = self._log_file_data_to_gt_data(log_file_path)
         print('generated gt data')
@@ -23,6 +24,7 @@ class WritePosLogsToJsonSerializer:
         self._gen_gt_vis_data_file(gt_data, log_file_path, pos_stores)
         print('generate gt data file')
         doc_export_data = self._gen_gt_training_data_file(gt_data, doc_file_path)
+        print("doc_export_data: ", doc_export_data)
         print('doc export data')
         return doc_export_data
 

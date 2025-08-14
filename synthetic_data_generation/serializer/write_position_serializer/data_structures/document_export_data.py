@@ -32,11 +32,28 @@ class DocumentExportData:
         for gt_item_index in gt_data.get_indexes(is_sorted=True):
             try:
                 gt_item = gt_data.get_item(gt_item_index)
+                print("gt_item inside: ", gt_item)
                 self._add_gt_item_segments(
                     next_segment_index, gt_item, pos_stores_manager)
                 next_segment_index = self._get_next_segment_index(gt_item)
             except:
                 print("error")
+
+    # def add_segments(
+    #     self,
+    #     gt_data: GroundTruthData,
+    #     pos_stores_manager: ItemsPositionStoresManager
+    # ):
+    #     next_segment_index = 0
+    #     for gt_item_index in gt_data.get_indexes(is_sorted=True):
+    #         # try:
+    #         gt_item = gt_data.get_item(gt_item_index)
+    #         print("gt_item inside: ", gt_item)
+    #         self._add_gt_item_segments(
+    #             next_segment_index, gt_item, pos_stores_manager)
+    #         next_segment_index = self._get_next_segment_index(gt_item)
+    #         # except:
+    #         #     print("error")
 
     def _add_gt_item_segments(
         self,
@@ -55,6 +72,20 @@ class DocumentExportData:
         last_segment_added = page_export_data.get_last_segment()
         next_segment_index = last_segment_added.get_index() + 1
         return next_segment_index
+
+    # def _get_next_segment_index(self, last_added_item: GroundTruthItem) -> int:
+    #     page_num_of_last_segment = last_added_item.get_end_latex_page_num()
+    #     page_export_data = self._data[page_num_of_last_segment]
+    #     print(page_export_data._synth_doc_name)
+    #     last_segment_added = page_export_data.get_last_segment()
+        
+    #     # FIXED: Handle case where no segments exist yet
+    #     if last_segment_added is None:
+    #         print(f"No segments found in page {page_num_of_last_segment}, starting with index 0")
+    #         return 0
+        
+    #     next_segment_index = last_segment_added.get_index() + 1
+    #     return next_segment_index
 
     def add_page_images(self):
         doc_hash = document_hasher.gen_doc_hash(self._synth_doc_file_path)
