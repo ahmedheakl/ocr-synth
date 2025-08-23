@@ -4,6 +4,9 @@ from pylatex.utils import escape_latex
 from pylatex import Command
 from pylatex.utils import NoEscape
 
+HEBREW_PATTERN = re.compile(r'[\u0590-\u05FF\uFB1D-\uFB4F]')
+ARABIC_PATTERN = re.compile(r'[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]')
+URDU_PATTERN = re.compile(r'[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]') 
 LATIN_TOKEN_RE = re.compile(r'(?<!\\)([A-Za-z0-9][A-Za-z0-9_\-/+&%$@:.]*)')
 ENG_BLOCK_RE = re.compile(r"(\\eng2\{.*?\})", re.S)
 
@@ -96,3 +99,202 @@ def _wrap_latin_segments_1(text: str) -> str:
     def replacer(match):
         return rf"\eng{{{match.group(0)}}}"
     return re.sub(r'(?<!\\)[A-Za-z0-9_]{2,}', replacer, text)
+
+def is_hebrew_text(text: str) -> bool:
+    """Check if text contains Hebrew characters"""
+    return bool(HEBREW_PATTERN.search(text))
+
+def is_rtl_text(text: str) -> bool:
+    """Check if text is right-to-left (Hebrew or Arabic)"""
+    # Hebrew Unicode ranges
+    hebrew_chars = re.findall(r"[\u0590-\u05FF\uFB1D-\uFB4F]", text)
+    # Arabic Unicode ranges  
+    arabic_chars = re.findall(r"[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]", text)
+    
+    rtl_chars = len(hebrew_chars) + len(arabic_chars)
+    return rtl_chars / max(len(text), 1) > 0.3
+
+def wrap_latin_segments_hebrew(text: str) -> str:
+    """Wrap Latin text segments in Hebrew context with LuaTeX direction markers"""
+    def repl(m):
+        # Use LuaTeX direction primitives instead of bidi package commands
+        return rf"\textdir TLT {{\eng{{{m.group(0)}}}}}\textdir TRT "
+    
+    # Split on already wrapped blocks
+    parts = re.split(r'(\\(?:eng2?|textdir)\s*\w*\s*\{.*?\})', text, flags=re.S)
+    for i in range(0, len(parts), 2):  # only wrap unwrapped parts
+        parts[i] = LATIN_TOKEN_RE.sub(repl, parts[i])
+    return ''.join(parts)
+
+def wrap_hebrew_segments(text: str) -> str:
+    """Wrap Hebrew text segments properly for LuaTeX"""
+    if is_hebrew_text(text):
+        # For primarily Hebrew text, wrap Latin segments
+        return wrap_latin_segments_hebrew(text)
+    else:
+        # For primarily Latin text, use standard wrapping
+        return wrap_latin_segments(text)
+
+def escape_everything_except_hebrew_eng(text: str) -> str:
+    """Escape LaTeX except for inside Hebrew font commands and \\eng{...}"""
+    # Match Hebrew font commands and \eng{...} blocks and textdir commands
+    parts = re.split(r'(\\(?:hebrewfont|eng2?|textdir)\s*\w*\s*\{.*?\})', text)
+    
+    for i in range(0, len(parts), 2):  # Only escape non-command parts
+        parts[i] = escape_latex(parts[i])
+    
+    return ''.join(parts)
+
+# Update existing functions to handle Hebrew with LuaTeX
+def wrap_latin_segments(text: str) -> str:
+    """Enhanced version that handles Hebrew context with LuaTeX"""
+    if is_hebrew_text(text):
+        return wrap_hebrew_segments(text)
+    
+    def repl(m):
+        return rf"\eng{{{m.group(0)}}}"
+    
+    # Split on already wrapped blocks
+    parts = re.split(r'(\\eng2?\{.*?\})', text, flags=re.S)
+    for i in range(0, len(parts), 2):  # only wrap unwrapped parts
+        parts[i] = LATIN_TOKEN_RE.sub(repl, parts[i])
+    return ''.join(parts)
+
+def _wrap_latin_segments(text: str) -> str:
+    """Main wrapper function for Hebrew text processing"""
+    if is_hebrew_text(text):
+        # Use Hebrew-aware processing
+        def hebrew_repl(match):
+            return rf"\textdir TLT \eng{{{match.group(0)}}}\textdir TRT "
+        
+        # Process Latin segments in Hebrew text
+        return LATIN_TOKEN_RE.sub(hebrew_repl, text)
+    else:
+        # Standard Latin processing
+        def latin_repl(match):
+            return rf"\eng{{{match.group(0)}}}"
+        return LATIN_TOKEN_RE.sub(latin_repl, text)
+
+def is_urdu_text(text: str) -> bool:
+    """Check if text contains Urdu/Arabic script characters"""
+    return bool(URDU_PATTERN.search(text))
+
+def is_arabic_text(text: str) -> bool:
+    """Check if text contains Arabic characters"""
+    return bool(ARABIC_PATTERN.search(text))
+
+def is_hebrew_text(text: str) -> bool:
+    """Check if text contains Hebrew characters"""
+    return bool(HEBREW_PATTERN.search(text))
+
+def is_rtl_text(text: str) -> bool:
+    """Check if text is right-to-left (Hebrew, Arabic, or Urdu)"""
+    # Hebrew Unicode ranges
+    hebrew_chars = re.findall(r"[\u0590-\u05FF\uFB1D-\uFB4F]", text)
+    # Arabic/Urdu Unicode ranges  
+    arabic_urdu_chars = re.findall(r"[\u0600-\u06FF\u0750-\u077F\u08A0-\u08FF\uFB50-\uFDFF\uFE70-\uFEFF]", text)
+    
+    rtl_chars = len(hebrew_chars) + len(arabic_urdu_chars)
+    return rtl_chars / max(len(text), 1) > 0.3
+
+def detect_text_language(text: str) -> str:
+    """Detect the primary language of text"""
+    if is_hebrew_text(text):
+        return "hebrew"
+    elif is_urdu_text(text) or is_arabic_text(text):
+        # For now, treat Arabic and Urdu similarly
+        # Could add more sophisticated detection later
+        return "urdu"  # or "arabic"
+    else:
+        return "latin"
+
+def wrap_latin_segments_urdu(text: str) -> str:
+    """Wrap Latin text segments in Urdu context with LuaTeX direction markers"""
+    def repl(m):
+        # Use LuaTeX direction primitives for Urdu context
+        return rf"\textdir TLT {{\eng{{{m.group(0)}}}}}\textdir TRT "
+    
+    # Split on already wrapped blocks
+    parts = re.split(r'(\\(?:eng2?|textdir)\s*\w*\s*\{.*?\})', text, flags=re.S)
+    for i in range(0, len(parts), 2):  # only wrap unwrapped parts
+        parts[i] = LATIN_TOKEN_RE.sub(repl, parts[i])
+    return ''.join(parts)
+
+def wrap_urdu_segments(text: str) -> str:
+    """Wrap Urdu text segments properly for LuaTeX"""
+    if is_urdu_text(text):
+        # For primarily Urdu text, wrap Latin segments
+        return wrap_latin_segments_urdu(text)
+    else:
+        # For primarily Latin text, use standard wrapping
+        return wrap_latin_segments(text)
+
+def escape_everything_except_urdu_eng(text: str) -> str:
+    """Escape LaTeX except for inside Urdu font commands and \\eng{...}"""
+    # Match Urdu font commands and \eng{...} blocks and textdir commands
+    parts = re.split(r'(\\(?:urdufont|arabicfont|eng2?|textdir)\s*\w*\s*\{.*?\})', text)
+    
+    for i in range(0, len(parts), 2):  # Only escape non-command parts
+        parts[i] = escape_latex(parts[i])
+    
+    return ''.join(parts)
+
+# Enhanced main wrapper function
+def wrap_latin_segments(text: str) -> str:
+    """Enhanced version that handles Hebrew, Arabic, and Urdu contexts with LuaTeX"""
+    language = detect_text_language(text)
+    
+    if language == "hebrew":
+        return wrap_hebrew_segments(text)
+    elif language == "urdu":
+        return wrap_urdu_segments(text)
+    else:
+        # Standard Latin processing
+        def repl(m):
+            return rf"\eng{{{m.group(0)}}}"
+        
+        # Split on already wrapped blocks
+        parts = re.split(r'(\\eng2?\{.*?\})', text, flags=re.S)
+        for i in range(0, len(parts), 2):  # only wrap unwrapped parts
+            parts[i] = LATIN_TOKEN_RE.sub(repl, parts[i])
+        return ''.join(parts)
+
+def _wrap_latin_segments(text: str) -> str:
+    """Main wrapper function for multilingual text processing"""
+    language = detect_text_language(text)
+    
+    if language == "hebrew":
+        # Use Hebrew-aware processing
+        def hebrew_repl(match):
+            return rf"\textdir TLT \eng{{{match.group(0)}}}\textdir TRT "
+        return LATIN_TOKEN_RE.sub(hebrew_repl, text)
+    
+    elif language == "urdu":
+        # Use Urdu-aware processing
+        def urdu_repl(match):
+            return rf"\textdir TLT \eng{{{match.group(0)}}}\textdir TRT "
+        return LATIN_TOKEN_RE.sub(urdu_repl, text)
+    
+    else:
+        # Standard Latin processing
+        def latin_repl(match):
+            return rf"\eng{{{match.group(0)}}}"
+        return LATIN_TOKEN_RE.sub(latin_repl, text)
+
+# Urdu-specific helper functions
+def format_urdu_numbers(text: str) -> str:
+    """Convert Latin numbers to Urdu context where appropriate"""
+    # This could be expanded to handle Urdu numerals if needed
+    number_pattern = re.compile(r'\b\d+\b')
+    
+    def number_repl(match):
+        return rf"\urdunumbers{{{match.group(0)}}}"
+    
+    return number_pattern.sub(number_repl, text)
+
+def handle_urdu_punctuation(text: str) -> str:
+    """Handle Urdu-specific punctuation spacing"""
+    # Add appropriate spacing around Urdu punctuation
+    text = re.sub(r'([۔؍؎؏؞؟])', r' \1 ', text)  # Urdu punctuation
+    text = re.sub(r'\s+', ' ', text)  # Clean up multiple spaces
+    return text.strip()

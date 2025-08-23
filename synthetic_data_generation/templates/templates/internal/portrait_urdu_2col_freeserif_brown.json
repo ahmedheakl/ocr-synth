@@ -1,0 +1,80 @@
+{
+    "template-name": "portrait_urdu_2col_freeserif_brown",
+    "inactive-items": [],
+    "language": "urdu",
+    "excluded-reading-order-items": [
+      "page-header",
+      "page-footer"
+    ],
+    "layout-style": {
+      "page-format": "portrait",
+      "num-columns": 2,
+      "has-line-numbers": false,
+      "font-color": "brown",
+      "font-size": 11,
+      "font-style": "freeserif",
+      "chart-flag": false
+    },
+    "background-mode": "color",
+    "background-color": "lightgray",
+    "line-numbers": {
+      "are-displayed": false,
+      "are-included-in-reading-order": false
+    },
+    "item-position": {
+      "figure-item": {
+        "spans-one-column": false,
+        "spans-all-column": true,
+        "wrap": false,
+        "random": false
+      },
+      "table-item": {
+        "spans-one-column": false,
+        "spans-all-column": true,
+        "wrap": false,
+        "random": false
+      }
+    },
+    "item-style": {
+      "figure-item": {
+        "spans-one-column": {
+          "font-color": "brown",
+          "font-size": 10,
+          "font-style": "freeserif",
+          "position": "center",
+          "size": 80
+        },
+        "spans-all-column": {
+          "font-color": "brown",
+          "font-size": 11,
+          "font-style": "freeserif",
+          "position": "center",
+          "size": 100
+        },
+        "wrap": {
+          "font-color": "brown",
+          "font-size": 10,
+          "font-style": "freeserif",
+          "position": "right",
+          "size": 90
+        }
+      },
+      "table-item": {
+        "spans-one-column": {
+          "font-color": "brown",
+          "font-size": 10,
+          "font-style": "freeserif"
+        },
+        "spans-all-column": {
+          "font-color": "brown",
+          "font-size": 11,
+          "font-style": "freeserif"
+        },
+        "wrap": {
+          "font-color": "brown",
+          "font-size": 10,
+          "font-style": "freeserif"
+        }
+      }
+    }
+  }

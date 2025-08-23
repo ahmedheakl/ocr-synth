@@ -1,0 +1,44 @@
+{
+    "dataset-path": "/share/users/ahmed_heakl/ymk/OCR/OCR/OCR_benchmarking/data_scraping/urdu/html_doc_mix",
+    "document-start-index": 0,
+    "stored-files": {
+      "pdf": true,
+      "tex": true,
+      "aux": true,
+      "log": true,
+      "pos": true,
+      "vis": true
+    },
+    "document-selection": {
+      "custom": {
+        "document-file-names": [
+          "تفسیر مصباحین شرح تفسیر جلالین جلد (3) _section_314.json"
+        ]
+      }
+    },
+    "template-selection": {
+      "official": {},
+      "internal": {
+        "custom": {
+          "template-names": ["portrait_urdu_2col_kacst_green.json"],
+          "num-instances": 1
+        }
+      },
+      "personal": {}
+    },
+    "export-data": {
+      "domain": "urdu-literature",
+      "dataset": "html-converted-docs",
+      "url": null,
+      "title": null,
+      "extra.category": null,
+      "extra.dpi": 150,
+      "extra.hap_confidence": null,
+      "extra.language": "UR"
+    },
+    "only_documents_with_tables": false,
+    "cutoff_date": "",
+    "template-name": "portrait_one_col_urdu_template.json",
+    "clean-non-pdf-files": false,
+    "clean-tex-files": false
+}

@@ -40,6 +40,42 @@ class PackageExtender:
                 font_name = random.choice(list(supported_fonts.keys()))
             self.set_font_name = supported_fonts.get(font_name, "Noto Serif SC")
 
+        elif language == "hebrew":
+            font_name = layout_setting.get_font_style().get_name()
+            supported_fonts = {
+                "david clm": "David CLM",
+                "frank ruehl clm": "Frank Ruehl CLM", 
+                "noto serif hebrew": "Noto Serif Hebrew",
+                "noto sans hebrew": "Noto Sans Hebrew",
+                "ezra sil": "Ezra SIL",
+                "taamey david clm": "Taamey David CLM",
+                "hadasim clm": "Hadasim CLM",
+                "miriam clm": "Miriam CLM",
+                "nachlieli clm": "Nachlieli CLM",
+                "shofar": "Shofar"
+            }
+            if font_name == "random":
+                font_name = random.choice(list(supported_fonts.keys()))
+            self.set_font_name = supported_fonts.get(font_name, "David CLM")
+
+        elif language == "urdu":
+            font_name = layout_setting.get_font_style().get_name()
+            supported_fonts = {
+                "noto nastaliq urdu": "Noto Nastaliq Urdu",
+                "jameel noori nastaleeq": "Jameel Noori Nastaleeq",
+                "alvi nastaleeq": "Alvi Nastaleeq",
+                "pak nastaleeq": "Pak Nastaleeq",
+                "faiz lahori nastaleeq": "Faiz Lahori Nastaleeq",
+                "noto sans arabic": "Noto Sans Arabic",
+                "lateef": "Lateef",
+                "scheherazade new": "Scheherazade New",
+                "amiri": "Amiri",
+                "reem kufi": "Reem Kufi"
+            }
+            if font_name == "random":
+                font_name = random.choice(list(supported_fonts.keys()))
+            self.set_font_name = supported_fonts.get(font_name, "Noto Nastaliq Urdu")
+
         packages_list = layout_setting.get_packages()
         self.packages = set()
         self.add_color_package(doc)
@@ -52,6 +88,10 @@ class PackageExtender:
             self.add_arabic_support_packages(doc)
         elif language == "chinese":
             self.add_chinese_support_packages(doc)
+        elif language == "hebrew":
+            self.add_hebrew_support_packages(doc)
+        elif language == "urdu":
+            self.add_urdu_support_packages(doc)
 
         for package in packages_list:
             if package not in self.packages:
@@ -87,6 +127,71 @@ class PackageExtender:
         doc.preamble.append(NoEscape(r"\newfontfamily\cjkfonttt{Noto Sans Mono CJK SC}"))
         doc.preamble.append(NoEscape(r"\renewcommand{\ttfamily}{\cjkfonttt}"))
         doc.append(NoEscape(r"\chinesefont"))
+
+        self.packages.update({"fontspec", "polyglossia", "ragged2e"})
+
+    def add_hebrew_support_packages(self, doc: Document):
+        """Add Hebrew language support packages for LuaTeX"""
+        doc.packages.append(Package("fontspec"))
+        doc.packages.append(Package("multirow"))
+        doc.packages.append(Package("polyglossia"))
+        doc.packages.append(Package("ragged2e"))
+        # Note: Do NOT add bidi package - it's XeTeX only!
+
+        doc.preamble.append(NoEscape(r"\renewcommand{\arraystretch}{1.3}"))
+        doc.preamble.append(NoEscape(r"\setmainlanguage{hebrew}"))
+        doc.preamble.append(NoEscape(r"\setotherlanguage{english}"))
+        
+        # Set up Hebrew font with proper fallbacks
+        doc.preamble.append(NoEscape(
+            fr"\newfontfamily\hebrewfont[Script=Hebrew, Direction=RTL, FallbackFonts={{David CLM, Frank Ruehl CLM, Noto Color Emoji, Symbola}}]{{{self.set_font_name}}}"
+        ))
+        
+        # LuaTeX native RTL support - no bidi package needed
+        doc.preamble.append(NoEscape(r"\def\setRTL{\pardir TRT \textdir TRT}"))
+        doc.preamble.append(NoEscape(r"\def\setLTR{\pardir TLT \textdir TLT}"))
+        
+        # Set Hebrew as default direction
+        doc.preamble.append(NoEscape(r"\setRTL"))
+        doc.preamble.append(NoEscape(r"\hebrewfont"))
+
+        # Use Hebrew-aware line breaking
+        doc.preamble.append(NoEscape(r"\tolerance=1000"))
+        doc.preamble.append(NoEscape(r"\emergencystretch=3em"))
+
+        self.packages.update({"fontspec", "polyglossia", "ragged2e"})
+
+    def add_urdu_support_packages(self, doc: Document):
+        """Add Urdu language support packages"""
+        doc.packages.append(Package("fontspec"))
+        doc.packages.append(Package("multirow"))
+        doc.packages.append(Package("polyglossia"))
+        doc.packages.append(Package("ragged2e"))
+
+        doc.preamble.append(NoEscape(r"\renewcommand{\arraystretch}{1.3}"))
+        doc.preamble.append(NoEscape(r"\setmainlanguage{urdu}"))
+        doc.preamble.append(NoEscape(r"\setotherlanguage{english}"))
+        
+        # Set up Urdu font with proper Arabic script support
+        doc.preamble.append(NoEscape(
+            fr"\newfontfamily\urdufont[Script=Arabic, Language=Urdu, Direction=RTL, FallbackFonts={{Noto Nastaliq Urdu, Jameel Noori Nastaleeq, Amiri, Noto Color Emoji, Symbola}}]{{{self.set_font_name}}}"
+        ))
+        
+        # LuaTeX native RTL support for Urdu
+        doc.preamble.append(NoEscape(r"\def\setRTL{\pardir TRT \textdir TRT}"))
+        doc.preamble.append(NoEscape(r"\def\setLTR{\pardir TLT \textdir TLT}"))
+        
+        # Set Urdu-specific typography settings
+        doc.preamble.append(NoEscape(r"\setRTL"))
+        doc.preamble.append(NoEscape(r"\urdufont"))
+        
+        # Urdu-specific line breaking and spacing
+        doc.preamble.append(NoEscape(r"\tolerance=2000"))  # Higher tolerance for Urdu
+        doc.preamble.append(NoEscape(r"\emergencystretch=4em"))
+        doc.preamble.append(NoEscape(r"\hyphenpenalty=10000"))  # Avoid hyphenation in Urdu
+        
+        # Urdu punctuation and number handling
+        doc.preamble.append(NoEscape(r"\def\urdunumbers#1{\bgroup\urdufont\textdir TRT #1\egroup}"))
 
         self.packages.update({"fontspec", "polyglossia", "ragged2e"})
 

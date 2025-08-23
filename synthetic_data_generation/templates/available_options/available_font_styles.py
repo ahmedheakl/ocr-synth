@@ -54,6 +54,30 @@ class AvailableFontStyles:
             "chiron sung hk",
             "huninn",
             "uoqmunthenkhung"
+        ],
+        "hebrew": [
+            "david clm",           # Traditional Hebrew font
+            "frank ruehl clm",     # Classic Hebrew serif font
+            "noto serif hebrew",   # Google's Noto Hebrew serif
+            "noto sans hebrew",    # Google's Noto Hebrew sans-serif
+            "ezra sil",           # SIL's Hebrew font
+            "taamey david clm",   # Hebrew font with cantillation marks
+            "hadasim clm",        # Modern Hebrew sans-serif
+            "miriam clm",         # Hebrew monospace font
+            "nachlieli clm",      # Decorative Hebrew font
+            "shofar",             # Traditional Hebrew display font
+        ],
+        "urdu": [
+            "noto nastaliq urdu",     # Google's Noto Urdu font (best for Urdu)
+            "jameel noori nastaleeq", # Popular Urdu font
+            "alvi nastaleeq",        # Traditional Urdu font
+            "pak nastaleeq",         # Pakistani Urdu font
+            "faiz lahori nastaleeq", # Beautiful Urdu calligraphy font
+            "noto sans arabic",      # Fallback Arabic font for Urdu
+            "lateef",               # SIL font with good Urdu support
+            "scheherazade new",     # SIL font for Arabic/Urdu
+            "amiri",                # Arabic font with Urdu support
+            "reem kufi",            # Modern Arabic/Urdu font
         ]
     }
 
@@ -214,6 +238,70 @@ class AvailableFontStyles:
         "uoqmunthenkhung": {
             _pkg_key: "",
             _code_key: "uoqmunthenkhung"
+        },
+        "david clm": {
+            _pkg_key: "",
+            _code_key: "david clm"
+        },
+        "frank ruehl clm": {
+            _pkg_key: "",
+            _code_key: "frank ruehl clm"
+        },
+        "noto serif hebrew": {
+            _pkg_key: "",
+            _code_key: "noto serif hebrew"
+        },
+        "noto sans hebrew": {
+            _pkg_key: "",
+            _code_key: "noto sans hebrew"
+        },
+        "ezra sil": {
+            _pkg_key: "",
+            _code_key: "ezra sil"
+        },
+        "taamey david clm": {
+            _pkg_key: "",
+            _code_key: "taamey david clm"
+        },
+        "hadasim clm": {
+            _pkg_key: "",
+            _code_key: "hadasim clm"
+        },
+        "miriam clm": {
+            _pkg_key: "",
+            _code_key: "miriam clm"
+        },
+        "nachlieli clm": {
+            _pkg_key: "",
+            _code_key: "nachlieli clm"
+        },
+        "shofar": {
+            _pkg_key: "",
+            _code_key: "shofar"
+        },
+        "noto nastaliq urdu": {
+            _pkg_key: "",
+            _code_key: "noto nastaliq urdu"
+        },
+        "jameel noori nastaleeq": {
+            _pkg_key: "",
+            _code_key: "jameel noori nastaleeq"
+        },
+        "alvi nastaleeq": {
+            _pkg_key: "",
+            _code_key: "alvi nastaleeq"
+        },
+        "pak nastaleeq": {
+            _pkg_key: "",
+            _code_key: "pak nastaleeq"
+        },
+        "faiz lahori nastaleeq": {
+            _pkg_key: "",
+            _code_key: "faiz lahori nastaleeq"
+        },
+        "scheherazade new": {
+            _pkg_key: "",
+            _code_key: "scheherazade new"
         }
     }
 

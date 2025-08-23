@@ -1,7 +1,7 @@
 class ConfigValues:
 
     DATASET_PATH = "synthetic_data_generation/dataset/"
-    GENERATED_DATASET_PATH = "synthetic_data_generation/generated_latex/"
+    GENERATED_DATASET_PATH = "synthetic_data_generation/generated_latex/urdu/"
     GENERATED_HF_DATASET_PATH = "synthetic_data_generation/generated_hf_dataset/"
     TEMPLATES_PATH = "synthetic_data_generation/templates/templates/"
     HF_DATASET_FNAME_TRAILER = "_hf_data"
