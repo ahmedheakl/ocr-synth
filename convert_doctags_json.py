@@ -657,3 +657,5 @@ if __name__ == "__main__":
         print("  python docling_json_converter.py --batch <input_base_dir> <output_dir>")
         print("\nFor processing subdirectories with Docling JSON files, use --batch flag")
         sys.exit(1)
+
+# python convert_doctags_json "/share/users/ahmed_heakl/ymk/OCR/OCR/OCR_benchmarking/data_scraping/hebrew/html_doc_mixed" "/share/users/ahmed_heakl/ymk/OCR/OCR/OCR_benchmarking/data_scraping/hebrew/hebrew_json"

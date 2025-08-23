@@ -252,8 +252,8 @@ def export_epub_as_html(epub_path, output_dir):
         return False
 
 if __name__ == "__main__":
-    source_dir = Path("D:/youssef/synthdocgen/synthdocgen/synthetic_data_generation/datasets/hindawi_books")
-    output_base = Path("epub_html_pages")
+    source_dir = Path("/share/users/ahmed_heakl/ymk/OCR/OCR/OCR_benchmarking/data_scraping/urdu/urdu_epubs")
+    output_base = Path("urdu_epub_html_pages")
     
     # Get list of EPUB files with progress bar
     epub_files = list(source_dir.glob("*.epub"))

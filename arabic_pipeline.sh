@@ -9,3 +9,4 @@ python fix_pos_v2.py $JSON_FILE $POS_FILE
 cd pdf_layout
 OUTPUT_FILE="${ROOT}_0_simple_fixed.json"
 python draw_bboxes.py  $OUTPUT_FILE
+cd ..

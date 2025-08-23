@@ -465,3 +465,5 @@ if __name__ == "__main__":
         
 # usage
 # python .\convert_html_doc.py --epub-output ".\epub_html_pages" ".\html_doc"
+
+# python convert_html_doc.py --epub-output "/share/users/ahmed_heakl/ymk/OCR/OCR/urdu_epub_html_pages" "/share/users/ahmed_heakl/ymk/OCR/OCR/OCR_benchmarking/data_scraping/urdu/html_doc"
