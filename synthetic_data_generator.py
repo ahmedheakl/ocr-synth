@@ -14,30 +14,71 @@ from synthetic_data_generation.templates.template_selectors.template_creation_in
 from util import file_path_manager
 import os
 import time
+from tqdm import tqdm
+
+def count_files(directory):
+    return len([f for f in os.listdir(directory) 
+                if os.path.isfile(os.path.join(directory, f))])
 
 class SyntheticDataGenerator:
 
     def __init__(self, cmd_line_args: argparse.Namespace, config: Config):
         self._cmd_line_args = cmd_line_args
         self._config = config
+        self.dataset_path = self._config._dataset_dir_path
+        print(self.dataset_path)
         self._template = Template()
         self._data_stores_manager = DataStoresManager()
         self._logger = Logger()
         self._organization_data = OrganizationData()
-        self._selected_doc_file_names = (self._config.
-            get_selected_doc_file_names())
+        # self._selected_doc_file_names = (self._config.
+        #     get_selected_doc_file_names())
+        self._selected_doc_file_names = []
+        start_index = self._config.get_doc_start_index()
+        print("start index: ", start_index)
+        finish_index = self._config.get_doc_finish_index()
+        print("finish_index: ", finish_index)
+
+        if self._selected_doc_file_names == []:
+            # Get all files in the directory
+            all_files = [f for f in os.listdir(self.dataset_path) 
+                        if os.path.isfile(os.path.join(self.dataset_path, f))]
+            
+            # Sort files for consistent ordering
+            all_files.sort()
+            
+            # Update finish_index if it's beyond the number of files
+            total_files = len(all_files)
+            finish_index = total_files - 1  # -1 because indices are 0-based
+            
+            # Slice the files from start_index to finish_index (inclusive)
+            self._selected_doc_file_names = all_files[start_index:finish_index + 1]
+            # print("files are: ", self._selected_doc_file_names)
+            print(f"Selected {len(self._selected_doc_file_names)} files from index {start_index} to {finish_index}")
+            # print(f"First few files: {self._selected_doc_file_names[:3]}")  # Show first 3 for verification
 
     def gen_dataset(self):
         self._logger.log_program_start()
-        start_index = self._config.get_doc_start_index()
-        finish_index = self._config.get_doc_finish_index()
-        for index, doc_file_name in enumerate(
-            self._selected_doc_file_names[start_index:finish_index+1],
-            start=start_index
-        ):
+        # start_index = self._config.get_doc_start_index()
+        # print("start index: ", start_index)
+        # finish_index = self._config.get_doc_finish_index()
+        # print("finish_index: ", finish_index)
+        # exit()
+        # for index, doc_file_name in enumerate(
+        #     self._selected_doc_file_names[start_index:finish_index+1],
+        #     start=start_index
+        # ):
+        #     self.gen_dataset_for_doc(index, doc_file_name)
+        # self._logger.log_latex_file_generation_errors_to_file(
+        #     start_index, finish_index)
+        for index, doc_file_name in tqdm(enumerate(self._selected_doc_file_names, start=1), 
+                                            total=len(self._selected_doc_file_names),
+                                            desc="Processing documents"):
             self.gen_dataset_for_doc(index, doc_file_name)
-        self._logger.log_latex_file_generation_errors_to_file(
-            start_index, finish_index)
+            
+        # Note: You'll need to define start_index and finish_index for the logger
+        start_index = 1
+        finish_index = len(self._selected_doc_file_names)
         self._logger.log_program_end()
 
     def gen_dataset_for_doc(self, doc_index: int, doc_file_name: str):
