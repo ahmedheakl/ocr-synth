@@ -1,0 +1,45 @@
+{
+  "dataset-path": "/share/users/ahmed_heakl/ymk/OCR/OCR/OCR_benchmarking/data_scraping/persian/html_docs_mixed",
+  "document-start-index": 0,
+  "stored-files": {
+    "pdf": true,
+    "tex": true,
+    "aux": true,
+    "log": true,
+    "pos": true,
+    "vis": true
+  },
+  "document-selection": {
+    "custom": {
+      "document-file-names": [
+        "abu-abdurahman-kurdi-f_barid_1_201801_نقش روشنفکران درتاریخ معاصرایران-1_section_423.json"
+      ]
+    }
+  }  ,
+ "template-selection": {
+      "official": {},
+      "internal": {
+        "custom": {
+          "template-names": [
+            "portrait_1col_persian_vazirmatn_black.json"
+        ],
+          "num-instances": 1
+        }
+      },
+      "personal": {}
+    },
+  "export-data": {
+    "domain": "arabic-literature",
+    "dataset": "html-converted-docs",
+    "url": null,
+    "title": null,
+    "extra.category": null,
+    "extra.dpi": 150,
+    "extra.hap_confidence": null,
+    "extra.language": "AR"
+  },
+  "only_documents_with_tables": false,
+  "cutoff_date": "",
+  "template-name": "portrait_1col_persian_shabnam_blue.json"
+
+}
