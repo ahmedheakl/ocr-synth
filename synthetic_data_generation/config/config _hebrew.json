@@ -12,7 +12,7 @@
   "document-selection": {
     "custom": {
       "document-file-names": [
-        "10_section_000.json"
+        "41_section_001.json"
       ]
     }
   }  ,
@@ -20,7 +20,7 @@
     "official": {},
     "internal": {
       "custom": {
-        "template-names": ["portrait_one_col_hebrew_template.json"],
+        "template-names": ["portrait_3col_hebrew_miriam_clm_green.json"],
         "num-instances": 1
       }
     },

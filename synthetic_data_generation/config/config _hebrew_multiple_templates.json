@@ -1,0 +1,76 @@
+{
+  "dataset-path": "/share/users/ahmed_heakl/ymk/OCR/OCR/OCR_benchmarking/data_scraping/hebrew/html_doc_mixed_2",
+  "document-start-index": 0,
+  "stored-files": {
+    "pdf": true,
+    "tex": true,
+    "aux": true,
+    "log": true,
+    "pos": true,
+    "vis": true
+  },
+  "document-selection": {
+    "all": {}
+  }  ,
+ "template-selection": {
+      "official": {},
+      "internal": {
+        "custom": {
+          "template-names": [
+            "portrait_1col_hebrew_aharoni_clm_black.json",
+            "portrait_1col_hebrew_aharoni_clm_blue.json",
+            "portrait_1col_hebrew_aharoni_clm_green.json",
+            "portrait_1col_hebrew_ezra_sil_black.json",
+            "portrait_1col_hebrew_ezra_sil_blue.json",
+            "portrait_1col_hebrew_ezra_sil_green.json",
+            "portrait_1col_hebrew_frank_ruehl_traditional_black.json",
+            "portrait_1col_hebrew_frank_ruehl_traditional_blue.json",
+            "portrait_1col_hebrew_frank_ruehl_traditional_green.json",
+            "portrait_1col_hebrew_miriam_clm_black.json",
+            "portrait_1col_hebrew_miriam_clm_blue.json",
+            "portrait_1col_hebrew_miriam_clm_green.json",
+            "portrait_2col_hebrew_aharoni_clm_black.json",
+            "portrait_2col_hebrew_aharoni_clm_blue.json",
+            "portrait_2col_hebrew_aharoni_clm_green.json",
+            "portrait_2col_hebrew_ezra_sil_black.json",
+            "portrait_2col_hebrew_ezra_sil_blue.json",
+            "portrait_2col_hebrew_ezra_sil_green.json",
+            "portrait_2col_hebrew_frank_ruehl_traditional_black.json",
+            "portrait_2col_hebrew_frank_ruehl_traditional_blue.json",
+            "portrait_2col_hebrew_frank_ruehl_traditional_green.json",
+            "portrait_2col_hebrew_miriam_clm_black.json",
+            "portrait_2col_hebrew_miriam_clm_blue.json",
+            "portrait_2col_hebrew_miriam_clm_green.json",
+            "portrait_3col_hebrew_aharoni_clm_black.json",
+            "portrait_3col_hebrew_aharoni_clm_blue.json",
+            "portrait_3col_hebrew_aharoni_clm_green.json",
+            "portrait_3col_hebrew_ezra_sil_black.json",
+            "portrait_3col_hebrew_ezra_sil_blue.json",
+            "portrait_3col_hebrew_ezra_sil_green.json",
+            "portrait_3col_hebrew_frank_ruehl_traditional_black.json",
+            "portrait_3col_hebrew_frank_ruehl_traditional_blue.json",
+            "portrait_3col_hebrew_frank_ruehl_traditional_green.json",
+            "portrait_3col_hebrew_miriam_clm_black.json",
+            "portrait_3col_hebrew_miriam_clm_blue.json",
+            "portrait_3col_hebrew_miriam_clm_green.json"
+        ],
+          "num-instances": 1
+        }
+      },
+      "personal": {}
+    },
+  "export-data": {
+    "domain": "arabic-literature",
+    "dataset": "html-converted-docs",
+    "url": null,
+    "title": null,
+    "extra.category": null,
+    "extra.dpi": 150,
+    "extra.hap_confidence": null,
+    "extra.language": "AR"
+  },
+  "only_documents_with_tables": false,
+  "cutoff_date": "",
+  "template-name": "portrait_one_col_hebrew_template.json"
+
+}
