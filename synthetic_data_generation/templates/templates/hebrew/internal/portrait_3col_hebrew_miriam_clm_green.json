@@ -1,0 +1,80 @@
+{
+  "template-name": "portrait_3col_miriam_clm_green",
+  "inactive-items": [],
+  "language": "hebrew",
+  "excluded-reading-order-items": [
+    "page-header",
+    "page-footer"
+  ],
+  "layout-style": {
+    "page-format": "portrait",
+    "num-columns": 3,
+    "has-line-numbers": false,
+    "font-color": "green",
+    "font-size": 12,
+    "font-style": "miriam clm",
+    "chart-flag": false
+  },
+  "background-mode": "color",
+  "background-color": "gray!5",
+  "line-numbers": {
+    "are-displayed": false,
+    "are-included-in-reading-order": false
+  },
+  "item-position": {
+    "figure-item": {
+      "spans-one-column": true,
+      "spans-all-column": false,
+      "wrap": false,
+      "random": false
+    },
+    "table-item": {
+      "spans-one-column": true,
+      "spans-all-column": false,
+      "wrap": false,
+      "random": false
+    }
+  },
+  "item-style": {
+    "figure-item": {
+      "spans-one-column": {
+        "font-color": "green",
+        "font-size": 11,
+        "font-style": "miriam clm",
+        "position": "center",
+        "size": 90
+      },
+      "spans-all-column": {
+        "font-color": "green",
+        "font-size": 11,
+        "font-style": "miriam clm",
+        "position": "center",
+        "size": 100
+      },
+      "wrap": {
+        "font-color": "green",
+        "font-size": 11,
+        "font-style": "miriam clm",
+        "position": "right",
+        "size": 80
+      }
+    },
+    "table-item": {
+      "spans-one-column": {
+        "font-color": "green",
+        "font-size": 11,
+        "font-style": "miriam clm"
+      },
+      "spans-all-column": {
+        "font-color": "green",
+        "font-size": 11,
+        "font-style": "miriam clm"
+      },
+      "wrap": {
+        "font-color": "green",
+        "font-size": 11,
+        "font-style": "miriam clm"
+      }
+    }
+  }
+}

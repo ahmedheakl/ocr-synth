@@ -1,0 +1,80 @@
+{
+  "template-name": "portrait_2col_ezra_sil_blue",
+  "inactive-items": [],
+  "language": "hebrew",
+  "excluded-reading-order-items": [
+    "page-header",
+    "page-footer"
+  ],
+  "layout-style": {
+    "page-format": "portrait",
+    "num-columns": 2,
+    "has-line-numbers": false,
+    "font-color": "blue",
+    "font-size": 12,
+    "font-style": "ezra sil",
+    "chart-flag": false
+  },
+  "background-mode": "color",
+  "background-color": "gray!5",
+  "line-numbers": {
+    "are-displayed": false,
+    "are-included-in-reading-order": false
+  },
+  "item-position": {
+    "figure-item": {
+      "spans-one-column": true,
+      "spans-all-column": false,
+      "wrap": false,
+      "random": false
+    },
+    "table-item": {
+      "spans-one-column": true,
+      "spans-all-column": false,
+      "wrap": false,
+      "random": false
+    }
+  },
+  "item-style": {
+    "figure-item": {
+      "spans-one-column": {
+        "font-color": "blue",
+        "font-size": 11,
+        "font-style": "ezra sil",
+        "position": "center",
+        "size": 90
+      },
+      "spans-all-column": {
+        "font-color": "blue",
+        "font-size": 11,
+        "font-style": "ezra sil",
+        "position": "center",
+        "size": 100
+      },
+      "wrap": {
+        "font-color": "blue",
+        "font-size": 11,
+        "font-style": "ezra sil",
+        "position": "right",
+        "size": 80
+      }
+    },
+    "table-item": {
+      "spans-one-column": {
+        "font-color": "blue",
+        "font-size": 11,
+        "font-style": "ezra sil"
+      },
+      "spans-all-column": {
+        "font-color": "blue",
+        "font-size": 11,
+        "font-style": "ezra sil"
+      },
+      "wrap": {
+        "font-color": "blue",
+        "font-size": 11,
+        "font-style": "ezra sil"
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "template-name": "portrait_3col_persian_shabnam_red",
+  "description": "Two-column Persian template with Shabnam font",
+  "inactive-items": [],
+  "language": "persian",
+  "excluded-reading-order-items": [
+    "page-header",
+    "page-footer"
+  ],
+  "layout-style": {
+    "page-format": "portrait",
+    "num-columns": 3,
+    "has-line-numbers": false,
+    "font-color": "red",
+    "font-size": 11,
+    "font-style": "Shabnam",
+    "chart-flag": false
+  },
+  "background-mode": "color",
+  "background-color": "red!3",
+  "line-numbers": {
+    "are-displayed": false,
+    "are-included-in-reading-order": false
+  },
+  "item-position": {
+    "figure-item": {
+      "spans-one-column": true,
+      "spans-all-column": false,
+      "wrap": false,
+      "random": true
+    },
+    "table-item": {
+      "spans-one-column": false,
+      "spans-all-column": true,
+      "wrap": false,
+      "random": false
+    }
+  },
+  "item-style": {
+    "figure-item": {
+      "spans-one-column": {
+        "font-color": "red",
+        "font-size": 10,
+        "font-style": "Shabnam",
+        "position": "center",
+        "size": 95
+      },
+      "spans-all-column": {
+        "font-color": "red",
+        "font-size": 10,
+        "font-style": "Shabnam",
+        "position": "center",
+        "size": 85
+      },
+      "wrap": {
+        "font-color": "red",
+        "font-size": 10,
+        "font-style": "Shabnam",
+        "position": "right",
+        "size": 70
+      }
+    },
+    "table-item": {
+      "spans-one-column": {
+        "font-color": "red",
+        "font-size": 10,
+        "font-style": "Shabnam"
+      },
+      "spans-all-column": {
+        "font-color": "red",
+        "font-size": 10,
+        "font-style": "Shabnam"
+      },
+      "wrap": {
+        "font-color": "red",
+        "font-size": 10,
+        "font-style": "Shabnam"
+      }
+    }
+  }
+}
