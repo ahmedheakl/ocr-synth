@@ -1,6 +1,6 @@
 {
-  "template-name": "portrait_1col_persian_vazirmatn_black",
-  "description": "Two-column Persian template with vazirmatn font",
+  "template-name": "portrait_3col_persian_tanha_blue",
+  "description": "Two-column Persian template with tanha font",
   "inactive-items": [],
   "language": "persian",
   "excluded-reading-order-items": [
@@ -9,11 +9,11 @@
   ],
   "layout-style": {
     "page-format": "portrait",
-    "num-columns": 1,
+    "num-columns": 3,
     "has-line-numbers": false,
-    "font-color": "darkblue",
+    "font-color": "blue",
     "font-size": 11,
-    "font-style": "samim",
+    "font-style": "tanha",
     "chart-flag": false
   },
   "background-mode": "color",
@@ -39,42 +39,42 @@
   "item-style": {
     "figure-item": {
       "spans-one-column": {
-        "font-color": "darkblue",
+        "font-color": "blue",
         "font-size": 10,
-        "font-style": "samim",
+        "font-style": "tanha",
         "position": "center",
         "size": 95
       },
       "spans-all-column": {
-        "font-color": "darkblue",
+        "font-color": "blue",
         "font-size": 10,
-        "font-style": "samim",
+        "font-style": "tanha",
         "position": "center",
         "size": 85
       },
       "wrap": {
-        "font-color": "darkblue",
+        "font-color": "blue",
         "font-size": 10,
-        "font-style": "samim",
+        "font-style": "tanha",
         "position": "right",
         "size": 70
       }
     },
     "table-item": {
       "spans-one-column": {
-        "font-color": "darkblue",
+        "font-color": "blue",
         "font-size": 10,
-        "font-style": "samim"
+        "font-style": "tanha"
       },
       "spans-all-column": {
-        "font-color": "darkblue",
+        "font-color": "blue",
         "font-size": 10,
-        "font-style": "samim"
+        "font-style": "tanha"
       },
       "wrap": {
-        "font-color": "darkblue",
+        "font-color": "blue",
         "font-size": 10,
-        "font-style": "samim"
+        "font-style": "tanha"
       }
     }
   }

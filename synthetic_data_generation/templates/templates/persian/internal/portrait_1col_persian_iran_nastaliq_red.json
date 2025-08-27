@@ -1,0 +1,81 @@
+{
+  "template-name": "portrait_1col_persian_iran_nastaliq_red",
+  "description": "Two-column Persian template with iran nastaliq font",
+  "inactive-items": [],
+  "language": "persian",
+  "excluded-reading-order-items": [
+    "page-header",
+    "page-footer"
+  ],
+  "layout-style": {
+    "page-format": "portrait",
+    "num-columns": 1,
+    "has-line-numbers": false,
+    "font-color": "red",
+    "font-size": 11,
+    "font-style": "iran nastaliq",
+    "chart-flag": false
+  },
+  "background-mode": "color",
+  "background-color": "red!3",
+  "line-numbers": {
+    "are-displayed": false,
+    "are-included-in-reading-order": false
+  },
+  "item-position": {
+    "figure-item": {
+      "spans-one-column": true,
+      "spans-all-column": false,
+      "wrap": false,
+      "random": true
+    },
+    "table-item": {
+      "spans-one-column": false,
+      "spans-all-column": true,
+      "wrap": false,
+      "random": false
+    }
+  },
+  "item-style": {
+    "figure-item": {
+      "spans-one-column": {
+        "font-color": "red",
+        "font-size": 10,
+        "font-style": "iran nastaliq",
+        "position": "center",
+        "size": 95
+      },
+      "spans-all-column": {
+        "font-color": "red",
+        "font-size": 10,
+        "font-style": "iran nastaliq",
+        "position": "center",
+        "size": 85
+      },
+      "wrap": {
+        "font-color": "red",
+        "font-size": 10,
+        "font-style": "iran nastaliq",
+        "position": "right",
+        "size": 70
+      }
+    },
+    "table-item": {
+      "spans-one-column": {
+        "font-color": "red",
+        "font-size": 10,
+        "font-style": "iran nastaliq"
+      },
+      "spans-all-column": {
+        "font-color": "red",
+        "font-size": 10,
+        "font-style": "iran nastaliq"
+      },
+      "wrap": {
+        "font-color": "red",
+        "font-size": 10,
+        "font-style": "iran nastaliq"
+      }
+    }
+  }
+}
