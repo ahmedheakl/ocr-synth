@@ -35,7 +35,7 @@ class CustomDocument(Document):
 
     def _set_style(self):
         layout_settings = Template().get_layout_settings()
-        # self._set_background_style(layout_settings)
+        self._set_background_style(layout_settings)
         self._set_font_color(layout_settings)
         self._set_font_size(layout_settings)
         self._set_font_style(layout_settings)

@@ -69,3 +69,6 @@ class TemplateKeys:
     RANDOM = "random"
 
     CHART_FLAG = "chart-flag"   
+
+    BACKGROUND_MODE = "background-mode"
+    BACKGROUND_COLOR = "background-color"
