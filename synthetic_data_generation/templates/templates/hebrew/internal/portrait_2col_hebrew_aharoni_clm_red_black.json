@@ -1,0 +1,80 @@
+{
+  "template-name": "portrait_2col_hebrew_aharoni_clm_red_black",
+  "inactive-items": [],
+  "language": "hebrew",
+  "excluded-reading-order-items": [
+    "page-header",
+    "page-footer"
+  ],
+  "layout-style": {
+    "page-format": "portrait",
+    "num-columns": 2,
+    "has-line-numbers": false,
+    "font-color": "red",
+    "font-size": 12,
+    "font-style": "Aharoni CLM",
+    "chart-flag": false
+  },
+  "background-mode": "color",
+  "background-color": "black",
+  "line-numbers": {
+    "are-displayed": false,
+    "are-included-in-reading-order": false
+  },
+  "item-position": {
+    "figure-item": {
+      "spans-one-column": true,
+      "spans-all-column": false,
+      "wrap": false,
+      "random": false
+    },
+    "table-item": {
+      "spans-one-column": true,
+      "spans-all-column": false,
+      "wrap": false,
+      "random": false
+    }
+  },
+  "item-style": {
+    "figure-item": {
+      "spans-one-column": {
+        "font-color": "red",
+        "font-size": 11,
+        "font-style": "Aharoni CLM",
+        "position": "center",
+        "size": 90
+      },
+      "spans-all-column": {
+        "font-color": "red",
+        "font-size": 11,
+        "font-style": "Aharoni CLM",
+        "position": "center",
+        "size": 100
+      },
+      "wrap": {
+        "font-color": "red",
+        "font-size": 11,
+        "font-style": "Aharoni CLM",
+        "position": "right",
+        "size": 80
+      }
+    },
+    "table-item": {
+      "spans-one-column": {
+        "font-color": "red",
+        "font-size": 11,
+        "font-style": "Aharoni CLM"
+      },
+      "spans-all-column": {
+        "font-color": "red",
+        "font-size": 11,
+        "font-style": "Aharoni CLM"
+      },
+      "wrap": {
+        "font-color": "red",
+        "font-size": 11,
+        "font-style": "Aharoni CLM"
+      }
+    }
+  }
+}
