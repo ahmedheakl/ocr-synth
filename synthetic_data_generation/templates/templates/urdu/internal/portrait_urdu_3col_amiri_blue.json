@@ -1,5 +1,5 @@
 {
-    "template-name": "portrait_urdu_2col_amiri_mixed_colors",
+    "template-name": "portrait_urdu_3col_amiri_blue.json",
     "inactive-items": [],
     "language": "urdu",
     "excluded-reading-order-items": [
@@ -8,15 +8,15 @@
     ],
     "layout-style": {
       "page-format": "portrait",
-      "num-columns": 2,
+      "num-columns": 3,
       "has-line-numbers": false,
-      "font-color": "darkslategray",
+      "font-color": "blue",
       "font-size": 12,
       "font-style": "amiri",
       "chart-flag": false
     },
     "background-mode": "color",
-    "background-color": "mintcream",
+    "background-color": "white",
     "line-numbers": {
       "are-displayed": false,
       "are-included-in-reading-order": false
@@ -26,53 +26,53 @@
         "spans-one-column": true,
         "spans-all-column": false,
         "wrap": false,
-        "random": true
+        "random": false
       },
       "table-item": {
         "spans-one-column": true,
         "spans-all-column": false,
         "wrap": false,
-        "random": true
+        "random": false
       }
     },
     "item-style": {
       "figure-item": {
         "spans-one-column": {
-          "font-color": "purple",
-          "font-size": 11,
+          "font-color": "blue",
+          "font-size": 10,
           "font-style": "amiri",
           "position": "center",
-          "size": 90
+          "size": 80
         },
         "spans-all-column": {
-          "font-color": "purple",
+          "font-color": "blue",
           "font-size": 11,
           "font-style": "amiri",
           "position": "center",
           "size": 100
         },
         "wrap": {
-          "font-color": "purple",
-          "font-size": 11,
+          "font-color": "blue",
+          "font-size": 10,
           "font-style": "amiri",
           "position": "right",
-          "size": 80
+          "size": 70
         }
       },
       "table-item": {
         "spans-one-column": {
-          "font-color": "maroon",
-          "font-size": 11,
+          "font-color": "blue",
+          "font-size": 10,
           "font-style": "amiri"
         },
         "spans-all-column": {
-          "font-color": "maroon",
+          "font-color": "blue",
           "font-size": 11,
           "font-style": "amiri"
         },
         "wrap": {
-          "font-color": "maroon",
-          "font-size": 11,
+          "font-color": "blue",
+          "font-size": 10,
           "font-style": "amiri"
         }
       }

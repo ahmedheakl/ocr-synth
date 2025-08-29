@@ -1,0 +1,77 @@
+{
+    "template-name": "portrait_urdu_2col_amiri_blue_gray",
+    "inactive-items": [],
+    "language": "urdu",
+    "excluded-reading-order-items": ["page-header", "page-footer"],
+    "layout-style": {
+      "page-format": "portrait",
+      "num-columns": 2,
+      "has-line-numbers": false,
+      "font-color": "blue",
+      "font-size": 16,
+      "font-style": "amiri",
+      "chart-flag": false
+    },
+    "background-mode": "color",
+    "background-color": "gray!10",
+    "line-numbers": {
+      "are-displayed": false,
+      "are-included-in-reading-order": false
+    },
+    "item-position": {
+      "figure-item": {
+        "spans-one-column": true,
+        "spans-all-column": false,
+        "wrap": false,
+        "random": false
+      },
+      "table-item": {
+        "spans-one-column": true,
+        "spans-all-column": false,
+        "wrap": false,
+        "random": false
+      }
+    },
+    "item-style": {
+      "figure-item": {
+        "spans-one-column": {
+          "font-color": "blue",
+          "font-size": 14,
+          "font-style": "amiri",
+          "position": "center",
+          "size": 100
+        },
+        "spans-all-column": {
+          "font-color": "blue",
+          "font-size": 14,
+          "font-style": "amiri",
+          "position": "center",
+          "size": 100
+        },
+        "wrap": {
+          "font-color": "blue",
+          "font-size": 14,
+          "font-style": "amiri",
+          "position": "right",
+          "size": 100
+        }
+      },
+      "table-item": {
+        "spans-one-column": {
+          "font-color": "blue",
+          "font-size": 14,
+          "font-style": "amiri"
+        },
+        "spans-all-column": {
+          "font-color": "blue",
+          "font-size": 14,
+          "font-style": "amiri"
+        },
+        "wrap": {
+          "font-color": "blue",
+          "font-size": 14,
+          "font-style": "amiri"
+        }
+      }
+    }
+  }

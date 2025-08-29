@@ -1,5 +1,5 @@
 {
-    "template-name": "portrait_urdu_2col_freeserif_brown",
+    "template-name": "portrait_urdu_3col_kufi_black.json",
     "inactive-items": [],
     "language": "urdu",
     "excluded-reading-order-items": [
@@ -8,29 +8,29 @@
     ],
     "layout-style": {
       "page-format": "portrait",
-      "num-columns": 2,
+      "num-columns": 3,
       "has-line-numbers": false,
-      "font-color": "brown",
-      "font-size": 11,
-      "font-style": "freeserif",
+      "font-color": "black",
+      "font-size": 12,
+      "font-style": "reem kufi",
       "chart-flag": false
     },
     "background-mode": "color",
-    "background-color": "lightgray",
+    "background-color": "white",
     "line-numbers": {
       "are-displayed": false,
       "are-included-in-reading-order": false
     },
     "item-position": {
       "figure-item": {
-        "spans-one-column": false,
-        "spans-all-column": true,
+        "spans-one-column": true,
+        "spans-all-column": false,
         "wrap": false,
         "random": false
       },
       "table-item": {
-        "spans-one-column": false,
-        "spans-all-column": true,
+        "spans-one-column": true,
+        "spans-all-column": false,
         "wrap": false,
         "random": false
       }
@@ -38,42 +38,42 @@
     "item-style": {
       "figure-item": {
         "spans-one-column": {
-          "font-color": "brown",
+          "font-color": "black",
           "font-size": 10,
-          "font-style": "freeserif",
+          "font-style": "reem kufi",
           "position": "center",
           "size": 80
         },
         "spans-all-column": {
-          "font-color": "brown",
+          "font-color": "black",
           "font-size": 11,
-          "font-style": "freeserif",
+          "font-style": "reem kufi",
           "position": "center",
           "size": 100
         },
         "wrap": {
-          "font-color": "brown",
+          "font-color": "black",
           "font-size": 10,
-          "font-style": "freeserif",
+          "font-style": "reem kufi",
           "position": "right",
-          "size": 90
+          "size": 70
         }
       },
       "table-item": {
         "spans-one-column": {
-          "font-color": "brown",
+          "font-color": "black",
           "font-size": 10,
-          "font-style": "freeserif"
+          "font-style": "reem kufi"
         },
         "spans-all-column": {
-          "font-color": "brown",
+          "font-color": "black",
           "font-size": 11,
-          "font-style": "freeserif"
+          "font-style": "reem kufi"
         },
         "wrap": {
-          "font-color": "brown",
+          "font-color": "black",
           "font-size": 10,
-          "font-style": "freeserif"
+          "font-style": "reem kufi"
         }
       }
     }

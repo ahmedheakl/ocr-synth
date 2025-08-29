@@ -1,5 +1,5 @@
 {
-    "template-name": "portrait_urdu_1col_kacst_blue",
+    "template-name": "portrait_urdu_1col_amiri_blue_gray",
     "inactive-items": [],
     "language": "urdu",
     "excluded-reading-order-items": ["page-header", "page-footer"],
@@ -9,11 +9,11 @@
       "has-line-numbers": false,
       "font-color": "blue",
       "font-size": 16,
-      "font-style": "KacstQurn",
+      "font-style": "amiri",
       "chart-flag": false
     },
     "background-mode": "color",
-    "background-color": "yellow",
+    "background-color": "gray!10",
     "line-numbers": {
       "are-displayed": false,
       "are-included-in-reading-order": false
@@ -37,21 +37,21 @@
         "spans-one-column": {
           "font-color": "blue",
           "font-size": 14,
-          "font-style": "KacstQurn",
+          "font-style": "amiri",
           "position": "center",
           "size": 100
         },
         "spans-all-column": {
           "font-color": "blue",
           "font-size": 14,
-          "font-style": "KacstQurn",
+          "font-style": "amiri",
           "position": "center",
           "size": 100
         },
         "wrap": {
           "font-color": "blue",
           "font-size": 14,
-          "font-style": "KacstQurn",
+          "font-style": "amiri",
           "position": "right",
           "size": 100
         }
@@ -60,17 +60,17 @@
         "spans-one-column": {
           "font-color": "blue",
           "font-size": 14,
-          "font-style": "KacstQurn"
+          "font-style": "amiri"
         },
         "spans-all-column": {
           "font-color": "blue",
           "font-size": 14,
-          "font-style": "KacstQurn"
+          "font-style": "amiri"
         },
         "wrap": {
           "font-color": "blue",
           "font-size": 14,
-          "font-style": "KacstQurn"
+          "font-style": "amiri"
         }
       }
     }

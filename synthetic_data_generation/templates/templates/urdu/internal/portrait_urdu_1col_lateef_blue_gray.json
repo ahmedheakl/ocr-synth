@@ -1,0 +1,77 @@
+{
+    "template-name": "portrait_urdu_1col_lateef_blue_gray",
+    "inactive-items": [],
+    "language": "urdu",
+    "excluded-reading-order-items": ["page-header", "page-footer"],
+    "layout-style": {
+      "page-format": "portrait",
+      "num-columns": 1,
+      "has-line-numbers": false,
+      "font-color": "blue",
+      "font-size": 16,
+      "font-style": "lateef",
+      "chart-flag": false
+    },
+    "background-mode": "color",
+    "background-color": "gray!10",
+    "line-numbers": {
+      "are-displayed": false,
+      "are-included-in-reading-order": false
+    },
+    "item-position": {
+      "figure-item": {
+        "spans-one-column": true,
+        "spans-all-column": false,
+        "wrap": false,
+        "random": false
+      },
+      "table-item": {
+        "spans-one-column": true,
+        "spans-all-column": false,
+        "wrap": false,
+        "random": false
+      }
+    },
+    "item-style": {
+      "figure-item": {
+        "spans-one-column": {
+          "font-color": "blue",
+          "font-size": 14,
+          "font-style": "lateef",
+          "position": "center",
+          "size": 100
+        },
+        "spans-all-column": {
+          "font-color": "blue",
+          "font-size": 14,
+          "font-style": "lateef",
+          "position": "center",
+          "size": 100
+        },
+        "wrap": {
+          "font-color": "blue",
+          "font-size": 14,
+          "font-style": "lateef",
+          "position": "right",
+          "size": 100
+        }
+      },
+      "table-item": {
+        "spans-one-column": {
+          "font-color": "blue",
+          "font-size": 14,
+          "font-style": "lateef"
+        },
+        "spans-all-column": {
+          "font-color": "blue",
+          "font-size": 14,
+          "font-style": "lateef"
+        },
+        "wrap": {
+          "font-color": "blue",
+          "font-size": 14,
+          "font-style": "lateef"
+        }
+      }
+    }
+  }

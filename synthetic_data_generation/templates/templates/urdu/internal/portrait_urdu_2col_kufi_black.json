@@ -1,19 +1,22 @@
 {
-    "template-name": "portrait_urdu_2col_kacst_green",
+    "template-name": "portrait_urdu_2col_kufi_black.json",
     "inactive-items": [],
     "language": "urdu",
-    "excluded-reading-order-items": ["page-header", "page-footer"],
+    "excluded-reading-order-items": [
+      "page-header",
+      "page-footer"
+    ],
     "layout-style": {
       "page-format": "portrait",
       "num-columns": 2,
       "has-line-numbers": false,
-      "font-color": "green",
-      "font-size": 16,
-      "font-style": "KacstQurn",
+      "font-color": "black",
+      "font-size": 12,
+      "font-style": "reem kufi",
       "chart-flag": false
     },
     "background-mode": "color",
-    "background-color": "yellow",
+    "background-color": "white",
     "line-numbers": {
       "are-displayed": false,
       "are-included-in-reading-order": false
@@ -35,42 +38,42 @@
     "item-style": {
       "figure-item": {
         "spans-one-column": {
-          "font-color": "green",
-          "font-size": 14,
-          "font-style": "KacstQurn",
+          "font-color": "black",
+          "font-size": 10,
+          "font-style": "reem kufi",
           "position": "center",
-          "size": 100
+          "size": 80
         },
         "spans-all-column": {
-          "font-color": "green",
-          "font-size": 14,
-          "font-style": "KacstQurn",
+          "font-color": "black",
+          "font-size": 11,
+          "font-style": "reem kufi",
           "position": "center",
           "size": 100
         },
         "wrap": {
-          "font-color": "green",
-          "font-size": 14,
-          "font-style": "KacstQurn",
+          "font-color": "black",
+          "font-size": 10,
+          "font-style": "reem kufi",
           "position": "right",
-          "size": 100
+          "size": 70
         }
       },
       "table-item": {
         "spans-one-column": {
-          "font-color": "green",
-          "font-size": 14,
-          "font-style": "KacstQurn"
+          "font-color": "black",
+          "font-size": 10,
+          "font-style": "reem kufi"
         },
         "spans-all-column": {
-          "font-color": "green",
-          "font-size": 14,
-          "font-style": "KacstQurn"
+          "font-color": "black",
+          "font-size": 11,
+          "font-style": "reem kufi"
         },
         "wrap": {
-          "font-color": "green",
-          "font-size": 14,
-          "font-style": "KacstQurn"
+          "font-color": "black",
+          "font-size": 10,
+          "font-style": "reem kufi"
         }
       }
     }

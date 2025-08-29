@@ -1,5 +1,5 @@
 {
-    "template-name": "landscape_urdu_2col_amiri_bold_navy",
+    "template-name": "portrait_urdu_2col_reem kufi_blue.json",
     "inactive-items": [],
     "language": "urdu",
     "excluded-reading-order-items": [
@@ -7,16 +7,16 @@
       "page-footer"
     ],
     "layout-style": {
-      "page-format": "landscape",
+      "page-format": "portrait",
       "num-columns": 2,
       "has-line-numbers": false,
-      "font-color": "navy",
-      "font-size": 13,
-      "font-style": "amiri bold",
+      "font-color": "blue",
+      "font-size": 12,
+      "font-style": "reem kufi",
       "chart-flag": false
     },
     "background-mode": "color",
-    "background-color": "lightblue",
+    "background-color": "white",
     "line-numbers": {
       "are-displayed": false,
       "are-included-in-reading-order": false
@@ -25,7 +25,7 @@
       "figure-item": {
         "spans-one-column": true,
         "spans-all-column": false,
-        "wrap": true,
+        "wrap": false,
         "random": false
       },
       "table-item": {
@@ -38,42 +38,42 @@
     "item-style": {
       "figure-item": {
         "spans-one-column": {
-          "font-color": "navy",
-          "font-size": 11,
-          "font-style": "amiri bold",
+          "font-color": "blue",
+          "font-size": 10,
+          "font-style": "reem kufi",
           "position": "center",
           "size": 80
         },
         "spans-all-column": {
-          "font-color": "navy",
-          "font-size": 12,
-          "font-style": "amiri bold",
+          "font-color": "blue",
+          "font-size": 11,
+          "font-style": "reem kufi",
           "position": "center",
           "size": 100
         },
         "wrap": {
-          "font-color": "navy",
-          "font-size": 11,
-          "font-style": "amiri bold",
+          "font-color": "blue",
+          "font-size": 10,
+          "font-style": "reem kufi",
           "position": "right",
-          "size": 60
+          "size": 70
         }
       },
       "table-item": {
         "spans-one-column": {
-          "font-color": "navy",
-          "font-size": 11,
-          "font-style": "amiri bold"
+          "font-color": "blue",
+          "font-size": 10,
+          "font-style": "reem kufi"
         },
         "spans-all-column": {
-          "font-color": "navy",
-          "font-size": 12,
-          "font-style": "amiri bold"
+          "font-color": "blue",
+          "font-size": 11,
+          "font-style": "reem kufi"
         },
         "wrap": {
-          "font-color": "navy",
-          "font-size": 11,
-          "font-style": "amiri bold"
+          "font-color": "blue",
+          "font-size": 10,
+          "font-style": "reem kufi"
         }
       }
     }
