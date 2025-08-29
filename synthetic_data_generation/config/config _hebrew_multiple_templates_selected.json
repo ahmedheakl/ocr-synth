@@ -1,0 +1,68 @@
+{
+  "dataset-path": "/l/users/ahmed.heakl/khalil/ocr-synth/OCR_benchmarking/data_scraping/hebrew/html_doc_mixed_2",
+  "document-start-index": 0,
+  "stored-files": {
+    "pdf": true,
+    "tex": true,
+    "aux": true,
+    "log": true,
+    "pos": true,
+    "vis": true
+  },
+  "document-selection": {
+    "custom": {
+      "document-file-names": [
+        "40_section_001.json"
+      ]
+    }
+  }  ,
+ "template-selection": {
+      "official": {},
+      "internal": {
+        "custom": {
+          "template-names": [
+            "portrait_1col_hebrew_aharoni_clm_blue_gray.json",
+            "portrait_1col_hebrew_aharoni_clm_red_black.json",
+            "portrait_1col_hebrew_ezra_sil_blue_gray.json",
+            "portrait_1col_hebrew_ezra_sil_red_black.json",
+            "portrait_1col_hebrew_frank_ruehl_traditional_blue_gray.json",
+            "portrait_1col_hebrew_frank_ruehl_traditional_red_black.json",
+            "portrait_1col_hebrew_miriam_clm_blue_gray.json",
+            "portrait_1col_hebrew_miriam_clm_red_black.json",
+            "portrait_2col_hebrew_aharoni_clm_blue_gray.json",
+            "portrait_2col_hebrew_aharoni_clm_red_black.json",
+            "portrait_2col_hebrew_ezra_sil_blue_gray.json",
+            "portrait_2col_hebrew_ezra_sil_red_black.json",
+            "portrait_2col_hebrew_frank_ruehl_traditional_blue_gray.json",
+            "portrait_2col_hebrew_frank_ruehl_traditional_red_black.json",
+            "portrait_2col_hebrew_miriam_clm_blue_gray.json",
+            "portrait_2col_hebrew_miriam_clm_red_black.json",
+            "portrait_3col_hebrew_aharoni_clm_blue_gray.json",
+            "portrait_3col_hebrew_aharoni_clm_red_black.json",
+            "portrait_3col_hebrew_ezra_sil_blue_gray.json",
+            "portrait_3col_hebrew_ezra_sil_red_black.json",
+            "portrait_3col_hebrew_frank_ruehl_traditional_blue_gray.json",
+            "portrait_3col_hebrew_frank_ruehl_traditional_red_black.json",
+            "portrait_3col_hebrew_miriam_clm_blue_gray.json",
+            "portrait_3col_hebrew_miriam_clm_red_black.json"
+        ],
+          "num-instances": 1
+        }
+      },
+      "personal": {}
+    },
+  "export-data": {
+    "domain": "arabic-literature",
+    "dataset": "html-converted-docs",
+    "url": null,
+    "title": null,
+    "extra.category": null,
+    "extra.dpi": 150,
+    "extra.hap_confidence": null,
+    "extra.language": "AR"
+  },
+  "only_documents_with_tables": false,
+  "cutoff_date": "",
+  "template-name": "portrait_one_col_hebrew_template.json"
+
+}
