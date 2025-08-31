@@ -1,0 +1,5932 @@
+{
+  "schema_name": "DoclingDocument",
+  "version": "1.2.0",
+  "name": "ar_2.docx",
+  "origin": {
+    "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "binary_hash": "e68a5f5ccef58f6d3c7353bec5797b2a",
+    "filename": "ar_2.docx"
+  },
+  "furnitures": {},
+  "body": {
+    "self_ref": "#/body",
+    "children": [
+      {
+        "$ref": "#/texts/0"
+      },
+      {
+        "$ref": "#/texts/2"
+      },
+      {
+        "$ref": "#/texts/4"
+      },
+      {
+        "$ref": "#/tables/0"
+      },
+      {
+        "$ref": "#/texts/6"
+      },
+      {
+        "$ref": "#/texts/8"
+      },
+      {
+        "$ref": "#/texts/10"
+      },
+      {
+        "$ref": "#/texts/12"
+      },
+      {
+        "$ref": "#/texts/14"
+      },
+      {
+        "$ref": "#/texts/16"
+      },
+      {
+        "$ref": "#/texts/18"
+      },
+      {
+        "$ref": "#/texts/20"
+      },
+      {
+        "$ref": "#/texts/22"
+      },
+      {
+        "$ref": "#/texts/24"
+      },
+      {
+        "$ref": "#/texts/26"
+      },
+      {
+        "$ref": "#/texts/28"
+      },
+      {
+        "$ref": "#/texts/30"
+      },
+      {
+        "$ref": "#/texts/32"
+      },
+      {
+        "$ref": "#/texts/34"
+      },
+      {
+        "$ref": "#/texts/36"
+      },
+      {
+        "$ref": "#/texts/38"
+      },
+      {
+        "$ref": "#/texts/40"
+      },
+      {
+        "$ref": "#/texts/42"
+      },
+      {
+        "$ref": "#/texts/44"
+      },
+      {
+        "$ref": "#/texts/46"
+      },
+      {
+        "$ref": "#/texts/48"
+      },
+      {
+        "$ref": "#/texts/50"
+      },
+      {
+        "$ref": "#/texts/52"
+      },
+      {
+        "$ref": "#/texts/54"
+      },
+      {
+        "$ref": "#/texts/56"
+      },
+      {
+        "$ref": "#/texts/58"
+      },
+      {
+        "$ref": "#/texts/60"
+      },
+      {
+        "$ref": "#/texts/62"
+      },
+      {
+        "$ref": "#/texts/64"
+      },
+      {
+        "$ref": "#/texts/66"
+      },
+      {
+        "$ref": "#/texts/68"
+      },
+      {
+        "$ref": "#/texts/70"
+      },
+      {
+        "$ref": "#/texts/72"
+      },
+      {
+        "$ref": "#/texts/74"
+      },
+      {
+        "$ref": "#/texts/76"
+      },
+      {
+        "$ref": "#/texts/78"
+      },
+      {
+        "$ref": "#/texts/80"
+      },
+      {
+        "$ref": "#/texts/82"
+      },
+      {
+        "$ref": "#/texts/84"
+      },
+      {
+        "$ref": "#/texts/86"
+      },
+      {
+        "$ref": "#/texts/88"
+      },
+      {
+        "$ref": "#/texts/90"
+      },
+      {
+        "$ref": "#/texts/92"
+      },
+      {
+        "$ref": "#/texts/94"
+      },
+      {
+        "$ref": "#/texts/96"
+      },
+      {
+        "$ref": "#/texts/98"
+      },
+      {
+        "$ref": "#/texts/100"
+      },
+      {
+        "$ref": "#/texts/102"
+      },
+      {
+        "$ref": "#/texts/104"
+      },
+      {
+        "$ref": "#/texts/106"
+      },
+      {
+        "$ref": "#/texts/108"
+      },
+      {
+        "$ref": "#/texts/110"
+      },
+      {
+        "$ref": "#/texts/112"
+      },
+      {
+        "$ref": "#/texts/114"
+      },
+      {
+        "$ref": "#/texts/116"
+      },
+      {
+        "$ref": "#/texts/118"
+      },
+      {
+        "$ref": "#/texts/120"
+      },
+      {
+        "$ref": "#/texts/122"
+      },
+      {
+        "$ref": "#/texts/124"
+      },
+      {
+        "$ref": "#/texts/126"
+      },
+      {
+        "$ref": "#/texts/128"
+      },
+      {
+        "$ref": "#/texts/130"
+      },
+      {
+        "$ref": "#/texts/132"
+      },
+      {
+        "$ref": "#/texts/134"
+      },
+      {
+        "$ref": "#/texts/136"
+      },
+      {
+        "$ref": "#/texts/138"
+      },
+      {
+        "$ref": "#/texts/140"
+      },
+      {
+        "$ref": "#/texts/142"
+      },
+      {
+        "$ref": "#/texts/144"
+      },
+      {
+        "$ref": "#/texts/146"
+      },
+      {
+        "$ref": "#/texts/148"
+      },
+      {
+        "$ref": "#/tables/1"
+      },
+      {
+        "$ref": "#/texts/150"
+      },
+      {
+        "$ref": "#/texts/152"
+      },
+      {
+        "$ref": "#/texts/154"
+      },
+      {
+        "$ref": "#/texts/156"
+      },
+      {
+        "$ref": "#/texts/158"
+      },
+      {
+        "$ref": "#/texts/160"
+      },
+      {
+        "$ref": "#/texts/162"
+      },
+      {
+        "$ref": "#/texts/164"
+      },
+      {
+        "$ref": "#/texts/166"
+      },
+      {
+        "$ref": "#/texts/168"
+      },
+      {
+        "$ref": "#/texts/170"
+      },
+      {
+        "$ref": "#/texts/172"
+      },
+      {
+        "$ref": "#/texts/174"
+      },
+      {
+        "$ref": "#/texts/176"
+      },
+      {
+        "$ref": "#/texts/178"
+      },
+      {
+        "$ref": "#/texts/180"
+      },
+      {
+        "$ref": "#/pictures/0"
+      },
+      {
+        "$ref": "#/texts/182"
+      },
+      {
+        "$ref": "#/texts/184"
+      },
+      {
+        "$ref": "#/texts/186"
+      },
+      {
+        "$ref": "#/texts/188"
+      },
+      {
+        "$ref": "#/texts/190"
+      },
+      {
+        "$ref": "#/texts/192"
+      },
+      {
+        "$ref": "#/texts/194"
+      },
+      {
+        "$ref": "#/texts/196"
+      },
+      {
+        "$ref": "#/texts/198"
+      },
+      {
+        "$ref": "#/texts/200"
+      },
+      {
+        "$ref": "#/tables/2"
+      },
+      {
+        "$ref": "#/texts/202"
+      },
+      {
+        "$ref": "#/texts/204"
+      },
+      {
+        "$ref": "#/texts/206"
+      },
+      {
+        "$ref": "#/texts/208"
+      },
+      {
+        "$ref": "#/texts/210"
+      },
+      {
+        "$ref": "#/texts/212"
+      },
+      {
+        "$ref": "#/texts/214"
+      },
+      {
+        "$ref": "#/texts/216"
+      },
+      {
+        "$ref": "#/pictures/1"
+      },
+      {
+        "$ref": "#/pictures/2"
+      },
+      {
+        "$ref": "#/texts/218"
+      },
+      {
+        "$ref": "#/texts/220"
+      },
+      {
+        "$ref": "#/texts/222"
+      },
+      {
+        "$ref": "#/pictures/3"
+      },
+      {
+        "$ref": "#/pictures/4"
+      },
+      {
+        "$ref": "#/texts/224"
+      },
+      {
+        "$ref": "#/texts/226"
+      },
+      {
+        "$ref": "#/pictures/5"
+      },
+      {
+        "$ref": "#/pictures/6"
+      },
+      {
+        "$ref": "#/texts/228"
+      },
+      {
+        "$ref": "#/texts/230"
+      },
+      {
+        "$ref": "#/texts/232"
+      },
+      {
+        "$ref": "#/texts/234"
+      },
+      {
+        "$ref": "#/texts/236"
+      },
+      {
+        "$ref": "#/texts/238"
+      },
+      {
+        "$ref": "#/texts/240"
+      },
+      {
+        "$ref": "#/texts/242"
+      },
+      {
+        "$ref": "#/texts/244"
+      },
+      {
+        "$ref": "#/texts/246"
+      },
+      {
+        "$ref": "#/texts/248"
+      },
+      {
+        "$ref": "#/texts/250"
+      },
+      {
+        "$ref": "#/texts/252"
+      },
+      {
+        "$ref": "#/texts/254"
+      },
+      {
+        "$ref": "#/texts/256"
+      },
+      {
+        "$ref": "#/texts/258"
+      },
+      {
+        "$ref": "#/texts/260"
+      },
+      {
+        "$ref": "#/texts/262"
+      },
+      {
+        "$ref": "#/texts/264"
+      },
+      {
+        "$ref": "#/texts/266"
+      },
+      {
+        "$ref": "#/texts/268"
+      },
+      {
+        "$ref": "#/texts/270"
+      },
+      {
+        "$ref": "#/texts/272"
+      },
+      {
+        "$ref": "#/texts/274"
+      },
+      {
+        "$ref": "#/texts/276"
+      },
+      {
+        "$ref": "#/texts/278"
+      },
+      {
+        "$ref": "#/texts/280"
+      },
+      {
+        "$ref": "#/texts/282"
+      },
+      {
+        "$ref": "#/texts/284"
+      },
+      {
+        "$ref": "#/texts/286"
+      },
+      {
+        "$ref": "#/texts/288"
+      },
+      {
+        "$ref": "#/texts/290"
+      }
+    ],
+    "content_layer": "body",
+    "name": "_root_",
+    "label": "unspecified"
+  },
+  "groups": [],
+  "texts": [
+    {
+      "self_ref": "#/texts/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 50,
+            "r": 750,
+            "b": 70,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            66
+          ]
+        }
+      ],
+      "orig": "دراســة بعض المتغيرات الميكانيكية وعــلاقتها بالقــوة الانفجاريــة",
+      "text": "دراســة بعض المتغيرات الميكانيكية وعــلاقتها بالقــوة الانفجاريــة"
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 90,
+            "r": 750,
+            "b": 110,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "في الطيران الأول والـدخــول على حصــان القفـز في رياضــة الجمبـاز",
+      "text": "في الطيران الأول والـدخــول على حصــان القفـز في رياضــة الجمبـاز"
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 130,
+            "r": 750,
+            "b": 150,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            25
+          ]
+        }
+      ],
+      "orig": "زيــاد فـلاح الزيـــود  *",
+      "text": "زيــاد فـلاح الزيـــود  *"
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 170,
+            "r": 750,
+            "b": 190,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "الملخص",
+      "text": "الملخص"
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 210,
+            "r": 750,
+            "b": 230,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            220
+          ]
+        }
+      ],
+      "orig": "هدفت الدراسة للتعرف على مقدار القوة الانفجارية وعلاقتها في بعض المتغيرات الميكانيكية على حصان القفز في رياضة الجمباز، ومقارنة القوة لانفجارية وبعض المتغيرات الميكانيكية لكلى اللاعبين على جهاز حصان القفز في رياضة الجمباز.",
+      "text": "هدفت الدراسة للتعرف على مقدار القوة الانفجارية وعلاقتها في بعض المتغيرات الميكانيكية على حصان القفز في رياضة الجمباز، ومقارنة القوة لانفجارية وبعض المتغيرات الميكانيكية لكلى اللاعبين على جهاز حصان القفز في رياضة الجمباز."
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 250,
+            "r": 750,
+            "b": 270,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            203
+          ]
+        }
+      ],
+      "orig": "تم استخدم المنهج الوصفي لمناسبته لطبيعة الدراسة، وتكونت عينة الدراسة من طالبين من الطلاب المسجلين في مساق جمباز مستوى (2) في كلية التربية الرياضية في الجامعة الأردنية وهم من لاعبي المنتخب الوطني الأردني.",
+      "text": "تم استخدم المنهج الوصفي لمناسبته لطبيعة الدراسة، وتكونت عينة الدراسة من طالبين من الطلاب المسجلين في مساق جمباز مستوى (2) في كلية التربية الرياضية في الجامعة الأردنية وهم من لاعبي المنتخب الوطني الأردني."
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 290,
+            "r": 750,
+            "b": 310,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            194
+          ]
+        }
+      ],
+      "orig": "صورت المهارة على حصان القفز يوم الخميس الموافق 7/4/2016م من على بعد (5.50) م من بداية سلم القفز إلى نهاية الحصان على مستوى الحركة الجانبي. حيث تم استخدام برنامج التحليل (kinovea) للتحليل الحركي.",
+      "text": "صورت المهارة على حصان القفز يوم الخميس الموافق 7/4/2016م من على بعد (5.50) م من بداية سلم القفز إلى نهاية الحصان على مستوى الحركة الجانبي. حيث تم استخدام برنامج التحليل (kinovea) للتحليل الحركي."
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 330,
+            "r": 750,
+            "b": 350,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            346
+          ]
+        }
+      ],
+      "orig": "وأظهرت نتائج الدراسة أن زوايا أجسام اللاعبين عينة الدراسة كانت متباينة في مرحلتي الارتكاز على سلم القفز ومرحلة الطيران الأول مما أدى إلى تباين في ارتفاع مركز ثقلهم, وان لحظة لمس اللاعب لسلم القفز أو جهاز حصان القفز ولحظة الطيران بزوايا مناسبة وصحيحة ودون انثناءات زائدة تعطي كمية التحرك الزاوية المطلوبة لإنجاز الواجب الحركي بانسيابية  في الحركة.",
+      "text": "وأظهرت نتائج الدراسة أن زوايا أجسام اللاعبين عينة الدراسة كانت متباينة في مرحلتي الارتكاز على سلم القفز ومرحلة الطيران الأول مما أدى إلى تباين في ارتفاع مركز ثقلهم, وان لحظة لمس اللاعب لسلم القفز أو جهاز حصان القفز ولحظة الطيران بزوايا مناسبة وصحيحة ودون انثناءات زائدة تعطي كمية التحرك الزاوية المطلوبة لإنجاز الواجب الحركي بانسيابية  في الحركة."
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 370,
+            "r": 750,
+            "b": 390,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            70
+          ]
+        }
+      ],
+      "orig": "الكلمات الدالة: الجمباز، التحليل الحركي، حصان القفز، القوة الانفجارية.",
+      "text": "الكلمات الدالة: الجمباز، التحليل الحركي، حصان القفز، القوة الانفجارية.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 14,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 14,
+          "end": 16,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 16,
+          "end": 69,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 410,
+            "r": 750,
+            "b": 430,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "Abstract",
+      "text": "Abstract",
+      "spans": [
+        {
+          "start": 0,
+          "end": 8,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 450,
+            "r": 750,
+            "b": 470,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            296
+          ]
+        }
+      ],
+      "orig": "This study aimed at determining the explosive power of gymnastics athletes and  identifying its relationship to mechanical variables during the first flight and the entrance on the vaulting table. A secondary aim was to compare explosive power and mechanical variables of two gymnastics athletes.",
+      "text": "This study aimed at determining the explosive power of gymnastics athletes and  identifying its relationship to mechanical variables during the first flight and the entrance on the vaulting table. A secondary aim was to compare explosive power and mechanical variables of two gymnastics athletes.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 490,
+            "r": 750,
+            "b": 510,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            431
+          ]
+        }
+      ],
+      "orig": "A descriptive approach was used for the purposes of this study. Two students who were enrolled in the course of gymnastics (2) at the University of Jordan, and were participants in Jordanian Gymnastic National Team, were recruited. The participants were recorded, on the 7th of April 2016, at the distance of 5.5 meters far away from the spring board at sagittal plane. The researcher used Kiovea program for the movement analysis.",
+      "text": "A descriptive approach was used for the purposes of this study. Two students who were enrolled in the course of gymnastics (2) at the University of Jordan, and were participants in Jordanian Gymnastic National Team, were recruited. The participants were recorded, on the 7th of April 2016, at the distance of 5.5 meters far away from the spring board at sagittal plane. The researcher used Kiovea program for the movement analysis.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 530,
+            "r": 750,
+            "b": 550,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            352
+          ]
+        }
+      ],
+      "orig": "Different body angles at pivoting on spring board and first flight were found which resulted in dissimilar height of canter of gravity. Results also showed that being at the appropriate angles during touching the spring board, vaulting table, and first flight without bending body joints cause amount movement toward correct kinetic direction smoothly.",
+      "text": "Different body angles at pivoting on spring board and first flight were found which resulted in dissimilar height of canter of gravity. Results also showed that being at the appropriate angles during touching the spring board, vaulting table, and first flight without bending body joints cause amount movement toward correct kinetic direction smoothly.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 1,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 570,
+            "r": 750,
+            "b": 590,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "المـقـدمـــة :",
+      "text": "المـقـدمـــة :"
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 610,
+            "r": 750,
+            "b": 630,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            280
+          ]
+        }
+      ],
+      "orig": "إن للتقدم العلمي في هذا العصر فوائد كثيرة منها أنه مكننا من التخلص من التقديرات الشخصية والموضوعية على الأداء الذي يحاول كل لاعب تطويره ،حيث شهد قفزة هائلة شملت كافة المجالات والأنشطة المختلفة عامة والرياضية بخاصة بحيث يعطينا القدرة للتعرف على الأخطاء  في الأداء الحركي ومسبباته .",
+      "text": "إن للتقدم العلمي في هذا العصر فوائد كثيرة منها أنه مكننا من التخلص من التقديرات الشخصية والموضوعية على الأداء الذي يحاول كل لاعب تطويره ،حيث شهد قفزة هائلة شملت كافة المجالات والأنشطة المختلفة عامة والرياضية بخاصة بحيث يعطينا القدرة للتعرف على الأخطاء  في الأداء الحركي ومسبباته ."
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 650,
+            "r": 750,
+            "b": 670,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            322
+          ]
+        }
+      ],
+      "orig": "فالعالم وما شهده من تطورات في مختلف الألعاب الرياضية لم تكن وليدة الصدفة بل كان نتيجة الاستخدام المثالي للتكنولوجيا والأجهزة المخبرية في دراسة دقائق أجزاء الحركة موضوعيا، الذي أدى إلى تطور مستويات الأداء الحركي والفني للألعاب ،من خلال استغلال واستثمار القوى الذاتية في التغلب على المقاومات الخارجية المؤثرة ولصالح الإنجاز.",
+      "text": "فالعالم وما شهده من تطورات في مختلف الألعاب الرياضية لم تكن وليدة الصدفة بل كان نتيجة الاستخدام المثالي للتكنولوجيا والأجهزة المخبرية في دراسة دقائق أجزاء الحركة موضوعيا، الذي أدى إلى تطور مستويات الأداء الحركي والفني للألعاب ،من خلال استغلال واستثمار القوى الذاتية في التغلب على المقاومات الخارجية المؤثرة ولصالح الإنجاز."
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 690,
+            "r": 750,
+            "b": 710,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            334
+          ]
+        }
+      ],
+      "orig": "يشير (عطيات وطيفور، 2011) إلى أنه من أهم أهداف التحليل الحركي التعرف على الخصائص التكنيكية للمهارة أو التحليل بغرض الكشف عن عيوب الأداء، ويمكن بواسطة التحليل الحركي التعرف إلى النواحي الأساسية للحركة والتي تتعلق بمسار مركز الثقل وزمن الحركة والإزاحة، اضافة إلى مكونات ومركبات السرعة المختلفة وكلها عوامل هامة في جميع الحركات الرياضية.",
+      "text": "يشير (عطيات وطيفور، 2011) إلى أنه من أهم أهداف التحليل الحركي التعرف على الخصائص التكنيكية للمهارة أو التحليل بغرض الكشف عن عيوب الأداء، ويمكن بواسطة التحليل الحركي التعرف إلى النواحي الأساسية للحركة والتي تتعلق بمسار مركز الثقل وزمن الحركة والإزاحة، اضافة إلى مكونات ومركبات السرعة المختلفة وكلها عوامل هامة في جميع الحركات الرياضية."
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 730,
+            "r": 750,
+            "b": 750,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            282
+          ]
+        }
+      ],
+      "orig": "ولما كانت اللياقة البدنية من أهم المسببات في تطور الجانب الحركي والوصول لأعلى المستويات كان لابد من التركيز على العناصر منفردة لكي تتضح الصورة أكثر من حيث فائدة كل عنصر على حدا بحيث تحتل صفة القوة الانفجارية الصدارة من بين الصفات المهمة سواء من حيث الاقتراب والارتكاز على سلم القفز.",
+      "text": "ولما كانت اللياقة البدنية من أهم المسببات في تطور الجانب الحركي والوصول لأعلى المستويات كان لابد من التركيز على العناصر منفردة لكي تتضح الصورة أكثر من حيث فائدة كل عنصر على حدا بحيث تحتل صفة القوة الانفجارية الصدارة من بين الصفات المهمة سواء من حيث الاقتراب والارتكاز على سلم القفز."
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 770,
+            "r": 750,
+            "b": 790,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            283
+          ]
+        }
+      ],
+      "orig": "حيث أن القـوة الانفجاريـة كمفهوم لم ينفصل عن القوة المميزة بالسرعة إلا في السنوات القليلة الماضية، فكثيرا ما كان يعتقد بان  الصفتين  هما مصطلحان لصفة واحدة، وأشــار(محمد صبحي حسنين، 1987) في تعريفه للقوة المميزة بالسرعة أنها تعني \" القدرة على بذل أقصى درجة من الطاقة في أقل زمن ممكن.",
+      "text": "حيث أن القـوة الانفجاريـة كمفهوم لم ينفصل عن القوة المميزة بالسرعة إلا في السنوات القليلة الماضية، فكثيرا ما كان يعتقد بان  الصفتين  هما مصطلحان لصفة واحدة، وأشــار(محمد صبحي حسنين، 1987) في تعريفه للقوة المميزة بالسرعة أنها تعني \" القدرة على بذل أقصى درجة من الطاقة في أقل زمن ممكن."
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 810,
+            "r": 750,
+            "b": 830,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            93
+          ]
+        }
+      ],
+      "orig": "ويمكن التعرف عليها عن طريق بذل أقصى مقدرة للفرد في مجموعة حركات متتالية، وبحركات قوية وسريعة.",
+      "text": "ويمكن التعرف عليها عن طريق بذل أقصى مقدرة للفرد في مجموعة حركات متتالية، وبحركات قوية وسريعة."
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 850,
+            "r": 750,
+            "b": 870,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            245
+          ]
+        }
+      ],
+      "orig": "وأكد على ذلك (صبري و الكاتب، 1980) بقولهما  أن القوة السريعة تعني: \" التغلب على مقاومة خلال تأدية حركة فنية معينة وانجازها بأقصى سرعة واقصر زمن ممكن\"، وحيث أن القدرة الانفجارية تحتاج إلى عمل متفجر بمعنى يمكن أداؤها لمرة واحدة بأقصى قوة واقل زمن.",
+      "text": "وأكد على ذلك (صبري و الكاتب، 1980) بقولهما  أن القوة السريعة تعني: \" التغلب على مقاومة خلال تأدية حركة فنية معينة وانجازها بأقصى سرعة واقصر زمن ممكن\"، وحيث أن القدرة الانفجارية تحتاج إلى عمل متفجر بمعنى يمكن أداؤها لمرة واحدة بأقصى قوة واقل زمن."
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 890,
+            "r": 750,
+            "b": 910,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            575
+          ]
+        }
+      ],
+      "orig": "أن هذا النوع من القوة مهم للحركات الرياضية وخصوصا حركات القفز والوثب وذلك لكون هذا النوع من الحركات يتطلب أداء الحركة بقوة وسرعة، وكما يرى (علاوي، 2000)\" أنها تتضمن مزيجاً من القوة القصوى والسرعة في إطار حركي توافقي\". يتشابه هذا النوع من القوة مع القوة المميزة بالسرعة إذ يشير(قيس وبسطويسي، 1984) إلى: \"أن القوة المميزة بالسرعة عبارة عن إمكانية المجموعات العضلية في التغلب على مقاومات اقل من القصوى في فترة زمنية معينة أما القدرة الانفجارية فهي عبارة عن القوة القصوى المتفجرة اللحظية إذ نجدها من متطلبات الأداء المهاري لحظة البداية عند العدائين أو لحظة الارتقاء عند الواثبين.",
+      "text": "أن هذا النوع من القوة مهم للحركات الرياضية وخصوصا حركات القفز والوثب وذلك لكون هذا النوع من الحركات يتطلب أداء الحركة بقوة وسرعة، وكما يرى (علاوي، 2000)\" أنها تتضمن مزيجاً من القوة القصوى والسرعة في إطار حركي توافقي\". يتشابه هذا النوع من القوة مع القوة المميزة بالسرعة إذ يشير(قيس وبسطويسي، 1984) إلى: \"أن القوة المميزة بالسرعة عبارة عن إمكانية المجموعات العضلية في التغلب على مقاومات اقل من القصوى في فترة زمنية معينة أما القدرة الانفجارية فهي عبارة عن القوة القصوى المتفجرة اللحظية إذ نجدها من متطلبات الأداء المهاري لحظة البداية عند العدائين أو لحظة الارتقاء عند الواثبين."
+    },
+    {
+      "self_ref": "#/texts/44",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 930,
+            "r": 750,
+            "b": 950,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            282
+          ]
+        }
+      ],
+      "orig": "تعتبر رياضة الجمباز من الرياضات الصعبة نسبيا، والمتميزة بالأداء الفني بنسبة اكبر من أنواع أخرى من الرياضات ذات الحركة الوحيدة المتكررة، كالسباحة والمشي وسباق الدراجات الهوائية وجهاز حصان القفز أحد أجهزة الجمباز الستة للرجال، وتؤدي عليه قفزتين مختلفتين بالإضافة إلى القفزة الإجبارية.",
+      "text": "تعتبر رياضة الجمباز من الرياضات الصعبة نسبيا، والمتميزة بالأداء الفني بنسبة اكبر من أنواع أخرى من الرياضات ذات الحركة الوحيدة المتكررة، كالسباحة والمشي وسباق الدراجات الهوائية وجهاز حصان القفز أحد أجهزة الجمباز الستة للرجال، وتؤدي عليه قفزتين مختلفتين بالإضافة إلى القفزة الإجبارية."
+    },
+    {
+      "self_ref": "#/texts/46",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 970,
+            "r": 750,
+            "b": 990,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            304
+          ]
+        }
+      ],
+      "orig": "ويشير(شحرور، 2004م) \"بأن جهاز حصان القفز هو الجهاز الوحيد الذي تؤدى علية المهارة لمرة واحدة(One-shot)، وبسرعة كبيرة يصعب ملاحظة تفاصيلها الدقيقة بالعين المجردة وتعتمد هذه الرياضة في تحصيل النقاط على ملاحظة انسيابية الجسم وجمال الحركة ودرجة صعوبتها حسب الهدف من الحركة، إذن جسم اللاعب هو أداة تحقيق الهدف.",
+      "text": "ويشير(شحرور، 2004م) \"بأن جهاز حصان القفز هو الجهاز الوحيد الذي تؤدى علية المهارة لمرة واحدة(One-shot)، وبسرعة كبيرة يصعب ملاحظة تفاصيلها الدقيقة بالعين المجردة وتعتمد هذه الرياضة في تحصيل النقاط على ملاحظة انسيابية الجسم وجمال الحركة ودرجة صعوبتها حسب الهدف من الحركة، إذن جسم اللاعب هو أداة تحقيق الهدف."
+    },
+    {
+      "self_ref": "#/texts/48",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1010,
+            "r": 750,
+            "b": 1030,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            46
+          ]
+        }
+      ],
+      "orig": "النواحي الفنية  لمهارة حصان القفز في الجمباز :",
+      "text": "النواحي الفنية  لمهارة حصان القفز في الجمباز :",
+      "spans": [
+        {
+          "start": 44,
+          "end": 45,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 45,
+          "end": 46,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/50",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1050,
+            "r": 750,
+            "b": 1070,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            121
+          ]
+        }
+      ],
+      "orig": "يتفق كل من (حنتوش وسعودي، 1988) (أبوا لكشك، 1999) (خيون، 1998) على مراحل الخطوات الفنية في أداء القفز على حصان القفز هي :",
+      "text": "يتفق كل من (حنتوش وسعودي، 1988) (أبوا لكشك، 1999) (خيون، 1998) على مراحل الخطوات الفنية في أداء القفز على حصان القفز هي :"
+    },
+    {
+      "self_ref": "#/texts/52",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1090,
+            "r": 750,
+            "b": 1110,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            84
+          ]
+        }
+      ],
+      "orig": "الاقتراب، الارتقاء، الطيران الأول، دفع، الارتكاز على الحصان، الطيران الثاني، الهبوط.",
+      "text": "الاقتراب، الارتقاء، الطيران الأول، دفع، الارتكاز على الحصان، الطيران الثاني، الهبوط.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 9,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 9,
+          "end": 18,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 19,
+          "end": 20,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 20,
+          "end": 34,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 34,
+          "end": 35,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 35,
+          "end": 38,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 38,
+          "end": 39,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 39,
+          "end": 60,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 60,
+          "end": 61,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 61,
+          "end": 76,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 76,
+          "end": 77,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 77,
+          "end": 83,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 83,
+          "end": 84,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/54",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1130,
+            "r": 750,
+            "b": 1150,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            143
+          ]
+        }
+      ],
+      "orig": "أن النجاح في مهارة القفز على حصان القفز يعتمد على جملة متغيرات بعضها مستقلة كالقوة والسرعة ، وبعضها في حدود تحكم أو سيطرة اللاعب كالأداء الفني.",
+      "text": "أن النجاح في مهارة القفز على حصان القفز يعتمد على جملة متغيرات بعضها مستقلة كالقوة والسرعة ، وبعضها في حدود تحكم أو سيطرة اللاعب كالأداء الفني."
+    },
+    {
+      "self_ref": "#/texts/56",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1170,
+            "r": 750,
+            "b": 1190,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            559
+          ]
+        }
+      ],
+      "orig": "وعموما فاللاعب يبني طاقته الحركية أثناء الركضة التقربية ،تلك الطاقة تتجزأ أثناء مرحلة الارتقاء من لوحة القفز إلى حركة خطية وكمية تحرك زاوي ، هذه اللحظات تتحكم في نقل الحركة الخطية وكمية التحرك الزاوي في منصة القفز في حدود المحافظة على شكل المتطلبات المقيدة والمسافة بين لوحة النهوض ومنصة القفز أثناء الاتصال ( التماس ) بمنصة القفز فان اللاعب يتفاعل مع منصة القفز لتنقية متطلبات الحركة الخطية وكمية التحرك الزاوي في مرحلة الطيران الثاني لإنجاز ما تتطلبه القفزة من مسافة، ارتفاع، دورانات، وليتمكن اللاعب من الهبوط بأمان وبدون خطوات إضافية أو سقوط (شحرور، 2012).",
+      "text": "وعموما فاللاعب يبني طاقته الحركية أثناء الركضة التقربية ،تلك الطاقة تتجزأ أثناء مرحلة الارتقاء من لوحة القفز إلى حركة خطية وكمية تحرك زاوي ، هذه اللحظات تتحكم في نقل الحركة الخطية وكمية التحرك الزاوي في منصة القفز في حدود المحافظة على شكل المتطلبات المقيدة والمسافة بين لوحة النهوض ومنصة القفز أثناء الاتصال ( التماس ) بمنصة القفز فان اللاعب يتفاعل مع منصة القفز لتنقية متطلبات الحركة الخطية وكمية التحرك الزاوي في مرحلة الطيران الثاني لإنجاز ما تتطلبه القفزة من مسافة، ارتفاع، دورانات، وليتمكن اللاعب من الهبوط بأمان وبدون خطوات إضافية أو سقوط (شحرور، 2012)."
+    },
+    {
+      "self_ref": "#/texts/58",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1210,
+            "r": 750,
+            "b": 1230,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "أهميــة الــدراســة :",
+      "text": "أهميــة الــدراســة :",
+      "spans": [
+        {
+          "start": 20,
+          "end": 21,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/60",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1250,
+            "r": 750,
+            "b": 1270,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            259
+          ]
+        }
+      ],
+      "orig": "تكمن أهمية الدراسة في أنها توضح الأسباب الرئيسية وراء عدم الوصول للأداء المناسب واتخاذ الزاوية المثلى للأداء الذي يريده اللاعب بحيث أنها تعمل على توضيح مسار الجسم أثناء الطيران قبل الأداء على حصان القفز الأمر الذي يصعب على المدربين كيفية تصويب أخطاء اللاعبين.",
+      "text": "تكمن أهمية الدراسة في أنها توضح الأسباب الرئيسية وراء عدم الوصول للأداء المناسب واتخاذ الزاوية المثلى للأداء الذي يريده اللاعب بحيث أنها تعمل على توضيح مسار الجسم أثناء الطيران قبل الأداء على حصان القفز الأمر الذي يصعب على المدربين كيفية تصويب أخطاء اللاعبين."
+    },
+    {
+      "self_ref": "#/texts/62",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1290,
+            "r": 750,
+            "b": 1310,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            266
+          ]
+        }
+      ],
+      "orig": "ومن هنا جاءت أهمية الدراسة في تسليط الضوء على المقارنة بين القوة الانفجارية وبعض المتغيرات الميكانيكية في زوايا لحظة لمس الرفاس ولمس جهاز حصان القفز في رياضة الجمباز والتي قد تفيد في أساليب تدريس وتدريب اللاعبين من خلال التعرف على نقاط القوة والضعف في تأدية المهارة.",
+      "text": "ومن هنا جاءت أهمية الدراسة في تسليط الضوء على المقارنة بين القوة الانفجارية وبعض المتغيرات الميكانيكية في زوايا لحظة لمس الرفاس ولمس جهاز حصان القفز في رياضة الجمباز والتي قد تفيد في أساليب تدريس وتدريب اللاعبين من خلال التعرف على نقاط القوة والضعف في تأدية المهارة."
+    },
+    {
+      "self_ref": "#/texts/64",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1330,
+            "r": 750,
+            "b": 1350,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            545
+          ]
+        }
+      ],
+      "orig": "ومن خلال الرجوع لبعض الدراسات السابقة وجد الباحث أن هذه المشكلة تواجه الكثيرين في هذا المجال، ومن هذه الدراسات (خيون، 1998) حيث يشير بأن أكثر جهاز يشعر الطلبة بالقلق والتردد في الأداء عليه هو جهاز حصان القفز، وأشارت دراسة كل من (سعيد،سندس،  2007) و (ياسين، عماد الدين، 2012)  أن هناك قلق وخوف كبيرين من استخدام الأجهزة لدى طلاب مساقات الجمباز، وذكر (أبو الكشك ،1999) إنّ: \"هناك تأخر في لعبة الجمباز على المستوى المحلي والعربي مقارنة بالدول المتقدمة بهذا المجال و إنّ عدم كفاءة المدربين والقائمين على هذه اللعبة هي أحد أسباب التأخر في هذه اللعبة.",
+      "text": "ومن خلال الرجوع لبعض الدراسات السابقة وجد الباحث أن هذه المشكلة تواجه الكثيرين في هذا المجال، ومن هذه الدراسات (خيون، 1998) حيث يشير بأن أكثر جهاز يشعر الطلبة بالقلق والتردد في الأداء عليه هو جهاز حصان القفز، وأشارت دراسة كل من (سعيد،سندس،  2007) و (ياسين، عماد الدين، 2012)  أن هناك قلق وخوف كبيرين من استخدام الأجهزة لدى طلاب مساقات الجمباز، وذكر (أبو الكشك ،1999) إنّ: \"هناك تأخر في لعبة الجمباز على المستوى المحلي والعربي مقارنة بالدول المتقدمة بهذا المجال و إنّ عدم كفاءة المدربين والقائمين على هذه اللعبة هي أحد أسباب التأخر في هذه اللعبة."
+    },
+    {
+      "self_ref": "#/texts/66",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1370,
+            "r": 750,
+            "b": 1390,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "مشكلـــة الدراســـة:",
+      "text": "مشكلـــة الدراســـة:"
+    },
+    {
+      "self_ref": "#/texts/68",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1410,
+            "r": 750,
+            "b": 1430,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            516
+          ]
+        }
+      ],
+      "orig": "من خلال عمل الباحث في مجال تدريس  مساقات الجمباز في كلية التربية الرياضية في جامعة اليرموك، وجد أن هناك صعوبة في تعلم مهارات الجمباز الحركية لدى الطلاب في جميع المستويات سواء على مستوى المدارس أو الجامعات، بحيث تكمن مشكلة الدراسة في دراسة بعض المتغيرات الميكانيكية وعلاقتها بالقوة الانفجارية في الطيران الأول والدخول على حصان القفز في رياضة الجمباز والتعرف على الفرق بين زوايا الجسم أثناء تنفيذ المهارة،  ومن خلال دراسة (شحرور، 2004) التي أشارت أن أصعب مرحلة لإدراك الحركة كانت أثناء مرحلة الطيران والنهوض عن الرفاس.",
+      "text": "من خلال عمل الباحث في مجال تدريس  مساقات الجمباز في كلية التربية الرياضية في جامعة اليرموك، وجد أن هناك صعوبة في تعلم مهارات الجمباز الحركية لدى الطلاب في جميع المستويات سواء على مستوى المدارس أو الجامعات، بحيث تكمن مشكلة الدراسة في دراسة بعض المتغيرات الميكانيكية وعلاقتها بالقوة الانفجارية في الطيران الأول والدخول على حصان القفز في رياضة الجمباز والتعرف على الفرق بين زوايا الجسم أثناء تنفيذ المهارة،  ومن خلال دراسة (شحرور، 2004) التي أشارت أن أصعب مرحلة لإدراك الحركة كانت أثناء مرحلة الطيران والنهوض عن الرفاس."
+    },
+    {
+      "self_ref": "#/texts/70",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1450,
+            "r": 750,
+            "b": 1470,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "أهــــداف الدراســــة:",
+      "text": "أهــــداف الدراســــة:",
+      "spans": [
+        {
+          "start": 21,
+          "end": 22,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/72",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1490,
+            "r": 750,
+            "b": 1510,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "هدفت الدراسة إلى التعرف على:",
+      "text": "هدفت الدراسة إلى التعرف على:"
+    },
+    {
+      "self_ref": "#/texts/74",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1530,
+            "r": 750,
+            "b": 1550,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            101
+          ]
+        }
+      ],
+      "orig": "التعرف على مقدار القوة الانفجارية وعلاقتها بعض المتغيرات الميكانيكية على حصان القفز في رياضة الجمباز.",
+      "text": "التعرف على مقدار القوة الانفجارية وعلاقتها بعض المتغيرات الميكانيكية على حصان القفز في رياضة الجمباز.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 3
+      }
+    },
+    {
+      "self_ref": "#/texts/76",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1570,
+            "r": 750,
+            "b": 1590,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            105
+          ]
+        }
+      ],
+      "orig": "2- مقارنة القوة الانفجارية وبعض المتغيرات الميكانيكية لكلا اللاعبين على جهاز حصان القفز في رياضة الجمباز.",
+      "text": "2- مقارنة القوة الانفجارية وبعض المتغيرات الميكانيكية لكلا اللاعبين على جهاز حصان القفز في رياضة الجمباز."
+    },
+    {
+      "self_ref": "#/texts/78",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1610,
+            "r": 750,
+            "b": 1630,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "تســـاؤلات الدراســـة:",
+      "text": "تســـاؤلات الدراســـة:",
+      "spans": [
+        {
+          "start": 21,
+          "end": 22,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/80",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1650,
+            "r": 750,
+            "b": 1670,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            96
+          ]
+        }
+      ],
+      "orig": "ما هي علاقة القوة الانفجارية على بعض المتغيرات الميكانيكية على جهاز حصان القفز في رياضة الجمباز.",
+      "text": "ما هي علاقة القوة الانفجارية على بعض المتغيرات الميكانيكية على جهاز حصان القفز في رياضة الجمباز.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 7
+      }
+    },
+    {
+      "self_ref": "#/texts/82",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1690,
+            "r": 750,
+            "b": 1710,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "مجـالات الدراســة :",
+      "text": "مجـالات الدراســة :",
+      "spans": [
+        {
+          "start": 17,
+          "end": 18,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/84",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1730,
+            "r": 750,
+            "b": 1750,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            171
+          ]
+        }
+      ],
+      "orig": "المجال البشري: اقتصرت الدراسة على  طالبين من طلاب كلية التربية الرياضية في الجامعة الأردنية والمسجلين في مساق الجمباز (المستوى الثاني) وهم من لاعبي المنتخب الوطني الأردني.",
+      "text": "المجال البشري: اقتصرت الدراسة على  طالبين من طلاب كلية التربية الرياضية في الجامعة الأردنية والمسجلين في مساق الجمباز (المستوى الثاني) وهم من لاعبي المنتخب الوطني الأردني.",
+      "spans": [
+        {
+          "start": 0,
+          "end": 7,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 7,
+          "end": 13,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 2
+      }
+    },
+    {
+      "self_ref": "#/texts/86",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1770,
+            "r": 750,
+            "b": 1790,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "2)  المجال الزماني: تم تصوير المهارة يوم الخميس الموافق7/4/2016م.",
+      "text": "2)  المجال الزماني: تم تصوير المهارة يوم الخميس الموافق7/4/2016م.",
+      "spans": [
+        {
+          "start": 4,
+          "end": 18,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/88",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1810,
+            "r": 750,
+            "b": 1830,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            98
+          ]
+        }
+      ],
+      "orig": "3)  المجال المكاني: مختبر كلية التربية الرياضية في الجامعة الأردنية ، تم الإحماء في صالة الجمباز .",
+      "text": "3)  المجال المكاني: مختبر كلية التربية الرياضية في الجامعة الأردنية ، تم الإحماء في صالة الجمباز .",
+      "spans": [
+        {
+          "start": 4,
+          "end": 18,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/90",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1850,
+            "r": 750,
+            "b": 1870,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "طرق أداء مهــارة الدخول على حصــان القفــز  :",
+      "text": "طرق أداء مهــارة الدخول على حصــان القفــز  :"
+    },
+    {
+      "self_ref": "#/texts/92",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1890,
+            "r": 750,
+            "b": 1910,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "1- الاقتراب من خلال الجري التقربي ومسافة (25 متر).",
+      "text": "1- الاقتراب من خلال الجري التقربي ومسافة (25 متر)."
+    },
+    {
+      "self_ref": "#/texts/94",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1930,
+            "r": 750,
+            "b": 1950,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            97
+          ]
+        }
+      ],
+      "orig": "2- الارتقاء من على سلم القفز (الرفاس) طول سلم القفز (120سم) عرض السلم (60سم) ارتفاع السلم (20سم).",
+      "text": "2- الارتقاء من على سلم القفز (الرفاس) طول سلم القفز (120سم) عرض السلم (60سم) ارتفاع السلم (20سم)."
+    },
+    {
+      "self_ref": "#/texts/96",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 1970,
+            "r": 750,
+            "b": 1990,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "3- الطيران الأول والذي يكون ناتج عن ضرب سلم القفز.",
+      "text": "3- الطيران الأول والذي يكون ناتج عن ضرب سلم القفز."
+    },
+    {
+      "self_ref": "#/texts/98",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2010,
+            "r": 750,
+            "b": 2030,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "4- الارتكاز على حصان القفز. طوله (160سم) ارتفاعه عن سطح الأرض (135سم)\nعرض الحصان (40-50 سم).",
+      "text": "4- الارتكاز على حصان القفز. طوله (160سم) ارتفاعه عن سطح الأرض (135سم)\nعرض الحصان (40-50 سم)."
+    },
+    {
+      "self_ref": "#/texts/100",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2050,
+            "r": 750,
+            "b": 2070,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "الدراسـات السابقـة :",
+      "text": "الدراسـات السابقـة :",
+      "spans": [
+        {
+          "start": 18,
+          "end": 19,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 19,
+          "end": 20,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/102",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2090,
+            "r": 750,
+            "b": 2110,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            157
+          ]
+        }
+      ],
+      "orig": "عند الاطلاع على الدراسات السابقة والتي لها علاقة مباشرة بدراستي والتي تعمل على إيضاح الفكرة بحيث يمكن الاستعانة بها في توثيق المعلومات ومن أبرز هذه الدراسات:",
+      "text": "عند الاطلاع على الدراسات السابقة والتي لها علاقة مباشرة بدراستي والتي تعمل على إيضاح الفكرة بحيث يمكن الاستعانة بها في توثيق المعلومات ومن أبرز هذه الدراسات:"
+    },
+    {
+      "self_ref": "#/texts/104",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2130,
+            "r": 750,
+            "b": 2150,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            397
+          ]
+        }
+      ],
+      "orig": "دراسة (farina-vaverka, 2012) والتي هدفت إلى دراسة اثر المتغيرات البيوميكانيكية على المساعدة في الأداء على حصان القفز لدى المستويات العليا لدى النساء في جمباز المنافسات العالمية .تكونت عينة الدراسة من (8) لاعبات من المستويات المتقدمة في الجمباز، وتم استخدام المنهج الوصفي في الدراسة، وتم استخدام أجهزة 3D للتحليل الحركي وكذلك كمرتين (Degetal) 50 صورة بالثانية، وتم تحليل المعلومات على(Simi motion).",
+      "text": "دراسة (farina-vaverka, 2012) والتي هدفت إلى دراسة اثر المتغيرات البيوميكانيكية على المساعدة في الأداء على حصان القفز لدى المستويات العليا لدى النساء في جمباز المنافسات العالمية .تكونت عينة الدراسة من (8) لاعبات من المستويات المتقدمة في الجمباز، وتم استخدام المنهج الوصفي في الدراسة، وتم استخدام أجهزة 3D للتحليل الحركي وكذلك كمرتين (Degetal) 50 صورة بالثانية، وتم تحليل المعلومات على(Simi motion).",
+      "spans": [
+        {
+          "start": 6,
+          "end": 7,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 7,
+          "end": 8,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 8,
+          "end": 28,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 28,
+          "end": 29,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 11
+      }
+    },
+    {
+      "self_ref": "#/texts/106",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2170,
+            "r": 750,
+            "b": 2190,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            196
+          ]
+        }
+      ],
+      "orig": "وأظهرت نتائج الدراسة لدى لاعبات الجمباز في المستويات العليا ان لحظة ترك سلم الارتقاء يجب أن يستهلك اقل مدة زمنية ممكنة وكذلك انه يجب على اللاعب فرد الجسم بشكل سريع للدخول بالزاوية المناسبة للأداء.",
+      "text": "وأظهرت نتائج الدراسة لدى لاعبات الجمباز في المستويات العليا ان لحظة ترك سلم الارتقاء يجب أن يستهلك اقل مدة زمنية ممكنة وكذلك انه يجب على اللاعب فرد الجسم بشكل سريع للدخول بالزاوية المناسبة للأداء."
+    },
+    {
+      "self_ref": "#/texts/108",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2210,
+            "r": 750,
+            "b": 2230,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            214
+          ]
+        }
+      ],
+      "orig": "وأظهرت أنه يجب العمل على التخلص السريع من الحصان لحظة اللمس والتعجيل بالطيران وهذا يعطي مسافة للأعلى وزمن طيران ثاني من أجل القيام بمتطلبات المهارة، حيث يعمل ذلك كله على التحكم الأفضل بدوران الجسم والتحضير للهبوط .",
+      "text": "وأظهرت أنه يجب العمل على التخلص السريع من الحصان لحظة اللمس والتعجيل بالطيران وهذا يعطي مسافة للأعلى وزمن طيران ثاني من أجل القيام بمتطلبات المهارة، حيث يعمل ذلك كله على التحكم الأفضل بدوران الجسم والتحضير للهبوط ."
+    },
+    {
+      "self_ref": "#/texts/110",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2250,
+            "r": 750,
+            "b": 2270,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            981
+          ]
+        }
+      ],
+      "orig": "دراسة (عكاب ناظم ،2011) تكمن أهمية الدراسة بمعرفة العلاقة بين القدرة الانفجارية وأداء مهارة قفزة اليدين الأمامية على بساط الحركات الأرضية عند طلاب الرابع صباحي في معهد إعداد المعلمين والتي بمكن استثمارها بشكل صحيح وبأسلوب علمي يخدم تحقيق الانجاز من خلال الأداء الجيد، ويهدف البحث إلى التعرف على القدرة الانفجارية لعضلات الذراعين والرجلين وعلاقتهما في أداء مهارة قفزة اليدين الأمامية على بساط الحركات الأرضية، تم اختيار العينة من الصف الرابع قسم التربية الرياضية معد إعداد المعلمين وبواقع 20 طالب، استخدم الباحث المنهج الوصفي لملائمته مشكلة البحث، توصل الباحث إلى الاستنتاجات التالية تعد القدرة الانفجارية لعضلات الأطراف العليا مؤثر بدني مهم في تطوير قفزة اليدين الأمامية إن القدرة الانفجارية للذراعين تكون مؤثر في جميع الحركات والمهارات لهذه الفعالية والتي تؤدي بقوة وسرعة عاليتين، تٌعد القدرة الانفجارية لعضلات الأطراف السفلى مؤثر بدني لهذه الفعالية لأنها تدخل في جميع المهارات والحركات التي تؤدي بقوة وسرعتين عاليتين حيث أسهمت في تطوير حركات الجمناستك ومنها قفزة اليدين الأمامية.",
+      "text": "دراسة (عكاب ناظم ،2011) تكمن أهمية الدراسة بمعرفة العلاقة بين القدرة الانفجارية وأداء مهارة قفزة اليدين الأمامية على بساط الحركات الأرضية عند طلاب الرابع صباحي في معهد إعداد المعلمين والتي بمكن استثمارها بشكل صحيح وبأسلوب علمي يخدم تحقيق الانجاز من خلال الأداء الجيد، ويهدف البحث إلى التعرف على القدرة الانفجارية لعضلات الذراعين والرجلين وعلاقتهما في أداء مهارة قفزة اليدين الأمامية على بساط الحركات الأرضية، تم اختيار العينة من الصف الرابع قسم التربية الرياضية معد إعداد المعلمين وبواقع 20 طالب، استخدم الباحث المنهج الوصفي لملائمته مشكلة البحث، توصل الباحث إلى الاستنتاجات التالية تعد القدرة الانفجارية لعضلات الأطراف العليا مؤثر بدني مهم في تطوير قفزة اليدين الأمامية إن القدرة الانفجارية للذراعين تكون مؤثر في جميع الحركات والمهارات لهذه الفعالية والتي تؤدي بقوة وسرعة عاليتين، تٌعد القدرة الانفجارية لعضلات الأطراف السفلى مؤثر بدني لهذه الفعالية لأنها تدخل في جميع المهارات والحركات التي تؤدي بقوة وسرعتين عاليتين حيث أسهمت في تطوير حركات الجمناستك ومنها قفزة اليدين الأمامية.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 11
+      }
+    },
+    {
+      "self_ref": "#/texts/112",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2290,
+            "r": 750,
+            "b": 2310,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            369
+          ]
+        }
+      ],
+      "orig": "دراسة kyu-chamlim ,2005)) تقييم تحليل لتكنيك (لو يو فو) في مسابقة حصان القفز في الجمباز وهدفت الدراسة إلى المقارنة ما بين تكنيك لو يو فو وهو لاعب صيني مع ثلاثة لاعبين من النخبة في سنة (2003). تكونت عينه الدراسة من ثلاثة لاعبين من النخبة وتم مقارنة أدائهم مع اللاعب (لو يو فو)، وتم استخدام كاميرا (digital) من أجل التصوير وكان نوعها (jvc-dvl9800) وكأن ترددها (60 هيرتز).",
+      "text": "دراسة kyu-chamlim ,2005)) تقييم تحليل لتكنيك (لو يو فو) في مسابقة حصان القفز في الجمباز وهدفت الدراسة إلى المقارنة ما بين تكنيك لو يو فو وهو لاعب صيني مع ثلاثة لاعبين من النخبة في سنة (2003). تكونت عينه الدراسة من ثلاثة لاعبين من النخبة وتم مقارنة أدائهم مع اللاعب (لو يو فو)، وتم استخدام كاميرا (digital) من أجل التصوير وكان نوعها (jvc-dvl9800) وكأن ترددها (60 هيرتز).",
+      "spans": [
+        {
+          "start": 6,
+          "end": 23,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 23,
+          "end": 24,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 24,
+          "end": 25,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 11
+      }
+    },
+    {
+      "self_ref": "#/texts/114",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2330,
+            "r": 750,
+            "b": 2350,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            276
+          ]
+        }
+      ],
+      "orig": "وأظهرت نتائج الدراسة إن اللاعب الثالث كان أداءة بشكل أفضل نتيجة دخوله على الحصان بشكل أفقي، وهذا التكنيك ساعد اللاعب للاستفادة من الطاقة الأفقية بتحويلها لطاقة عاموديه بشكل أفضل من اللاعبين الذين دخلا على الحصان بزاوية أكبر مما تطلب منهما بذل قوة اكبر للحصول على طاقة عاموديه.",
+      "text": "وأظهرت نتائج الدراسة إن اللاعب الثالث كان أداءة بشكل أفضل نتيجة دخوله على الحصان بشكل أفقي، وهذا التكنيك ساعد اللاعب للاستفادة من الطاقة الأفقية بتحويلها لطاقة عاموديه بشكل أفضل من اللاعبين الذين دخلا على الحصان بزاوية أكبر مما تطلب منهما بذل قوة اكبر للحصول على طاقة عاموديه."
+    },
+    {
+      "self_ref": "#/texts/116",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2370,
+            "r": 750,
+            "b": 2390,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            31
+          ]
+        }
+      ],
+      "orig": "التعليق على الدراسات السابقــة:",
+      "text": "التعليق على الدراسات السابقــة:",
+      "spans": [
+        {
+          "start": 30,
+          "end": 31,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/118",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2410,
+            "r": 750,
+            "b": 2430,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            256
+          ]
+        }
+      ],
+      "orig": "يشير استعراض الدراسات السابقة بوضوح إلى اتفاق الدراسات السابقة أن زوايا الدخول يجب أن تكون مثالية للوصول للأداء الصحيح، واختلفت الدراسات في عدد أفراد العينة ومستوياتهم، تميزت هذه الدراسة في ربط المسببات الحقيقية للدخول بالزاوية المثلى وهي القوة الانفجارية.",
+      "text": "يشير استعراض الدراسات السابقة بوضوح إلى اتفاق الدراسات السابقة أن زوايا الدخول يجب أن تكون مثالية للوصول للأداء الصحيح، واختلفت الدراسات في عدد أفراد العينة ومستوياتهم، تميزت هذه الدراسة في ربط المسببات الحقيقية للدخول بالزاوية المثلى وهي القوة الانفجارية."
+    },
+    {
+      "self_ref": "#/texts/120",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2450,
+            "r": 750,
+            "b": 2470,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            30
+          ]
+        }
+      ],
+      "orig": "متغيرات الدراسة الكينماتيكية :",
+      "text": "متغيرات الدراسة الكينماتيكية :",
+      "spans": [
+        {
+          "start": 29,
+          "end": 30,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/122",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2490,
+            "r": 750,
+            "b": 2510,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "زاوية  مفصل الكاحل لحظة لمس سلم القفز في الجمباز لأداء القفزة.",
+      "text": "زاوية  مفصل الكاحل لحظة لمس سلم القفز في الجمباز لأداء القفزة.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 10
+      }
+    },
+    {
+      "self_ref": "#/texts/124",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2530,
+            "r": 750,
+            "b": 2550,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            69
+          ]
+        }
+      ],
+      "orig": "زاوية  مفصل الركبة لحظة الطيران من سلم القفز في الجمباز لأداء القفزة.",
+      "text": "زاوية  مفصل الركبة لحظة الطيران من سلم القفز في الجمباز لأداء القفزة.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 10
+      }
+    },
+    {
+      "self_ref": "#/texts/126",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2570,
+            "r": 750,
+            "b": 2590,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "زاوية  مفصل الحوض لحظة الطيران من سلم القفز في الجمباز لأداء القفزة.",
+      "text": "زاوية  مفصل الحوض لحظة الطيران من سلم القفز في الجمباز لأداء القفزة.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 10
+      }
+    },
+    {
+      "self_ref": "#/texts/128",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2610,
+            "r": 750,
+            "b": 2630,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "زاوية  مفصل الرسغ لحظة لمس الحصان في الجمباز لأداء القفزة",
+      "text": "زاوية  مفصل الرسغ لحظة لمس الحصان في الجمباز لأداء القفزة",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 10
+      }
+    },
+    {
+      "self_ref": "#/texts/130",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2650,
+            "r": 750,
+            "b": 2670,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "خط مسار مركز ثقل الجسم من لحظة الاقتراب ومن ثم لمس سلم القفز ومن ثم لمس الحصان.",
+      "text": "خط مسار مركز ثقل الجسم من لحظة الاقتراب ومن ثم لمس سلم القفز ومن ثم لمس الحصان.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 10
+      }
+    },
+    {
+      "self_ref": "#/texts/132",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2690,
+            "r": 750,
+            "b": 2710,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "زمن الاتصال مع سلم القفز بواسطة القدمين.",
+      "text": "زمن الاتصال مع سلم القفز بواسطة القدمين.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 10
+      }
+    },
+    {
+      "self_ref": "#/texts/134",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2730,
+            "r": 750,
+            "b": 2750,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "زمن الاتصال مع الحصان بواسطة اليدين.",
+      "text": "زمن الاتصال مع الحصان بواسطة اليدين.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 10
+      }
+    },
+    {
+      "self_ref": "#/texts/136",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2770,
+            "r": 750,
+            "b": 2790,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "متغيرات الدراسة الكيناتيكية :",
+      "text": "متغيرات الدراسة الكيناتيكية :",
+      "spans": [
+        {
+          "start": 27,
+          "end": 28,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 28,
+          "end": 29,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/138",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2810,
+            "r": 750,
+            "b": 2830,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "قيمة القوة على كل من المحور س ص ز.",
+      "text": "قيمة القوة على كل من المحور س ص ز.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 5
+      }
+    },
+    {
+      "self_ref": "#/texts/140",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2850,
+            "r": 750,
+            "b": 2870,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "قيمة العزم على كل من المحور س ص ز.",
+      "text": "قيمة العزم على كل من المحور س ص ز.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 5
+      }
+    },
+    {
+      "self_ref": "#/texts/142",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2890,
+            "r": 750,
+            "b": 2910,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "إجـــراءات الــدراســة :",
+      "text": "إجـــراءات الــدراســة :",
+      "spans": [
+        {
+          "start": 23,
+          "end": 24,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/144",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2930,
+            "r": 750,
+            "b": 2950,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "منهج الدراسة: تم استخدم المنهج الوصفي لمناسبته لطبيعة الدراسة.",
+      "text": "منهج الدراسة: تم استخدم المنهج الوصفي لمناسبته لطبيعة الدراسة.",
+      "spans": [
+        {
+          "start": 12,
+          "end": 13,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/146",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 2970,
+            "r": 750,
+            "b": 2990,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            167
+          ]
+        }
+      ],
+      "orig": "عينة الدراسة: تكونت عينة الدراسة من طالبين من الطلاب المسجلين في مساق جمباز مستوى (2) في كلية التربية الرياضية في الجامعة الأردنية وهم من لاعبي المنتخب الوطني الأردني.",
+      "text": "عينة الدراسة: تكونت عينة الدراسة من طالبين من الطلاب المسجلين في مساق جمباز مستوى (2) في كلية التربية الرياضية في الجامعة الأردنية وهم من لاعبي المنتخب الوطني الأردني.",
+      "spans": [
+        {
+          "start": 12,
+          "end": 13,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/148",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3010,
+            "r": 750,
+            "b": 3030,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            45
+          ]
+        }
+      ],
+      "orig": "والجدول (1) : يوضح قياس ومواصفات عينة الدراسة",
+      "text": "والجدول (1) : يوضح قياس ومواصفات عينة الدراسة"
+    },
+    {
+      "self_ref": "#/texts/150",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3050,
+            "r": 750,
+            "b": 3070,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            19
+          ]
+        }
+      ],
+      "orig": "أدوات الـدراســـة :",
+      "text": "أدوات الـدراســـة :"
+    },
+    {
+      "self_ref": "#/texts/152",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3090,
+            "r": 750,
+            "b": 3110,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            57
+          ]
+        }
+      ],
+      "orig": "استخدمت الأدوات التالية لجمع معلومات وبيانات هذه الدراسة:",
+      "text": "استخدمت الأدوات التالية لجمع معلومات وبيانات هذه الدراسة:"
+    },
+    {
+      "self_ref": "#/texts/154",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3130,
+            "r": 750,
+            "b": 3150,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            33
+          ]
+        }
+      ],
+      "orig": "1- ميزان طبي لقياس الكتلة والطول.",
+      "text": "1- ميزان طبي لقياس الكتلة والطول."
+    },
+    {
+      "self_ref": "#/texts/156",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3170,
+            "r": 750,
+            "b": 3190,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            59
+          ]
+        }
+      ],
+      "orig": "2- كاميرا فيديو(Digital) بتردد (25)صورة/ ثانية، نوع (Sony).",
+      "text": "2- كاميرا فيديو(Digital) بتردد (25)صورة/ ثانية، نوع (Sony)."
+    },
+    {
+      "self_ref": "#/texts/158",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3210,
+            "r": 750,
+            "b": 3230,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "3- حاسوب نوع ACER-EXTENSA  5620)) .",
+      "text": "3- حاسوب نوع ACER-EXTENSA  5620)) ."
+    },
+    {
+      "self_ref": "#/texts/160",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3250,
+            "r": 750,
+            "b": 3270,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "4- متر قياس (30م).",
+      "text": "4- متر قياس (30م)."
+    },
+    {
+      "self_ref": "#/texts/162",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3290,
+            "r": 750,
+            "b": 3310,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            78
+          ]
+        }
+      ],
+      "orig": "5- علامات فسفورية وضعت على مفاصل الجسم (الكتف، الرسغ، الحوض، الركبة، والكاحل).",
+      "text": "5- علامات فسفورية وضعت على مفاصل الجسم (الكتف، الرسغ، الحوض، الركبة، والكاحل)."
+    },
+    {
+      "self_ref": "#/texts/164",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3330,
+            "r": 750,
+            "b": 3350,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "6- برنامج (kinovea) للتحليل الحركي.",
+      "text": "6- برنامج (kinovea) للتحليل الحركي."
+    },
+    {
+      "self_ref": "#/texts/166",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3370,
+            "r": 750,
+            "b": 3390,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "7- سلم القفز (الرفاس).",
+      "text": "7- سلم القفز (الرفاس)."
+    },
+    {
+      "self_ref": "#/texts/168",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3410,
+            "r": 750,
+            "b": 3430,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "8- جهاز حصان القفز .",
+      "text": "8- جهاز حصان القفز ."
+    },
+    {
+      "self_ref": "#/texts/170",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3450,
+            "r": 750,
+            "b": 3470,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            50
+          ]
+        }
+      ],
+      "orig": "9- منصة قياس القوة لقياس القوة الانفجارية للقدمين.",
+      "text": "9- منصة قياس القوة لقياس القوة الانفجارية للقدمين."
+    },
+    {
+      "self_ref": "#/texts/172",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3490,
+            "r": 750,
+            "b": 3510,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "إجــراءات التصــويــر :",
+      "text": "إجــراءات التصــويــر :",
+      "spans": [
+        {
+          "start": 22,
+          "end": 23,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/174",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3530,
+            "r": 750,
+            "b": 3550,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "قام الباحث بالتنسيق مع جميع الأطراف المعنية بالدراسة،  لتحديد موعد التصوير الذي يتناسب معهم.",
+      "text": "قام الباحث بالتنسيق مع جميع الأطراف المعنية بالدراسة،  لتحديد موعد التصوير الذي يتناسب معهم."
+    },
+    {
+      "self_ref": "#/texts/176",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3570,
+            "r": 750,
+            "b": 3590,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            219
+          ]
+        }
+      ],
+      "orig": "تم تجهيز وتثبيت الكاميرة بشكل عمودي مع جهاز حصان القفز وفرشة (مرتبة) الهبوط، ومع سلم القفز، لتحديد مرحلة الارتقاء ومرحلة لمس الحصان، بعد الانتهاء من ذلك تم تصوير مرجعيات التصوير، والشكل رقم (1) يوضح موقع كاميرة التصوير.",
+      "text": "تم تجهيز وتثبيت الكاميرة بشكل عمودي مع جهاز حصان القفز وفرشة (مرتبة) الهبوط، ومع سلم القفز، لتحديد مرحلة الارتقاء ومرحلة لمس الحصان، بعد الانتهاء من ذلك تم تصوير مرجعيات التصوير، والشكل رقم (1) يوضح موقع كاميرة التصوير."
+    },
+    {
+      "self_ref": "#/texts/178",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3610,
+            "r": 750,
+            "b": 3630,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            15
+          ]
+        }
+      ],
+      "orig": "الشكل رقم ( 1 )",
+      "text": "الشكل رقم ( 1 )"
+    },
+    {
+      "self_ref": "#/texts/180",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3650,
+            "r": 750,
+            "b": 3670,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            52
+          ]
+        }
+      ],
+      "orig": "رسم توضيحي لموقع كاميرات التصوير العمودي على الأداء.",
+      "text": "رسم توضيحي لموقع كاميرات التصوير العمودي على الأداء."
+    },
+    {
+      "self_ref": "#/texts/182",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3690,
+            "r": 750,
+            "b": 3710,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            360
+          ]
+        }
+      ],
+      "orig": "تم تجهيز العينة بالعلامات الفسفورية على كل من مفاصل الجسم التالية: مفصل الكاحل الأيسر، مفصل الركبة الأيسر مفصل الفخذ الأيسر مفصل الرسغ الأيسر مفصل الكوع الأيسر مفصل الكتف الأيسر، وتم إعطاء اللاعب مدة كافية للإحماء، بعد ذلك تم تصوير العينة  محاولتين لكل لاعب، وقد تم الأخذ بعين الاعتبار عدم تحريك الكاميرات من مكانها من لحظة بداية التصوير إلى لحظة الانتهاء منه.",
+      "text": "تم تجهيز العينة بالعلامات الفسفورية على كل من مفاصل الجسم التالية: مفصل الكاحل الأيسر، مفصل الركبة الأيسر مفصل الفخذ الأيسر مفصل الرسغ الأيسر مفصل الكوع الأيسر مفصل الكتف الأيسر، وتم إعطاء اللاعب مدة كافية للإحماء، بعد ذلك تم تصوير العينة  محاولتين لكل لاعب، وقد تم الأخذ بعين الاعتبار عدم تحريك الكاميرات من مكانها من لحظة بداية التصوير إلى لحظة الانتهاء منه."
+    },
+    {
+      "self_ref": "#/texts/184",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3730,
+            "r": 750,
+            "b": 3750,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "قام اللاعب بمحاولة تجريبية .",
+      "text": "قام اللاعب بمحاولة تجريبية .",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 9
+      }
+    },
+    {
+      "self_ref": "#/texts/186",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3770,
+            "r": 750,
+            "b": 3790,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            206
+          ]
+        }
+      ],
+      "orig": "تم التصوير من على بعد (5.50)م من بداية سلم القفز إلى نهاية الحصان على مستوى الحركة الجانبي  لضمان تصوير مراحل أداء المهارة، وتم تثبيت الكاميرا على حامل ارتفاعه 1.60م، حيث يبدأ التصوير عند سماع رقم المحاولة.",
+      "text": "تم التصوير من على بعد (5.50)م من بداية سلم القفز إلى نهاية الحصان على مستوى الحركة الجانبي  لضمان تصوير مراحل أداء المهارة، وتم تثبيت الكاميرا على حامل ارتفاعه 1.60م، حيث يبدأ التصوير عند سماع رقم المحاولة.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 9
+      }
+    },
+    {
+      "self_ref": "#/texts/188",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3810,
+            "r": 750,
+            "b": 3830,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            62
+          ]
+        }
+      ],
+      "orig": "تم التأكد من صلاحية الكاميرا بتصوير المحاولات التجريبية للاعب.",
+      "text": "تم التأكد من صلاحية الكاميرا بتصوير المحاولات التجريبية للاعب.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 9
+      }
+    },
+    {
+      "self_ref": "#/texts/190",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3850,
+            "r": 750,
+            "b": 3870,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            102
+          ]
+        }
+      ],
+      "orig": "تم تصوير (2) محاولتين  لكل طريقة ثم أخذت أفضل محاولة للتحليل باستخدام برنامج (kinovea) للتحليل الحركي.",
+      "text": "تم تصوير (2) محاولتين  لكل طريقة ثم أخذت أفضل محاولة للتحليل باستخدام برنامج (kinovea) للتحليل الحركي.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 9
+      }
+    },
+    {
+      "self_ref": "#/texts/192",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3890,
+            "r": 750,
+            "b": 3910,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            54
+          ]
+        }
+      ],
+      "orig": "تم اخذ قراءة جهاز منصة قياس القوة لدى جميع المحاولات .",
+      "text": "تم اخذ قراءة جهاز منصة قياس القوة لدى جميع المحاولات .",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 9
+      }
+    },
+    {
+      "self_ref": "#/texts/194",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3930,
+            "r": 750,
+            "b": 3950,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "عــرض النتائــج ومناقشتهــا:",
+      "text": "عــرض النتائــج ومناقشتهــا:",
+      "spans": [
+        {
+          "start": 27,
+          "end": 28,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/196",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 3970,
+            "r": 750,
+            "b": 3990,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            133
+          ]
+        }
+      ],
+      "orig": "للإجابة على تساؤل الدراسة والذي ينص على \" ما هي علاقة القوة الانفجارية على بعض المتغيرات الميكانيكية على حصان القفز في رياضة الجمباز.",
+      "text": "للإجابة على تساؤل الدراسة والذي ينص على \" ما هي علاقة القوة الانفجارية على بعض المتغيرات الميكانيكية على حصان القفز في رياضة الجمباز."
+    },
+    {
+      "self_ref": "#/texts/198",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4010,
+            "r": 750,
+            "b": 4030,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "جدول رقم (2)",
+      "text": "جدول رقم (2)"
+    },
+    {
+      "self_ref": "#/texts/200",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4050,
+            "r": 750,
+            "b": 4070,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            40
+          ]
+        }
+      ],
+      "orig": "يوضح المتغيرات الميكانيكية لعينة الدراسة",
+      "text": "يوضح المتغيرات الميكانيكية لعينة الدراسة"
+    },
+    {
+      "self_ref": "#/texts/202",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4090,
+            "r": 750,
+            "b": 4110,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            165
+          ]
+        }
+      ],
+      "orig": "تشير نتائج الدراسات والبحوث إلى إن اللاعب عندما يترك الأرض يفقد الاتصال ويصبح مقذوفاً، ويتحدد مسار طيرانه بالسرعة وارتفاع مركز ثقل جسمه وزاوية انطلاقه لحظة الارتقاء.",
+      "text": "تشير نتائج الدراسات والبحوث إلى إن اللاعب عندما يترك الأرض يفقد الاتصال ويصبح مقذوفاً، ويتحدد مسار طيرانه بالسرعة وارتفاع مركز ثقل جسمه وزاوية انطلاقه لحظة الارتقاء."
+    },
+    {
+      "self_ref": "#/texts/204",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4130,
+            "r": 750,
+            "b": 4150,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            275
+          ]
+        }
+      ],
+      "orig": "وهنا سوف نناقش ما يحدث في أثناء دفع سلم القفز وأثناء الطيران الأول ولمس جهاز حصان القفز، فمهارة القفز على الحصان في الجمباز والتي تحتوي على ركضه تقربيه تتميز بالسرعة وبطول المسافة والنهوض من خلال ضرب لوحة النهوض ومن ثم الطيران الأول ولمس الحصان ومن ثم الطيران الثاني فالهبوط.",
+      "text": "وهنا سوف نناقش ما يحدث في أثناء دفع سلم القفز وأثناء الطيران الأول ولمس جهاز حصان القفز، فمهارة القفز على الحصان في الجمباز والتي تحتوي على ركضه تقربيه تتميز بالسرعة وبطول المسافة والنهوض من خلال ضرب لوحة النهوض ومن ثم الطيران الأول ولمس الحصان ومن ثم الطيران الثاني فالهبوط."
+    },
+    {
+      "self_ref": "#/texts/206",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4170,
+            "r": 750,
+            "b": 4190,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            185
+          ]
+        }
+      ],
+      "orig": "أوضح (عادل، 1984) أنه مع تزايد سرعة الاقتراب يزداد ناتج قوة دفع القدمين من سلم القفز وكذلك ناتج قوة دفع اليدين للحصان، وبالتالي تتأثر عملية الاستمرار في مرحلة الطيران بعد الدفع باليدين.",
+      "text": "أوضح (عادل، 1984) أنه مع تزايد سرعة الاقتراب يزداد ناتج قوة دفع القدمين من سلم القفز وكذلك ناتج قوة دفع اليدين للحصان، وبالتالي تتأثر عملية الاستمرار في مرحلة الطيران بعد الدفع باليدين."
+    },
+    {
+      "self_ref": "#/texts/208",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4210,
+            "r": 750,
+            "b": 4230,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            92
+          ]
+        }
+      ],
+      "orig": "لذلك فإن الاقتراب السريع من أهم العوامل المؤثرة في أداء القفزات على حصان القفز بكفاءة عالية.",
+      "text": "لذلك فإن الاقتراب السريع من أهم العوامل المؤثرة في أداء القفزات على حصان القفز بكفاءة عالية."
+    },
+    {
+      "self_ref": "#/texts/210",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4250,
+            "r": 750,
+            "b": 4270,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            147
+          ]
+        }
+      ],
+      "orig": "ويذكر كل من عادل (عبد البصير، 1992) و (محمد محمود،2002) أنه تتصاعد سرعة الاقتراب تدريجياً وتصل إلى نهايتها القصوى في الخطوات الأخيرة (7,5-8,5 م/ث).",
+      "text": "ويذكر كل من عادل (عبد البصير، 1992) و (محمد محمود،2002) أنه تتصاعد سرعة الاقتراب تدريجياً وتصل إلى نهايتها القصوى في الخطوات الأخيرة (7,5-8,5 م/ث)."
+    },
+    {
+      "self_ref": "#/texts/212",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4290,
+            "r": 750,
+            "b": 4310,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            354
+          ]
+        }
+      ],
+      "orig": "أظهرت الدراسات إن التكنيك الأفضل للهبوط على سلم القفز هو الدخول علية بشكل أفقي وليس عامودي وذلك لان مسار مركز ثقل الجسم يكون بوضع أفضل عند الدخول بشكل أفقي وليس عامودي للأعلى أو للأسفـل (WAJANAHE, 1997) وهذا ما حدث مع اللاعب الأول حيث عمل على الدخول بشكل أفقي مما جعله يستفيد من هذا الدخول في عملية النقل الحركي لأجزاء الجسم من اجل أداء المهارة اللاحقة .",
+      "text": "أظهرت الدراسات إن التكنيك الأفضل للهبوط على سلم القفز هو الدخول علية بشكل أفقي وليس عامودي وذلك لان مسار مركز ثقل الجسم يكون بوضع أفضل عند الدخول بشكل أفقي وليس عامودي للأعلى أو للأسفـل (WAJANAHE, 1997) وهذا ما حدث مع اللاعب الأول حيث عمل على الدخول بشكل أفقي مما جعله يستفيد من هذا الدخول في عملية النقل الحركي لأجزاء الجسم من اجل أداء المهارة اللاحقة .",
+      "spans": [
+        {
+          "start": 186,
+          "end": 187,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 187,
+          "end": 195,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 195,
+          "end": 196,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 196,
+          "end": 201,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 201,
+          "end": 202,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/214",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4330,
+            "r": 750,
+            "b": 4350,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "حيث بلغت زاويا الدخول للاعب الأول لكل من مفصل الكاحل( 81) وزاوية الركبة (131) وزاوية الحوض.",
+      "text": "حيث بلغت زاويا الدخول للاعب الأول لكل من مفصل الكاحل( 81) وزاوية الركبة (131) وزاوية الحوض."
+    },
+    {
+      "self_ref": "#/texts/216",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4370,
+            "r": 750,
+            "b": 4390,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            105
+          ]
+        }
+      ],
+      "orig": "(123) بينما كانت زاويا الدخول للاعب الثاني لكل من مفصل الكاحل(88) وزاوية الركبة (141) وزاوية الحوض (111).",
+      "text": "(123) بينما كانت زاويا الدخول للاعب الثاني لكل من مفصل الكاحل(88) وزاوية الركبة (141) وزاوية الحوض (111)."
+    },
+    {
+      "self_ref": "#/texts/218",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4410,
+            "r": 750,
+            "b": 4430,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            604
+          ]
+        }
+      ],
+      "orig": "وهذا دليل على أن اللاعب الثاني قد اخذ مسار حركي لزوايا الجسم اكبر من المطلوب مما جعل مسار الحركة لدية يكون بشكل عامودي للأعلى سواء في عملية الهبوط على سلم القفز او في الطيران الأول مما جعله بحاجة لقوة اكبر من اجل التخلص السريع من حصان القفز ، بينما اللاعب الأول عمل على الهبوط على سلم القفز بزوايا اقل من اللاعب الثاني  وهذا أعطاه ميزة تخزين الطاقة الحركية للاستفادة منها في عملية النقل الحركي من القدمين للجذع ومن ثم للذراعين وهذا ما اكدة (KYU-CLAN, 2005) ان اللاعبين عندما يدخلون بزوايا اكبر سواء على سلم القفز او على الحصان فأنهم يبذلون جهد اكبر للحصول على طاقة عاموديه من اجل أداء المهارة بشكل أفضل .",
+      "text": "وهذا دليل على أن اللاعب الثاني قد اخذ مسار حركي لزوايا الجسم اكبر من المطلوب مما جعل مسار الحركة لدية يكون بشكل عامودي للأعلى سواء في عملية الهبوط على سلم القفز او في الطيران الأول مما جعله بحاجة لقوة اكبر من اجل التخلص السريع من حصان القفز ، بينما اللاعب الأول عمل على الهبوط على سلم القفز بزوايا اقل من اللاعب الثاني  وهذا أعطاه ميزة تخزين الطاقة الحركية للاستفادة منها في عملية النقل الحركي من القدمين للجذع ومن ثم للذراعين وهذا ما اكدة (KYU-CLAN, 2005) ان اللاعبين عندما يدخلون بزوايا اكبر سواء على سلم القفز او على الحصان فأنهم يبذلون جهد اكبر للحصول على طاقة عاموديه من اجل أداء المهارة بشكل أفضل ."
+    },
+    {
+      "self_ref": "#/texts/220",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4450,
+            "r": 750,
+            "b": 4470,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            488
+          ]
+        }
+      ],
+      "orig": "ومع مقارنة زوايا الدخول على سلم القفز  لكلا اللاعبين نجد أن زاوية مفصل الكاحل لدى اللاعب الأول بلغت (81)  إما اللاعب الثاني فقد بلغت (88) وهذا دليل على تأخر مركز ثقل الجسم للاعب الثاني لحظة الهبوط على سلم القفز حيث أن امتداد الجسم للخلف يعيق عملية ترك سلم القفز بزمن أقل حيث بلغ زمن الاتصال مع سلم القفز للاعب الثاني  (1.20) بينما اللاعب الأول فكان زمن الاتصال مع سلم القفز(1.10) وهذا ما أكده (FARANA, 2011) أن لحظة ترك سلم القفز يجب ان يستهلك اقل مدة زمنية ممكنة مع فرد الجسم بشكل سريع .",
+      "text": "ومع مقارنة زوايا الدخول على سلم القفز  لكلا اللاعبين نجد أن زاوية مفصل الكاحل لدى اللاعب الأول بلغت (81)  إما اللاعب الثاني فقد بلغت (88) وهذا دليل على تأخر مركز ثقل الجسم للاعب الثاني لحظة الهبوط على سلم القفز حيث أن امتداد الجسم للخلف يعيق عملية ترك سلم القفز بزمن أقل حيث بلغ زمن الاتصال مع سلم القفز للاعب الثاني  (1.20) بينما اللاعب الأول فكان زمن الاتصال مع سلم القفز(1.10) وهذا ما أكده (FARANA, 2011) أن لحظة ترك سلم القفز يجب ان يستهلك اقل مدة زمنية ممكنة مع فرد الجسم بشكل سريع .",
+      "spans": [
+        {
+          "start": 393,
+          "end": 394,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 394,
+          "end": 406,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 406,
+          "end": 407,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 407,
+          "end": 408,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 408,
+          "end": 409,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/222",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4490,
+            "r": 750,
+            "b": 4510,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            769
+          ]
+        }
+      ],
+      "orig": "عندما يهبط اللاعب بشكل عامودي على سلم القفز فإنه بحاجة لقوة اكبر للتخلص منة وهذا يعطيه زاوية طيران للأعلى مما يعيق زاوية الدخول على حصان القفز وهذا التحليل كان لصالح اللاعب الأول حيث مجموع الزوايا لدية كانت أفضل واقل من اللاعب الثاني باستثناء زاوية مفصل الحوض حيث بلغت عند اللاعب الأول (123) أما اللاعب الثاني فقد بلغت (111) وهذا دليل على ان اللاعب الأول كان بوضع مائل للإمام مما يعطيه ميزة الدخول على الحصان بشكل أفقي  أفضل وأسرع من اللاعب الثاني الذي عمل على فتح زاوية مفصل الحوض وهذا دليل على تأخـر مركز ثقـل الجسم للدخــول لـلإمام  وهـذا يتفق مع دراسة (KYU-CLAN, 2005) حيث أكد على ان اللاعب يستفيد من التكنيك الجيد عندما يعمل على تحويل الطاقة الأفقية الى طاقة عاموديه بشكل أفضل من اللاعب الذي يدخل بزاوية كبيرة مما يتطلب منة طاقة كبيرة للحصول على طاقة عاموديه أخرى.",
+      "text": "عندما يهبط اللاعب بشكل عامودي على سلم القفز فإنه بحاجة لقوة اكبر للتخلص منة وهذا يعطيه زاوية طيران للأعلى مما يعيق زاوية الدخول على حصان القفز وهذا التحليل كان لصالح اللاعب الأول حيث مجموع الزوايا لدية كانت أفضل واقل من اللاعب الثاني باستثناء زاوية مفصل الحوض حيث بلغت عند اللاعب الأول (123) أما اللاعب الثاني فقد بلغت (111) وهذا دليل على ان اللاعب الأول كان بوضع مائل للإمام مما يعطيه ميزة الدخول على الحصان بشكل أفقي  أفضل وأسرع من اللاعب الثاني الذي عمل على فتح زاوية مفصل الحوض وهذا دليل على تأخـر مركز ثقـل الجسم للدخــول لـلإمام  وهـذا يتفق مع دراسة (KYU-CLAN, 2005) حيث أكد على ان اللاعب يستفيد من التكنيك الجيد عندما يعمل على تحويل الطاقة الأفقية الى طاقة عاموديه بشكل أفضل من اللاعب الذي يدخل بزاوية كبيرة مما يتطلب منة طاقة كبيرة للحصول على طاقة عاموديه أخرى.",
+      "spans": [
+        {
+          "start": 556,
+          "end": 557,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 557,
+          "end": 571,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 571,
+          "end": 572,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/224",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4530,
+            "r": 750,
+            "b": 4550,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            248
+          ]
+        }
+      ],
+      "orig": "كما تؤدى مرجحة الذراعين في القفزات المستقيمة بزاوية تنحصر ما بين(25-35) درجه التي تؤدى على بداية الحصان  وتزيد زاوية مرجحة الذراعين ما بين  (10-15) التي تـؤدى على وسـط الحصـان عن زاويـة مـرجحـة الـذراعين في القفزات على كفل الحصـان(محمد محمود،2002).",
+      "text": "كما تؤدى مرجحة الذراعين في القفزات المستقيمة بزاوية تنحصر ما بين(25-35) درجه التي تؤدى على بداية الحصان  وتزيد زاوية مرجحة الذراعين ما بين  (10-15) التي تـؤدى على وسـط الحصـان عن زاويـة مـرجحـة الـذراعين في القفزات على كفل الحصـان(محمد محمود،2002)."
+    },
+    {
+      "self_ref": "#/texts/226",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4570,
+            "r": 750,
+            "b": 4590,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            653
+          ]
+        }
+      ],
+      "orig": "إما بالنسبة للدخول على حصان القفز فقد بلغت زاوية الذراعين عند اللاعب الأول مع الحصان (55)درجة بزمن اتصال (0.60 ) وهذه الزاوية تعتبر مثالية عند مقارنتها مع اللاعبين في المستويات العليا حيث أن أفضل زاوية يتم الدخول بها على حصان القفز عند لاعبي النخبة سنة  2003 (40) درجة (kyu-cham lim,2005))) بينما كانت الزاوية اكبر عند اللاعب الثاني فقد بلغت ( 66  )درجة بزمن اتصال (0.90 )وهذا جعل مسار مركز ثقل جسم اللاعب الأول بشكل منخفض مقارنة باللاعب الثاني الذي اتخذ وضع عامودي للأعلى  مما جعله يدخل على الحصان بشكل سقوط من الأعلى للأسفل مما تطلب منة بذل الكثير من الطاقة الحركية للتغلب على زاوية الدخول على حصان القفز لحظة الارتكاز والرسم البياني التالي يوضح ذلك .",
+      "text": "إما بالنسبة للدخول على حصان القفز فقد بلغت زاوية الذراعين عند اللاعب الأول مع الحصان (55)درجة بزمن اتصال (0.60 ) وهذه الزاوية تعتبر مثالية عند مقارنتها مع اللاعبين في المستويات العليا حيث أن أفضل زاوية يتم الدخول بها على حصان القفز عند لاعبي النخبة سنة  2003 (40) درجة (kyu-cham lim,2005))) بينما كانت الزاوية اكبر عند اللاعب الثاني فقد بلغت ( 66  )درجة بزمن اتصال (0.90 )وهذا جعل مسار مركز ثقل جسم اللاعب الأول بشكل منخفض مقارنة باللاعب الثاني الذي اتخذ وضع عامودي للأعلى  مما جعله يدخل على الحصان بشكل سقوط من الأعلى للأسفل مما تطلب منة بذل الكثير من الطاقة الحركية للتغلب على زاوية الدخول على حصان القفز لحظة الارتكاز والرسم البياني التالي يوضح ذلك ."
+    },
+    {
+      "self_ref": "#/texts/228",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4610,
+            "r": 750,
+            "b": 4630,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            476
+          ]
+        }
+      ],
+      "orig": "ومن خلال مقارنة هذه الزوايا ومدى أفضليتها من حيث  القوة الانفجارية قيد الدراسة تبين ان مقدار القوة الانفجارية للاعب الأول قد بلغت على منصة قياس القوة (13726) نيوتن وعزوم (16.22) بزمن اتصال مع سلم القفز( 1.10 ) ثانية بينما بلغت عند اللاعب الثاني (15413) نيوتن وعزوم (9.97) بزمن اتصال مع سلم القفز( 1.20 ) ثانية مما يعني أن اللاعب الأول عمل على التخلص السريع من الحصان عن طريق اللمس والتعجيل بالطيران مما ينتج عنة مسافة للأعلى وزمن طيران ثاني بشكل أفضل لإنهاء المهارة المطلوبة .",
+      "text": "ومن خلال مقارنة هذه الزوايا ومدى أفضليتها من حيث  القوة الانفجارية قيد الدراسة تبين ان مقدار القوة الانفجارية للاعب الأول قد بلغت على منصة قياس القوة (13726) نيوتن وعزوم (16.22) بزمن اتصال مع سلم القفز( 1.10 ) ثانية بينما بلغت عند اللاعب الثاني (15413) نيوتن وعزوم (9.97) بزمن اتصال مع سلم القفز( 1.20 ) ثانية مما يعني أن اللاعب الأول عمل على التخلص السريع من الحصان عن طريق اللمس والتعجيل بالطيران مما ينتج عنة مسافة للأعلى وزمن طيران ثاني بشكل أفضل لإنهاء المهارة المطلوبة ."
+    },
+    {
+      "self_ref": "#/texts/230",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4650,
+            "r": 750,
+            "b": 4670,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            598
+          ]
+        }
+      ],
+      "orig": "أما اللاعب الثاني فقد بذل قوة اكبر نتج عنها طيران عامودي للأعلى مما أعاق الدخول بالزاوية المثلى على الحصان وهذا دليل على أن القوة الانفجارية وحدها غير كافية للقيام بمتطابقات القفز على الحصان بأداء مهارة جيدة حيث يتطلب من اللاعب توصيف القوة الانفجارية في الأداء الأمثل من حيث زاوية الدخول على حصان القفز واخذ مسار حركي لمركز ثقل الجسم يتسم بشكل أفقي للإمام وهذا يتفق مع التقسيم الهندسي للحركة حيث أن الوضع المطلوب هو حركة انتقالية منحنية بحيث يرسم الجسم مسارات متوازية وبشكل منحني مما يجعله قادرا على الاستفادة من النقل الحركي من الأطراف السفلى للجذع ومن ثم للذراعين مع الاقتصاد في الطاقة المبذولة .",
+      "text": "أما اللاعب الثاني فقد بذل قوة اكبر نتج عنها طيران عامودي للأعلى مما أعاق الدخول بالزاوية المثلى على الحصان وهذا دليل على أن القوة الانفجارية وحدها غير كافية للقيام بمتطابقات القفز على الحصان بأداء مهارة جيدة حيث يتطلب من اللاعب توصيف القوة الانفجارية في الأداء الأمثل من حيث زاوية الدخول على حصان القفز واخذ مسار حركي لمركز ثقل الجسم يتسم بشكل أفقي للإمام وهذا يتفق مع التقسيم الهندسي للحركة حيث أن الوضع المطلوب هو حركة انتقالية منحنية بحيث يرسم الجسم مسارات متوازية وبشكل منحني مما يجعله قادرا على الاستفادة من النقل الحركي من الأطراف السفلى للجذع ومن ثم للذراعين مع الاقتصاد في الطاقة المبذولة ."
+    },
+    {
+      "self_ref": "#/texts/232",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4690,
+            "r": 750,
+            "b": 4710,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            177
+          ]
+        }
+      ],
+      "orig": "حيث أن الانسياب الحركي يظهر بشكل واضح عند ربط المراحل مع بعضها البعض بشكل متعاقب إي إن لحظة انتهاء الجري التقربي يعد بداية وتصعيد للقوى الثانية وهي الارتقاء من على سلم الارتقاء.",
+      "text": "حيث أن الانسياب الحركي يظهر بشكل واضح عند ربط المراحل مع بعضها البعض بشكل متعاقب إي إن لحظة انتهاء الجري التقربي يعد بداية وتصعيد للقوى الثانية وهي الارتقاء من على سلم الارتقاء."
+    },
+    {
+      "self_ref": "#/texts/234",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4730,
+            "r": 750,
+            "b": 4750,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            368
+          ]
+        }
+      ],
+      "orig": "أن تنمية القوة الانفجارية في قفزات الجمباز وخصوصا قفزة اليدين الأمامية مهم لأداء هذه الحركة وذلك كلما قل زمن الأداء تم الاستفادة في عملية النقل الحركي السريع وبما أن القوة الانفجارية \"عبارة عن إمكانية المجموعات العضلية في التغلب على مقاومات اقل من القصوى في فترة زمنية معينة، وأنها عبارة عن إمكانية المجموعات العضلية في تفجير أقصى قوة في اقل زمن ممكن (قيس ناجي، 1984).",
+      "text": "أن تنمية القوة الانفجارية في قفزات الجمباز وخصوصا قفزة اليدين الأمامية مهم لأداء هذه الحركة وذلك كلما قل زمن الأداء تم الاستفادة في عملية النقل الحركي السريع وبما أن القوة الانفجارية \"عبارة عن إمكانية المجموعات العضلية في التغلب على مقاومات اقل من القصوى في فترة زمنية معينة، وأنها عبارة عن إمكانية المجموعات العضلية في تفجير أقصى قوة في اقل زمن ممكن (قيس ناجي، 1984)."
+    },
+    {
+      "self_ref": "#/texts/236",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4770,
+            "r": 750,
+            "b": 4790,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "الاستنتاجــات:",
+      "text": "الاستنتاجــات:",
+      "spans": [
+        {
+          "start": 13,
+          "end": 14,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/238",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4810,
+            "r": 750,
+            "b": 4830,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            149
+          ]
+        }
+      ],
+      "orig": "ملاحظة أن زوايا أجسام اللاعبين عينة الدراسة كانت متباينة في مرحلتي الارتكاز على سلم القفز ومرحلة الطيران الأول مما أدى إلى تباين في ارتفاع مركز ثقلهم",
+      "text": "ملاحظة أن زوايا أجسام اللاعبين عينة الدراسة كانت متباينة في مرحلتي الارتكاز على سلم القفز ومرحلة الطيران الأول مما أدى إلى تباين في ارتفاع مركز ثقلهم",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 8
+      }
+    },
+    {
+      "self_ref": "#/texts/240",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4850,
+            "r": 750,
+            "b": 4870,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            147
+          ]
+        }
+      ],
+      "orig": "تعتبر القوة الانفجارية لعضلات الأطراف السفلى مؤثر بدني لأنها تدخل في جميع المهارات والحركات التي تؤدى بقوة وسرعة شريطة اتخاذ الزاوية المثلى للدخول.",
+      "text": "تعتبر القوة الانفجارية لعضلات الأطراف السفلى مؤثر بدني لأنها تدخل في جميع المهارات والحركات التي تؤدى بقوة وسرعة شريطة اتخاذ الزاوية المثلى للدخول.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 8
+      }
+    },
+    {
+      "self_ref": "#/texts/242",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4890,
+            "r": 750,
+            "b": 4910,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            180
+          ]
+        }
+      ],
+      "orig": "ان لحظة لمس اللاعب لسلم القفز أو جهاز حصان القفز ولحظة الطيران بزوايا مناسبة وصحيحة ودون انثناءات زائدة تعطي كمية التحرك الزاوية المطلوبة لإنجاز الواجب الحركي بانسيابية  في الحركة.",
+      "text": "ان لحظة لمس اللاعب لسلم القفز أو جهاز حصان القفز ولحظة الطيران بزوايا مناسبة وصحيحة ودون انثناءات زائدة تعطي كمية التحرك الزاوية المطلوبة لإنجاز الواجب الحركي بانسيابية  في الحركة.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 8
+      }
+    },
+    {
+      "self_ref": "#/texts/244",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4930,
+            "r": 750,
+            "b": 4950,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "التوصيات:",
+      "text": "التوصيات:",
+      "spans": [
+        {
+          "start": 8,
+          "end": 9,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/246",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 4970,
+            "r": 750,
+            "b": 4990,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            91
+          ]
+        }
+      ],
+      "orig": "العمل على الدخول بالزوايا المثلى للأداء لدى لاعبي الجمباز مع التركيز على المتطلبات البدنية.",
+      "text": "العمل على الدخول بالزوايا المثلى للأداء لدى لاعبي الجمباز مع التركيز على المتطلبات البدنية.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 6
+      }
+    },
+    {
+      "self_ref": "#/texts/248",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5010,
+            "r": 750,
+            "b": 5030,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            111
+          ]
+        }
+      ],
+      "orig": "استخدام التحليل الحركي  من حيث الزوايا في عمليات التدريب وفي تطوير الأداء والتقويم وتصحيح الأخطاء لدى للاعبين .",
+      "text": "استخدام التحليل الحركي  من حيث الزوايا في عمليات التدريب وفي تطوير الأداء والتقويم وتصحيح الأخطاء لدى للاعبين .",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 6
+      }
+    },
+    {
+      "self_ref": "#/texts/250",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5050,
+            "r": 750,
+            "b": 5070,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            137
+          ]
+        }
+      ],
+      "orig": "التركيز على  تطوير القوة الانفجارية لدى اللاعبين من اجل تسهيل النقل الحركي للقوة لما له من علاقة في تحسن الأداء الحركي لدى لاعبي الجمباز.",
+      "text": "التركيز على  تطوير القوة الانفجارية لدى اللاعبين من اجل تسهيل النقل الحركي للقوة لما له من علاقة في تحسن الأداء الحركي لدى لاعبي الجمباز.",
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 6
+      }
+    },
+    {
+      "self_ref": "#/texts/252",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5090,
+            "r": 750,
+            "b": 5110,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "المراجع باللغة العربية :",
+      "text": "المراجع باللغة العربية :",
+      "spans": [
+        {
+          "start": 23,
+          "end": 24,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/254",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5130,
+            "r": 750,
+            "b": 5150,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            224
+          ]
+        }
+      ],
+      "orig": "أبو الكشك، محمد علي، \"أثر التغذية المرتدة الحسية الذاتية على تطوير بعض متغيرات الإدراك الحس حركي ومستوى الأداء على حصان القفز في رياضة الجمباز”، مجلة التربية الرياضية، جامعة بغداد، المجلد الثامن، العدد الرابع، العراق(1999م).",
+      "text": "أبو الكشك، محمد علي، \"أثر التغذية المرتدة الحسية الذاتية على تطوير بعض متغيرات الإدراك الحس حركي ومستوى الأداء على حصان القفز في رياضة الجمباز”، مجلة التربية الرياضية، جامعة بغداد، المجلد الثامن، العدد الرابع، العراق(1999م).",
+      "spans": [
+        {
+          "start": 145,
+          "end": 166,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 166,
+          "end": 168,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/256",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5170,
+            "r": 750,
+            "b": 5190,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            114
+          ]
+        }
+      ],
+      "orig": "حسنين، محمد صبحي. التقويم والقياس في التربية البدنية والرياضية، المجلد1، ط2، دار الفكر العربي، القاهرة، مصر(1982).",
+      "text": "حسنين، محمد صبحي. التقويم والقياس في التربية البدنية والرياضية، المجلد1، ط2، دار الفكر العربي، القاهرة، مصر(1982).",
+      "spans": [
+        {
+          "start": 18,
+          "end": 62,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 62,
+          "end": 64,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/258",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5210,
+            "r": 750,
+            "b": 5230,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            116
+          ]
+        }
+      ],
+      "orig": "حنتوش، وسعودي. المدخل في الحركات الأساس لجمباز الرجال. مديرية دار الكتب للطباعة والنشر، جامعة الموصل، العراق (1988).",
+      "text": "حنتوش، وسعودي. المدخل في الحركات الأساس لجمباز الرجال. مديرية دار الكتب للطباعة والنشر، جامعة الموصل، العراق (1988).",
+      "spans": [
+        {
+          "start": 15,
+          "end": 53,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/260",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5250,
+            "r": 750,
+            "b": 5270,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            154
+          ]
+        }
+      ],
+      "orig": "خيون، يعرب. \"استخدام الأبسطة في تعليم قفزة اليدين على حصان القفز\"، مجلة التربية الرياضية، جامعة بغداد، العراق، المجلد السابع، الجزء الأول(1998)، ص136-143.",
+      "text": "خيون، يعرب. \"استخدام الأبسطة في تعليم قفزة اليدين على حصان القفز\"، مجلة التربية الرياضية، جامعة بغداد، العراق، المجلد السابع، الجزء الأول(1998)، ص136-143.",
+      "spans": [
+        {
+          "start": 65,
+          "end": 88,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/262",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5290,
+            "r": 750,
+            "b": 5310,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            178
+          ]
+        }
+      ],
+      "orig": "سعيد، سندس. \"أﺛــر ﻋﺎﻣــل اﻟﺧــوف ﻋﻠــﻰ ﻣــﺳﺗوى اﻷداء ﻓــﻲ اﻟﻘﻔــز ﻋﻠــﻰ اﻟﺣــﺻﺎن ﻓﺗﺣــﺎ ﻟﻠطﺎﻟﺑــﺎت\".ﻣﺟﻠﺔ اﻟﺗرﺑﯾﺔ اﻟرﯾﺎﺿﯾﺔ . اﻟﻣﺟﻠد اﻟﻌﺷرون . اﻟﻌدد اﻟراﺑﻊ. تكريت، العراق ( 2007).",
+      "text": "سعيد، سندس. \"أﺛــر ﻋﺎﻣــل اﻟﺧــوف ﻋﻠــﻰ ﻣــﺳﺗوى اﻷداء ﻓــﻲ اﻟﻘﻔــز ﻋﻠــﻰ اﻟﺣــﺻﺎن ﻓﺗﺣــﺎ ﻟﻠطﺎﻟﺑــﺎت\".ﻣﺟﻠﺔ اﻟﺗرﺑﯾﺔ اﻟرﯾﺎﺿﯾﺔ . اﻟﻣﺟﻠد اﻟﻌﺷرون . اﻟﻌدد اﻟراﺑﻊ. تكريت، العراق ( 2007).",
+      "spans": [
+        {
+          "start": 101,
+          "end": 103,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 103,
+          "end": 105,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 105,
+          "end": 106,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 106,
+          "end": 108,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 108,
+          "end": 109,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 109,
+          "end": 110,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 110,
+          "end": 112,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 112,
+          "end": 113,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 113,
+          "end": 114,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 114,
+          "end": 117,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 117,
+          "end": 118,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 118,
+          "end": 119,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 119,
+          "end": 121,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 121,
+          "end": 122,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 122,
+          "end": 123,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 123,
+          "end": 125,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/264",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5330,
+            "r": 750,
+            "b": 5350,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            174
+          ]
+        }
+      ],
+      "orig": "شحرور، نضال. \"الإدراك الحسي والبصري لدى المعلمين والمتعلمين للمتغيرات الكينماتيكية لمهارة القفز على حصان القفز\". رسالة ماجستير غير منشورة، جامعة اليرموك، اربد، الأردن (2004).",
+      "text": "شحرور، نضال. \"الإدراك الحسي والبصري لدى المعلمين والمتعلمين للمتغيرات الكينماتيكية لمهارة القفز على حصان القفز\". رسالة ماجستير غير منشورة، جامعة اليرموك، اربد، الأردن (2004).",
+      "spans": [
+        {
+          "start": 113,
+          "end": 126,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 126,
+          "end": 137,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/266",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5370,
+            "r": 750,
+            "b": 5390,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "صبري، أثير والكاتب، عقيل. التدريب الدائري الحديث، مطبعة علاء، بغداد، العراق (1980).",
+      "text": "صبري، أثير والكاتب، عقيل. التدريب الدائري الحديث، مطبعة علاء، بغداد، العراق (1980).",
+      "spans": [
+        {
+          "start": 26,
+          "end": 48,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/268",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5410,
+            "r": 750,
+            "b": 5430,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "عادل، عبد البصير. النظريات والأسس العلمية في تدريب الجمناستك الحديث، دار الفكر العربي، القاهرة، مصر (1998).",
+      "text": "عادل، عبد البصير. النظريات والأسس العلمية في تدريب الجمناستك الحديث، دار الفكر العربي، القاهرة، مصر (1998).",
+      "spans": [
+        {
+          "start": 18,
+          "end": 67,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/270",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5450,
+            "r": 750,
+            "b": 5470,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            160
+          ]
+        }
+      ],
+      "orig": "عادل، عبد البصير. الميكانيكا الحيوية والتقويم والقياس التحليلي في الأداء البدني، الجهاز المركزي للكتب الجامعية والمدرسية والوسائل التعليمية، القاهرة، مصر(1984).",
+      "text": "عادل، عبد البصير. الميكانيكا الحيوية والتقويم والقياس التحليلي في الأداء البدني، الجهاز المركزي للكتب الجامعية والمدرسية والوسائل التعليمية، القاهرة، مصر(1984).",
+      "spans": [
+        {
+          "start": 18,
+          "end": 79,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 79,
+          "end": 81,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/272",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5490,
+            "r": 750,
+            "b": 5510,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            156
+          ]
+        }
+      ],
+      "orig": "عطيات، خالد وطيفور، عاكف. \"المحددات الكينماتيكية لفعالية الوثب الطويل لدى عينة من  الناشئين\"، مجلة جامعة النجاح للأبحاث، العلوم الإنسانية، مجلد(٢٥). (2011).",
+      "text": "عطيات، خالد وطيفور، عاكف. \"المحددات الكينماتيكية لفعالية الوثب الطويل لدى عينة من  الناشئين\"، مجلة جامعة النجاح للأبحاث، العلوم الإنسانية، مجلد(٢٥). (2011).",
+      "spans": [
+        {
+          "start": 94,
+          "end": 119,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/274",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5530,
+            "r": 750,
+            "b": 5550,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            163
+          ]
+        }
+      ],
+      "orig": "عكاب، ناظم. \"القدرة الانفجارية وعلاقتها بأداء مهارة قفزة اليدين الأمامية على بساط الحركات الأرضية في الجمناستك\"، مجلة علوم التربية الرياضية، المجلد الرابع، (2011).",
+      "text": "عكاب، ناظم. \"القدرة الانفجارية وعلاقتها بأداء مهارة قفزة اليدين الأمامية على بساط الحركات الأرضية في الجمناستك\"، مجلة علوم التربية الرياضية، المجلد الرابع، (2011).",
+      "spans": [
+        {
+          "start": 113,
+          "end": 139,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/276",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5570,
+            "r": 750,
+            "b": 5590,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            108
+          ]
+        }
+      ],
+      "orig": "علاوي، محمد ورضوان، نصر الدين. اختبارات الأداء الحركي، الطبعة الأولى، دار الفكر العربي، القاهرة، مصر (1982).",
+      "text": "علاوي، محمد ورضوان، نصر الدين. اختبارات الأداء الحركي، الطبعة الأولى، دار الفكر العربي، القاهرة، مصر (1982).",
+      "spans": [
+        {
+          "start": 31,
+          "end": 53,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/278",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5610,
+            "r": 750,
+            "b": 5630,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": "علاوي، محمد حسنين. القياس والتقويم في التربية الرياضية، المجلد 4 ، ط2 ، دار الفكر العربي، القاهرة، مصر(2000).",
+      "text": "علاوي، محمد حسنين. القياس والتقويم في التربية الرياضية، المجلد 4 ، ط2 ، دار الفكر العربي، القاهرة، مصر(2000).",
+      "spans": [
+        {
+          "start": 19,
+          "end": 54,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/280",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5650,
+            "r": 750,
+            "b": 5670,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            112
+          ]
+        }
+      ],
+      "orig": "قيس، ناجي وبسطويسي، أحمد. الاختبار والقياس ومبادئ الإحصاء في المجال الرياضي، مطبعة جامعة، بغداد، العـراق (1984).",
+      "text": "قيس، ناجي وبسطويسي، أحمد. الاختبار والقياس ومبادئ الإحصاء في المجال الرياضي، مطبعة جامعة، بغداد، العـراق (1984).",
+      "spans": [
+        {
+          "start": 26,
+          "end": 75,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/282",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5690,
+            "r": 750,
+            "b": 5710,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            65
+          ]
+        }
+      ],
+      "orig": "محمد، محمود. الجمباز للمبتدئين، دار المعارف، القاهرة، مصر (2002).",
+      "text": "محمد، محمود. الجمباز للمبتدئين، دار المعارف، القاهرة، مصر (2002).",
+      "spans": [
+        {
+          "start": 13,
+          "end": 30,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/284",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5730,
+            "r": 750,
+            "b": 5750,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            196
+          ]
+        }
+      ],
+      "orig": "ياسين، عماد الدين. \"الصعوبات التي تواجه طلبة كلية التربية البدنية و الرياضة في تطبيق الجوانب العملية لمساقات الجمباز بجامعة الأقصى\"، رسالة ماجستير غير منشورة، الجامعة الإسلامية، غزة، فلسطين(2012).",
+      "text": "ياسين، عماد الدين. \"الصعوبات التي تواجه طلبة كلية التربية البدنية و الرياضة في تطبيق الجوانب العملية لمساقات الجمباز بجامعة الأقصى\"، رسالة ماجستير غير منشورة، الجامعة الإسلامية، غزة، فلسطين(2012).",
+      "spans": [
+        {
+          "start": 133,
+          "end": 157,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 12
+      }
+    },
+    {
+      "self_ref": "#/texts/286",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "paragraph",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5770,
+            "r": 750,
+            "b": 5790,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            24
+          ]
+        }
+      ],
+      "orig": "المراجع باللغة الاجنبية:",
+      "text": "المراجع باللغة الاجنبية:",
+      "spans": [
+        {
+          "start": 23,
+          "end": 24,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 24,
+          "end": 25,
+          "styles": [
+            "bold"
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/texts/288",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5810,
+            "r": 750,
+            "b": 5830,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            198
+          ]
+        }
+      ],
+      "orig": "Farana R, Varanka, .FThe effect of biomechanical variables on the assessment of Vaulting in top-level artistic female gymnasts in world cup competitions. University of Ostrava, Czech Republic(2011).",
+      "text": "Farana R, Varanka, .FThe effect of biomechanical variables on the assessment of Vaulting in top-level artistic female gymnasts in world cup competitions. University of Ostrava, Czech Republic(2011).",
+      "spans": [
+        {
+          "start": 21,
+          "end": 152,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 4
+      }
+    },
+    {
+      "self_ref": "#/texts/290",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "list_item",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 5850,
+            "r": 750,
+            "b": 5870,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            117
+          ]
+        }
+      ],
+      "orig": "Kyu-chan Lim. Biomechanical Evaluation of Lu Yu Fu Technique in Gymnastic Vault Event. Umirsity of Ulsan Korea(2005).",
+      "text": "Kyu-chan Lim. Biomechanical Evaluation of Lu Yu Fu Technique in Gymnastic Vault Event. Umirsity of Ulsan Korea(2005).",
+      "spans": [
+        {
+          "start": 12,
+          "end": 85,
+          "styles": [
+            "bold"
+          ]
+        },
+        {
+          "start": 115,
+          "end": 116,
+          "styles": [
+            "bold"
+          ]
+        }
+      ],
+      "list_meta": {
+        "ordered": false,
+        "level": 0,
+        "numId": 4
+      }
+    }
+  ],
+  "pictures": [
+    {
+      "mimetype": "image/png",
+      "uri": "assets/image1.png",
+      "filename": "image1.png",
+      "page_no": 1,
+      "alt": null
+    },
+    {
+      "mimetype": "image/jpeg",
+      "uri": "assets/image2.jpeg",
+      "filename": "image2.jpeg",
+      "page_no": 1,
+      "alt": null
+    },
+    {
+      "mimetype": "image/jpeg",
+      "uri": "assets/image3.jpeg",
+      "filename": "image3.jpeg",
+      "page_no": 1,
+      "alt": null
+    },
+    {
+      "mimetype": "image/jpeg",
+      "uri": "assets/image4.jpeg",
+      "filename": "image4.jpeg",
+      "page_no": 1,
+      "alt": null
+    },
+    {
+      "mimetype": "image/jpeg",
+      "uri": "assets/image5.jpeg",
+      "filename": "image5.jpeg",
+      "page_no": 1,
+      "alt": null
+    },
+    {
+      "mimetype": "image/jpeg",
+      "uri": "assets/image6.jpeg",
+      "filename": "image6.jpeg",
+      "page_no": 1,
+      "alt": null
+    },
+    {
+      "mimetype": "image/jpeg",
+      "uri": "assets/image7.jpeg",
+      "filename": "image7.jpeg",
+      "page_no": 1,
+      "alt": null
+    },
+    {
+      "self_ref": "#/pictures/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "picture",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 50,
+            "r": 750,
+            "b": 70,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "mimetype": "image/png",
+      "uri": "assets/img_2ca72350ffc67eaec75f79ac14ec7358.png",
+      "filename": "img_2ca72350ffc67eaec75f79ac14ec7358.png"
+    },
+    {
+      "self_ref": "#/pictures/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "picture",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 70,
+            "r": 750,
+            "b": 90,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "mimetype": "image/jpeg",
+      "uri": "assets/img_0c374f9d5958d2b768e14830e80185ff.jpeg",
+      "filename": "img_0c374f9d5958d2b768e14830e80185ff.jpeg"
+    },
+    {
+      "self_ref": "#/pictures/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "picture",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 90,
+            "r": 750,
+            "b": 110,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "mimetype": "image/jpeg",
+      "uri": "assets/img_6fd5fc37eb6d6a2f1678a44b2622a482.jpeg",
+      "filename": "img_6fd5fc37eb6d6a2f1678a44b2622a482.jpeg"
+    },
+    {
+      "self_ref": "#/pictures/3",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "picture",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 110,
+            "r": 750,
+            "b": 130,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "mimetype": "image/jpeg",
+      "uri": "assets/img_3243b681781cdf151c4a75af7c8a66e6.jpeg",
+      "filename": "img_3243b681781cdf151c4a75af7c8a66e6.jpeg"
+    },
+    {
+      "self_ref": "#/pictures/4",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "picture",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 130,
+            "r": 750,
+            "b": 150,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "mimetype": "image/jpeg",
+      "uri": "assets/img_f10c88b61a325b4dc067da6e70ab5e42.jpeg",
+      "filename": "img_f10c88b61a325b4dc067da6e70ab5e42.jpeg"
+    },
+    {
+      "self_ref": "#/pictures/5",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "picture",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 150,
+            "r": 750,
+            "b": 170,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "mimetype": "image/jpeg",
+      "uri": "assets/img_eef4a768f2bd608c6bd35cd0f85641f3.jpeg",
+      "filename": "img_eef4a768f2bd608c6bd35cd0f85641f3.jpeg"
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "picture",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 170,
+            "r": 750,
+            "b": 190,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "mimetype": "image/jpeg",
+      "uri": "assets/img_aaee38952be5633e18493d8f1c6b7101.jpeg",
+      "filename": "img_aaee38952be5633e18493d8f1c6b7101.jpeg"
+    }
+  ],
+  "tables": [
+    {
+      "self_ref": "#/tables/0",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "table",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 200,
+            "r": 750,
+            "b": 300,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "table_id": "table_0",
+      "n_rows": 1,
+      "n_cols": 2,
+      "rows": [
+        [
+          "تاريخ تسلم البحث:   01/12/2016م",
+          "تاريخ قبوله للنشر: 08/02/2017م"
+        ]
+      ]
+    },
+    {
+      "self_ref": "#/tables/1",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "table",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 240,
+            "r": 750,
+            "b": 340,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "table_id": "table_1",
+      "n_rows": 3,
+      "n_cols": 4,
+      "rows": [
+        [
+          "المتغيرات",
+          "الطول",
+          "كتلة",
+          "العمر"
+        ],
+        [
+          "قياس اللاعب الأول",
+          "168 (سم)",
+          "70(كغم)",
+          "21سنة"
+        ],
+        [
+          "قياس اللاعب الثاني",
+          "175 (سم)",
+          "70(كغم)",
+          "24سنة"
+        ]
+      ]
+    },
+    {
+      "self_ref": "#/tables/2",
+      "parent": {
+        "$ref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "label": "table",
+      "prov": [
+        {
+          "bbox": {
+            "l": 50,
+            "t": 280,
+            "r": 750,
+            "b": 380,
+            "coord_origin": "TOPLEFT"
+          },
+          "page_no": 1,
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "table_id": "table_2",
+      "n_rows": 3,
+      "n_cols": 10,
+      "rows": [
+        [
+          "العينة",
+          "زاوية الكاحل",
+          "زاوية الركبة",
+          "زاوية الحوض",
+          "زاوية اللمس مع حصان القفز",
+          "زمن مسار مركز ثقل الجسم",
+          "زمن الاتصال مع سلم الارتقاء",
+          "زمن الاتصال مع حصان القفز",
+          "مقدار القوة الانفجارية",
+          "مقدار العزوم"
+        ],
+        [
+          "الأول",
+          "81",
+          "131",
+          "123",
+          "55",
+          "02.30ث",
+          "1.10ث",
+          "0.60ث",
+          "(13726) نيوتن",
+          "16.22"
+        ],
+        [
+          "الثاني",
+          "88",
+          "141",
+          "111",
+          "66",
+          "03.30ث",
+          "1.20ث",
+          "0.90ث",
+          "(15413)\nنيوتن",
+          "9.97"
+        ]
+      ]
+    }
+  ],
+  "key_value_items": [],
+  "form_items": [],
+  "pages": {
+    "1": {
+      "size": {
+        "width": 819.0,
+        "height": 1060.0
+      },
+      "image": {
+        "mimetype": "image/png",
+        "dpi": 150,
+        "size": {
+          "width": 819.0,
+          "height": 1060.0
+        },
+        "uri": ""
+      },
+      "page_no": 1
+    }
+  }
+}
