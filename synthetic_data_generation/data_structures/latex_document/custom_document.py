@@ -16,6 +16,10 @@ class CustomDocument(Document):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self._extend()
+        from pylatex import Command
+        self.packages.append(Package('geometry'))
+        # self.preamble.append(NoEscape(r'\newgeometry{margin=0.5cm}'))  # Very tight margins for testing
+        self.preamble.append(NoEscape(r'\newgeometry{top=1cm,bottom=2cm,left=1.5cm,right=1.5cm}'))
         self._set_style()
         self._set_line_nums()
         self._write_position_logger = DocumentWritePositionLogger()
@@ -48,6 +52,7 @@ class CustomDocument(Document):
         layout_settings = Template().get_layout_settings()
         if layout_settings.is_arabic():
             self.append(NoEscape(r"\RTL"))
+
         
     def _set_font_color(self, layout_settings: LayoutSettings):
         self.append(UnsafeCommand(
@@ -140,3 +145,4 @@ class CustomDocument(Document):
         # for cmd in watermark_settings.to_latex_commands():
         #     self.preamble.append(cmd)
         return False
+    
