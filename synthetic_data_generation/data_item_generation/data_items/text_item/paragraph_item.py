@@ -62,15 +62,43 @@ class ParagraphItem(TextItem):
         doc.log_write_position(self._index)
         doc.append(NewLine())
 
+    # def _add_latex_string_to_doc(self, doc: Document):
+    #     latex_string = UrlToLatexUrlSerializer().urls_to_latex_urls(self._text)
+    #     # Step 2: Wrap English segments with font and direction control
+    #     latex_string = wrap_latin_segments(latex_string)
+    #     for item in latex_string.split("<split>"):
+    #         if (self._is_url(item)):
+    #             self._add_url_string(item, doc)
+    #         else:
+    #             self._add_non_url_string(item, doc)
+
     def _add_latex_string_to_doc(self, doc: Document):
         latex_string = UrlToLatexUrlSerializer().urls_to_latex_urls(self._text)
-        # Step 2: Wrap English segments with font and direction control
-        latex_string = wrap_latin_segments(latex_string)
+        
+        # Custom LuaTeX-compatible Latin segment wrapping
+        latex_string = self._wrap_latin_segments_luatex(latex_string)
+        
         for item in latex_string.split("<split>"):
             if (self._is_url(item)):
                 self._add_url_string(item, doc)
             else:
                 self._add_non_url_string(item, doc)
+
+    def _wrap_latin_segments_luatex(self, text):
+        """Wrap Latin segments with LuaTeX-compatible directional commands"""
+        import re
+        
+        # Pattern to match English/Latin text (letters, numbers, common punctuation)
+        latin_pattern = r'([a-zA-Z0-9][a-zA-Z0-9\s\.,;:!?\-()]*[a-zA-Z0-9]|[a-zA-Z0-9])'
+        
+        def wrap_match(match):
+            latin_text = match.group(1)
+            # Use LuaTeX directional commands
+            return f"\\textdir TLT {{{latin_text}}}\\textdir TRT "
+        
+        # Apply wrapping to Latin segments
+        wrapped_text = re.sub(latin_pattern, wrap_match, text)
+        return wrapped_text
 
     def _is_url(self, string: str) -> bool:
         url_identifier = "url{"

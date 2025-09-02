@@ -11,6 +11,7 @@ from synthetic_data_generation.templates.template_settings.layout_settings.layou
 _TIKZ = Package('tikz', options='remember picture,overlay')
 
 
+
 class CustomDocument(Document):
 
     def __init__(self, *args, **kwargs):
@@ -48,10 +49,18 @@ class CustomDocument(Document):
 
         self._enforce_rtl_layout()
         
+    # def _enforce_rtl_layout(self):
+    #     layout_settings = Template().get_layout_settings()
+    #     if layout_settings.is_arabic():
+    #         self.append(NoEscape(r"\RTL"))
+
     def _enforce_rtl_layout(self):
         layout_settings = Template().get_layout_settings()
         if layout_settings.is_arabic():
-            self.append(NoEscape(r"\RTL"))
+            # Use basic LuaTeX directional commands
+            self.preamble.append(NoEscape(r"\def\LTR#1{\begingroup\textdir TLT #1\endgroup}"))
+            self.preamble.append(NoEscape(r"\textdir TRT"))
+            self.preamble.append(NoEscape(r"\pardir TRT"))
 
         
     def _set_font_color(self, layout_settings: LayoutSettings):
